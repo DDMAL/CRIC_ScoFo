@@ -1,0 +1,179 @@
+; This is a sample score for AnteScofo - Anticipatory Score Following
+; Common messages include:
+; 	BPM <float> : indicating tempo in BPM
+;	<float1> <float2> <string> : indicate PITCH (MIDI or MIDIcent) + BEAT DURATION + CUENAME
+;		The Beat duration can be ZERO, indicating a GRACE NOTE or "hors-temps" events.
+;		A Pitch value of ZERO indicates silence.
+;	TRILL	( <float1> <float2> ... <floatN> ) <floatN+> <string>: Indicate a Trill class
+;		with based notes of <float-i> in MIDIcents. A trill, in this terminology is ONE event that
+;		possess several sub-events in time - but all these sub-events contribute to one global event
+;		in time. <floatN+> is the duration in beats and <string> is the cue name.
+;		The trill class can successfully encode multi-phonics when used with yin~ or fiddle~
+;	MULTI	( <float1> <float2> ... <floatN> ) <floatN+> <string>
+;		Multi class is the same as Trills except that we want access to EACH of the events indicated
+;		by <float-i>s. Think of the floats (MIDIcents) between parenthesis as a table of values in
+;		time.
+;		The Multi class can successfully encode continuous events such as Glissandi.
+;	AUDIO OFF: Turns off audio so that events will be triggered automatically using the current
+;		detected TEMPO and their corresponding score beat duration. It must be turned ON afterwards.
+;		AUDIO OFF/ON can successfully detect problematic repeated notes!
+;		AUDIO OFF/ON can be thought of as some sort of tempo locked Q-list.
+;	TEMPO ON/OFF:	Turns tempo decoding on or off for places in the score where the tempo should not
+;		be updated. A typical example is a FERMATA.
+; NOTE: Note the space after and before the opening and closing parenthesis for TRILL and MULTI classes.
+;
+; Transferred from NoteAbilityPro score: /Users/gabriel/Documents/2_CODE/5_GIT/CRIC/ScoFo/DataFiles/NoteAbilityPro/BWV1035_FULL_no_grace_notes.na
+; Date: 2014 5 20 12:43:32 GMT-04:00
+;
+BPM 40.00
+
+; ---------- measure 1 beat 0.00 ---------
+
+NOTE 7100 1.2500 note1_0.00
+NOTE 7300 0.1250 note2_1.25
+NOTE 7500 0.1250 note3_1.38
+NOTE 7600 0.1250 note4_1.50
+NOTE 7800 0.1250 note5_1.62
+NOTE 8000 0.2500 note6_1.75
+NOTE 7800 0.2500 note7_2.00
+NOTE 7500 0.2500 note8_2.25
+NOTE 7100 0.5000 note9_2.50
+NOTE 0 1.0000 space
+
+; ---------- measure 2 beat 4.00 ---------
+
+NOTE 7100 1.1250 note10_4.00
+NOTE 7300 0.1250 note11_5.12
+NOTE 7500 0.1250 note12_5.25
+NOTE 7600 0.1250 note13_5.38
+NOTE 7800 0.1250 note14_5.50
+NOTE 8000 0.1250 note15_5.62
+NOTE 8100 0.2500 note16_5.75
+NOTE 8000 0.1250 note17_6.00
+NOTE 7800 0.1250 note18_6.12
+NOTE 7600 0.2500 note19_6.25
+NOTE 7600 0.5000 note20_6.50
+NOTE 0 0.2500 space
+NOTE 7400 0.5000 note21_7.25
+NOTE 7300 0.1250 note22_7.75
+NOTE 7100 0.1250 note23_7.88
+
+; ---------- measure 3 beat 8.00 ---------
+
+NOTE 7300 0.2500 note24_8.00
+NOTE 7800 0.2500 note25_8.25
+NOTE 7500 0.2500 note26_8.50
+NOTE 7600 0.2500 note27_8.75
+NOTE 6900 0.2500 note28_9.00
+NOTE 6800 0.1250 note29_9.25
+NOTE 6600 0.1250 note30_9.38
+NOTE 6800 0.2500 note31_9.50
+NOTE 7600 0.2500 note32_9.75
+NOTE 6800 0.5000 note33_10.00
+NOTE 6600 0.5000 note34_10.50
+NOTE 0 0.2500 space
+NOTE 7100 0.2500 note35_11.25
+NOTE 7500 0.2500 note36_11.50
+NOTE 7800 0.2500 note37_11.75
+
+; ---------- measure 4 beat 12.00 ---------
+
+NOTE 8100 0.1250 note38_12.00
+NOTE 8000 0.1250 note39_12.12
+NOTE 7800 0.2500 note40_12.25
+NOTE 8000 0.6250 note41_12.50
+NOTE 7800 0.1250 note42_13.12
+NOTE 7600 0.1250 note43_13.25
+NOTE 7500 0.1250 note44_13.38
+NOTE 7300 0.2500 note45_13.50
+NOTE 7500 0.1250 note46_13.75
+NOTE 7600 0.1250 note47_13.88
+NOTE 7100 0.5000 note48_14.00
+NOTE 7000 0.5000 note49_14.50
+NOTE 0 0.2500 space
+NOTE 7500 0.2500 note50_15.25
+NOTE 7800 0.2500 note51_15.50
+NOTE 8200 0.2500 note52_15.75
+
+; ---------- measure 5 beat 16.00 ---------
+
+NOTE 8500 0.1250 note53_16.00
+NOTE 8300 0.1250 note54_16.12
+NOTE 8200 0.2500 note55_16.25
+NOTE 8300 0.6250 note56_16.50
+NOTE 8200 0.1250 note57_17.12
+NOTE 8000 0.1250 note58_17.25
+NOTE 7800 0.1250 note59_17.38
+NOTE 7600 0.1250 note60_17.50
+NOTE 7500 0.1250 note61_17.62
+NOTE 7600 0.2500 note62_17.75
+NOTE 7600 0.5000 note63_18.00
+NOTE 6600 0.6250 note64_18.50
+NOTE 7000 0.1250 note65_19.12
+NOTE 6800 0.1250 note66_19.25
+NOTE 6600 0.1250 note67_19.38
+NOTE 6800 0.1250 note68_19.50
+NOTE 7000 0.1250 note69_19.62
+NOTE 7100 0.1250 note70_19.75
+NOTE 7300 0.1250 note71_19.88
+
+; ---------- measure 6 beat 20.00 ---------
+
+NOTE 7500 0.1250 note72_20.00
+NOTE 7100 0.1250 note73_20.12
+NOTE 7300 0.1250 note74_20.25
+NOTE 7500 0.1250 note75_20.38
+NOTE 7600 0.1250 note76_20.50
+NOTE 8000 0.1250 note77_20.62
+NOTE 7800 0.1250 note78_20.75
+NOTE 7600 0.1250 note79_20.88
+NOTE 8300 0.5000 note80_21.00
+NOTE 8200 0.3750 note81_21.50
+NOTE 8300 0.1250 note82_21.88
+NOTE 8300 0.1667 note83_22.00
+NOTE 7600 0.1666 note84_22.17
+NOTE 7500 0.1667 note85_22.33
+NOTE 7600 0.1667 note86_22.50
+NOTE 7800 0.1666 note87_22.67
+NOTE 8000 0.1667 note88_22.83
+NOTE 8000 0.1667 note89_23.00
+NOTE 7800 0.1666 note90_23.17
+NOTE 7600 0.1667 note91_23.33
+NOTE 7600 0.1667 note92_23.50
+NOTE 7500 0.1666 note93_23.67
+NOTE 7600 0.1667 note94_23.83
+
+; ---------- measure 7 beat 24.00 ---------
+
+NOTE 8500 0.1667 note95_24.00
+NOTE 7600 0.1666 note96_24.17
+NOTE 7500 0.1667 note97_24.33
+NOTE 7600 0.1667 note98_24.50
+NOTE 7800 0.1666 note99_24.67
+NOTE 8000 0.1667 note100_24.83
+NOTE 8000 0.1667 note101_25.00
+NOTE 7800 0.1666 note102_25.17
+NOTE 7600 0.1667 note103_25.33
+NOTE 7600 0.1667 note104_25.50
+NOTE 7500 0.1666 note105_25.67
+NOTE 7600 0.1667 note106_25.83
+NOTE 8700 0.6250 note107_26.00
+NOTE 8500 0.1250 note108_26.62
+NOTE 8300 0.1250 note109_26.75
+NOTE 8200 0.1250 note110_26.88
+NOTE 8000 0.7500 note111_27.00
+NOTE 8200 0.1250 note112_27.75
+NOTE 8300 0.1250 note113_27.88
+
+; ---------- measure 8 beat 28.00 ---------
+
+NOTE 7700 0.2500 note114_28.00
+NOTE 7800 0.1250 note115_28.25
+NOTE 7300 0.1250 note116_28.38
+NOTE 7500 0.1250 note117_28.50
+NOTE 7000 0.1250 note118_28.62
+NOTE 7100 0.1250 note119_28.75
+NOTE 7600 0.1250 note120_28.88
+NOTE 7300 0.7500 note121_29.00
+NOTE 7100 0.2500 note122_29.75
+NOTE 7100 1.0000 note123_30.00
