@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 153.0, 56.0, 1703.0, 865.0 ],
+		"rect" : [ 114.0, 121.0, 1530.0, 1012.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -70,7 +70,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 734.0, 76.0, 108.0, 27.0 ],
+						"rect" : [ 695.0, 141.0, 108.0, 27.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -343,13 +343,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-168",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.0, 668.0, 102.0, 25.0 ],
-					"text" : "send syncf 123 40.778374 30."
+					"patching_rect" : [ 116.25, 787.0, 167.75, 15.0 ],
+					"text" : "send tempo 40."
 				}
 
 			}
@@ -4524,13 +4523,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-52",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 541.0, 611.0, 45.0, 25.0 ],
-					"text" : "note123_30.00"
+					"patching_rect" : [ 541.0, 611.0, 45.0, 15.0 ]
 				}
 
 			}
@@ -4898,15 +4895,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-123", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-124", 0 ]
 				}
 
 			}
