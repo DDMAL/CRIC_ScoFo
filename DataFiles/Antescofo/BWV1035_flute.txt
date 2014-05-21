@@ -26,6 +26,13 @@
 ; Date: 2014 5 16 15:28:22 GMT-04:00
 ;
 BPM 40.00
+oscsend NAPro "localhost" :3002 "syncf"
+$index:=0
+whenever ( $RT_TEMPO )
+{
+	$index := $index + 1
+	NAPro $index $RT_TEMPO $BEAT_POS
+}
 
 ; ---------- measure 1 beat 0.00 ---------
 
