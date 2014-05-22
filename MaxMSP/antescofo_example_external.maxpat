@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -1700.0, 44.0, 1530.0, 1012.0 ],
+		"rect" : [ -1579.0, 44.0, 1530.0, 1012.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -140,7 +140,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ -1119.0, 64.0, 108.0, 27.0 ],
+						"rect" : [ -998.0, 64.0, 108.0, 27.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -250,7 +250,6 @@
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
 									"id" : "obj-12",
-									"linecount" : 3,
 									"maxclass" : "textedit",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -258,10 +257,8 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 53.0, 148.0, 426.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
 									"presentation_rect" : [ 4.0, 6.0, 426.0, 19.0 ],
-									"rounded" : 6.0,
-									"text" : "\"Macintosh HD:/Users/gabriel/Documents/2_CODE/5_GIT/CRIC_ScoFo/DataFiles/Antescofo/\""
+									"rounded" : 6.0
 								}
 
 							}
@@ -418,7 +415,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 116.25, 787.0, 167.75, 15.0 ],
-					"text" : "send syncf 48 39.87289 14."
+					"text" : "send setLatency 0"
 				}
 
 			}
@@ -3359,14 +3356,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-10",
-					"items" : [ "BWV1035_flute.txt", ",", "BWV1035_flute_AS_editor_settings.txt" ],
+					"items" : "/Users/gabriel/Documents/2_CODE/5_GIT/CRIC_ScoFo/DataFiles/Antescofo/BWV1035_flute.txt",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 581.0, 107.0, 159.0, 17.0 ],
-					"prefix" : "Macintosh HD:/Users/gabriel/Documents/2_CODE/5_GIT/CRIC_ScoFo/DataFiles/Antescofo/",
+					"prefix" : "notfound",
 					"types" : "TEXT"
 				}
 
@@ -3429,7 +3426,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 864.0, 417.0, 805.0, 559.0 ],
+						"rect" : [ 358.0, 58.0, 805.0, 559.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3448,6 +3445,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
