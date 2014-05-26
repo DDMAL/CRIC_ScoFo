@@ -36,6 +36,8 @@ whenever ( $RT_TEMPO )
 
 ; ---------- measure 1 beat 0.00 ---------
 
+
+
 NOTE 7100 5/4 note1_0.00
 NOTE 7300 1/8 note2_1.25
 NOTE 7500 1/8 note3_1.38
