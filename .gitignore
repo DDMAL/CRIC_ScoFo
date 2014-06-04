@@ -7,3 +7,7 @@
 .mscz,
 
 .corelli-op5n03_2.mscz,
+
+*.mscz,
+
+*.DS_Store
