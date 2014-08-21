@@ -1,0 +1,711 @@
+; Antescofo score generated using libmusicxml and embedded xml2antescofo converter.
+; Copyright (c) Thomas Coffy - IRCAM 2013
+BPM 60
+
+; ----------- measure 1 --- beat 1
+NOTE 0 1/2 measure1
+
+; ----------- measure 3 --- beat 3/2 ------
+CHORD ( D5 G5 ) 1/2 measure3
+CHORD ( E5 A5 ) 1/2
+CHORD ( B4 E5 ) 1/2
+
+; ----------- measure 4 --- beat 3
+CHORD ( C5 F5 ) 1/2 measure4
+CHORD ( A4 D5 ) 1/2
+CHORD ( D5 G5 ) 1/2
+
+; ----------- measure 1 --- beat 9/2 ------
+NOTE G4 1/2 measure1
+
+; ----------- measure 4 --- beat 5
+CHORD ( E4 C5 ) 1/2 measure4
+
+; ----------- measure 5 --- beat 11/2 ------
+CHORD ( D4 F#4 D5 ) 1/4 measure5
+CHORD ( -D4 -F#4 E5 ) 1/4
+CHORD ( -D4 G4 F5 ) 1/2
+
+; ----------- measure 46 --- beat 13/2 ------
+CHORD ( G3 G4 A4 ) 1/2 measure46
+CHORD ( -G3 B4 ) 1/2
+CHORD ( G3 E4 C5 ) 1/2
+CHORD ( -C5 -G3 F4 ) 1/2
+CHORD ( G3 -F4 B4 ) 1/2
+CHORD ( -G3 G4 C5 ) 1/4
+CHORD ( -G3 -G4 B4 ) 1/4
+CHORD ( G3 -G4 C5 ) 1/4
+CHORD ( -G3 -G4 D5 ) 1/4
+CHORD ( -G3 A4 E5 ) 1/4
+CHORD ( -G3 -A4 D5 ) 1/4
+
+; ----------- measure 47 --- beat 21/2 ------
+CHORD ( G3 -A4 E5 ) 1/4 measure47
+CHORD ( -G3 -A4 F#5 ) 1/4
+CHORD ( -G3 D4 G5 ) 1/2
+CHORD ( G3 -D4 G5 ) 1/2
+CHORD ( -G3 E4 G5 ) 1/2
+CHORD ( G3 -E4 G5 ) 1/2
+CHORD ( -G3 B3 G5 ) 1/2
+
+; ----------- measure 9 --- beat 27/2 ------
+CHORD ( -B3 G5 ) 1/2 measure9
+
+; ----------- measure 4 --- beat 14
+NOTE F#5 1/2 measure4
+
+; ----------- measure 9 --- beat 29/2 ------
+CHORD ( B3 -F#5 ) 1/2 measure9
+
+; ----------- measure 10 --- beat 15
+CHORD ( A3 D4 ) 1/2 measure10
+CHORD ( -A3 G4 ) 1/2
+CHORD ( A3 A4 ) 1/4
+CHORD ( -A3 B4 ) 1/4
+CHORD ( -A3 C5 ) 1/2
+CHORD ( G3 C5 ) 1/2
+CHORD ( -G3 C5 ) 1/2
+
+; ----------- measure 5 --- beat 18
+NOTE B4 1/2 measure5
+
+; ----------- measure 10 --- beat 37/2 ------
+CHORD ( E4 A4 ) 1/2 measure10
+
+; ----------- measure 11 --- beat 19
+CHORD ( -A4 F4 ) 1/2 measure11
+CHORD ( -F4 F#4 ) 1/2
+
+; ----------- measure 5 --- beat 20
+NOTE G3 1/2 measure5
+
+; ----------- measure 11 --- beat 41/2 ------
+CHORD ( F#4 A4 ) 1/4 measure11
+CHORD ( -F#4 B4 ) 1/4
+CHORD ( G4 C5 ) 1/2
+CHORD ( -G4 C5 ) 1/2
+
+; ----------- measure 6 --- beat 22
+NOTE A4 1/2 measure6
+
+; ----------- measure 11 --- beat 45/2 ------
+CHORD ( G#4 D5 ) 1/2 measure11
+
+; ----------- measure 12 --- beat 23
+CHORD ( A4 B4 ) 1/2 measure12
+CHORD ( -A4 E5 ) 1/2
+
+; ----------- measure 6 --- beat 24
+NOTE C5 1/2 measure6
+
+; ----------- measure 16 --- beat 49/2 ------
+CHORD ( E4 F5 ) 1/2 measure16
+CHORD ( F4 B4 ) 1/2
+CHORD ( D4 G5 ) 1/2
+CHORD ( G4 C5 ) 1/2
+
+; ----------- measure 17 --- beat 53/2 ------
+CHORD ( -C5 C4 ) 1/2 measure17
+NOTE C4 1/2
+CHORD ( C4 G4 ) 1/2
+CHORD ( -C4 A4 ) 1/4
+CHORD ( -C4 C5 ) 1/4
+CHORD ( B3 B4 ) 1/4
+CHORD ( -B3 A4 ) 1/4
+CHORD ( -B3 B4 ) 1/4
+CHORD ( -B3 D5 ) 1/4
+CHORD ( B3 C5 ) 1/4
+CHORD ( -B3 B4 ) 1/4
+CHORD ( -B3 C5 ) 1/4
+CHORD ( -B3 E5 ) 1/4
+
+; ----------- measure 18 --- beat 61/2 ------
+CHORD ( A3 F5 ) 1/4 measure18
+CHORD ( -A3 G5 ) 1/4
+CHORD ( -A3 A5 ) 1/4
+CHORD ( -A3 A4 ) 1/4
+CHORD ( A3 D5 ) 1/4
+CHORD ( -A3 C5 ) 1/4
+CHORD ( -A3 B4 ) 1/4
+CHORD ( -A3 G4 ) 1/4
+CHORD ( G3 C5 ) 1/4
+CHORD ( -G3 E4 ) 1/4
+CHORD ( -G3 D4 ) 1/4
+CHORD ( -G3 C5 ) 1/4
+CHORD ( E4 B4 ) 1/4
+CHORD ( D4 -E4 ) 1/4
+
+; ----------- measure 19 --- beat 34
+CHORD ( C4 F4 ) 1/2 measure19
+CHORD ( E4 -F4 ) 1/2
+CHORD ( E4 A4 ) 1/2
+CHORD ( A3 -E4 ) 1/2
+NOTE D4 1/2
+CHORD ( -D4 E4 ) 1/4
+CHORD ( -D4 F#4 ) 1/4
+CHORD ( D4 G4 ) 1/2
+CHORD ( -D4 G4 ) 1/2
+
+; ----------- measure 20 --- beat 38
+CHORD ( C4 G4 ) 1 measure20
+CHORD ( F#4 E5 ) 1/2
+CHORD ( -F#4 F4 ) 1/2
+CHORD ( -F4 G4 ) 1/2
+CHORD ( E4 A4 ) 1/4
+CHORD ( -E4 B4 ) 1/4
+CHORD ( -E4 C5 ) 1/2
+
+; ----------- measure 21 --- beat 83/2 ------
+CHORD ( D4 C5 ) 1/2 measure21
+CHORD ( -D4 A4 ) 1/2
+CHORD ( -D4 B4 ) 1/4
+CHORD ( -D4 C5 ) 1/4
+CHORD ( -D4 D5 ) 1/2
+CHORD ( C5 D5 ) 1/4
+CHORD ( -D5 D5 ) 1/4
+CHORD ( B4 C5 ) 1/4
+CHORD ( -B4 D5 ) 1/4
+CHORD ( C5 E5 ) 1/4
+NOTE D5 1/4
+NOTE E5 1/4
+NOTE D5 1/4
+
+; ----------- measure 22 --- beat 91/2 ------
+CHORD ( C5 E5 ) 1/4 measure22
+CHORD ( -E5 D5 ) 1/4
+NOTE C5 1/4
+NOTE D5 1/4
+CHORD ( D5 E5 ) 1/4
+CHORD ( D5 E5 ) 1/4
+CHORD ( E5 F5 ) 1/4
+CHORD ( D5 E5 ) 1/4
+CHORD ( C5 D5 ) 1/4
+CHORD ( C5 D5 ) 1/4
+CHORD ( B4 C5 ) 1/4
+CHORD ( C5 D5 ) 1/4
+CHORD ( C5 D5 ) 1/4
+CHORD ( B4 D5 ) 1/4
+CHORD ( C5 E5 ) 1/4
+NOTE D5 1/4
+
+; ----------- measure 23 --- beat 99/2 ------
+NOTE C5 1/4 measure23
+CHORD ( B4 D5 ) 1/4
+CHORD ( A4 C5 ) 1/4
+CHORD ( B4 D5 ) 1/4
+NOTE C5 1/4
+CHORD ( A4 D5 ) 1/4
+CHORD ( C5 D5 ) 1/4
+CHORD ( D5 E5 ) 1/4
+
+; ----------- measure 29 --- beat 103/2 ------
+CHORD ( B3 F5 ) 1/4 measure29
+CHORD ( -B3 D5 ) 1/4
+CHORD ( -B3 G#5 ) 1/4
+CHORD ( -B3 E5 ) 1/4
+CHORD ( G3 F#5 ) 1/4
+CHORD ( -G3 G#5 ) 1/4
+CHORD ( -G3 A5 ) 1/4
+
+; ----------- measure 30 --- beat 213/4 ------
+CHORD ( B3 C5 ) 1/4 measure30
+CHORD ( -B3 B4 ) 1/4
+CHORD ( -B3 A4 ) 1/4
+CHORD ( -B3 G#4 ) 1/4
+CHORD ( B3 E4 ) 1/4
+CHORD ( -B3 A4 ) 1/4
+CHORD ( A3 -B3 ) 1/4
+CHORD ( -B3 ) 1/4
+CHORD ( G3 A4 ) 1/4
+CHORD ( -G3 G#4 ) 1/4
+CHORD ( -G3 B3 ) 1/4
+CHORD ( -G3 A3 ) 1/2
+CHORD ( -G3 E5 ) 1/2
+CHORD ( -G3 F5 ) 1/4
+
+; ----------- measure 31 --- beat 229/4 ------
+CHORD ( -F5 C4 ) 1/4 measure31
+CHORD ( -C4 C5 ) 1/2
+CHORD ( -C4 D5 ) 1/4
+NOTE -D5 1/4
+
+; ----------- measure 15 --- beat 117/2 ------
+NOTE B4 1/4 measure15
+
+; ----------- measure 31 --- beat 235/4 ------
+CHORD ( -B4 C5 ) 1/4 measure31
+
+; ----------- measure 15 --- beat 59
+NOTE E5 1/2 measure15
+
+; ----------- measure 31 --- beat 237/4 ------
+CHORD ( -C5 D5 -E5 ) 1/4 measure31
+CHORD ( E4 -D5 ) 1/2
+CHORD ( A4 -D5 ) 1/4
+NOTE -A4 1/4
+
+; ----------- measure 15 --- beat 121/2 ------
+NOTE B4 1/4 measure15
+
+; ----------- measure 31 --- beat 243/4 ------
+CHORD ( G4 C5 ) 1/4 measure31
+CHORD ( -G4 D5 ) 1/4
+
+; ----------- measure 32 --- beat 245/4 ------
+CHORD ( -D5 E4 ) 1/4 measure32
+CHORD ( D4 -E4 ) 1/2
+CHORD ( -E4 G4 ) 1/4
+CHORD ( -G4 E4 ) 1/4
+CHORD ( -E4 B4 ) 1/2
+CHORD ( -E4 C5 ) 1/4
+
+; ----------- measure 33 --- beat 253/4 ------
+CHORD ( -C5 D4 ) 1/4 measure33
+CHORD ( -D4 C5 ) 1/2
+CHORD ( -D4 C5 ) 1/2
+CHORD ( -D4 C5 ) 1/2
+CHORD ( -D4 B4 ) 1/4
+CHORD ( -B4 C4 ) 3/4
+CHORD ( G3 -C4 ) 1/4
+CHORD ( -G3 C4 ) 1/4
+CHORD ( -C4 E4 B4 ) 3/4
+
+; ----------- measure 34 --- beat 269/4 ------
+CHORD ( -B4 -E4 B3 ) 1/4 measure34
+CHORD ( -B3 A4 ) 3/4
+NOTE -A4 1/4
+
+; ----------- measure 17 --- beat 137/2 ------
+CHORD ( A4 D5 ) 1/4 measure17
+
+; ----------- measure 34 --- beat 275/4 ------
+CHORD ( E4 -A4 -D5 ) 1/2 measure34
+CHORD ( -E4 F#4 -A4 -D5 ) 1/4
+
+; ----------- measure 17 --- beat 139/2 ------
+NOTE G4 1/4 measure17
+
+; ----------- measure 34 --- beat 279/4 ------
+NOTE G4 3/4 measure34
+
+; ----------- measure 18 --- beat 141/2 ------
+CHORD ( G4 C5 ) 1 measure18
+
+; ----------- measure 35 --- beat 283/4 ------
+CHORD ( -G4 ) 1/4 measure35
+CHORD ( -G4 ) 1/2
+CHORD ( F4 -G4 ) 1/4
+CHORD ( -F4 F#4 ) 3/4
+CHORD ( F4 -F#4 B4 ) 1/4
+CHORD ( -B4 -F4 G3 ) 3/4
+NOTE -G3 1/4
+NOTE 0 1/4
+
+; ----------- measure 18 --- beat 74
+NOTE C5 1/4 measure18
+
+; ----------- measure 35 --- beat 297/4 ------
+CHORD ( B4 -C5 ) 1/4 measure35
+
+; ----------- measure 19 --- beat 149/2 ------
+NOTE A4 1/2 measure19
+
+; ----------- measure 36 --- beat 299/4 ------
+CHORD ( -A4 -B4 C5 ) 1/4 measure36
+CHORD ( B4 -C5 ) 1/2
+CHORD ( -C5 ) 1/4
+NOTE C5 1/2
+NOTE D5 1
+
+; ----------- measure 19 --- beat 155/2 ------
+NOTE A6 3/4 measure19
+
+; ----------- measure 36 --- beat 313/4 ------
+NOTE D5 1/2 measure36
+
+; ----------- measure 20 --- beat 157/2 ------
+CHORD ( E4 C5 ) 1/4 measure20
+
+; ----------- measure 37 --- beat 315/4 ------
+CHORD ( -E4 -C5 E5 ) 3/4 measure37
+
+; ----------- measure 20 --- beat 159/2 ------
+NOTE 0 1 measure20
+NOTE G5 1/2
+
+; ----------- measure 37 --- beat 321/4 ------
+NOTE 0 1/4 measure37
+NOTE -C5 1/4
+
+; ----------- measure 20 --- beat 161/2 ------
+NOTE A4 1/4 measure20
+
+; ----------- measure 37 --- beat 323/4 ------
+CHORD ( -A4 D5 ) 1/4 measure37
+
+; ----------- measure 20 --- beat 81
+NOTE B4 1/2 measure20
+
+; ----------- measure 37 --- beat 325/4 ------
+CHORD ( G4 -B4 -D5 ) 1/4 measure37
+CHORD ( -G4 C5 ) 1/4
+
+; ----------- measure 38 --- beat 327/4 ------
+CHORD ( -C5 E4 ) 1 measure38
+NOTE C5 3/4
+
+; ----------- measure 21 --- beat 167/2 ------
+NOTE B4 1/4 measure21
+
+; ----------- measure 38 --- beat 335/4 ------
+CHORD ( D4 -B4 ) 3/4 measure38
+
+; ----------- measure 21 --- beat 169/2 ------
+CHORD ( -D4 E5 ) 1/4 measure21
+NOTE F5 1/4
+NOTE E5 1/4
+
+; ----------- measure 38 --- beat 341/4 ------
+CHORD ( G4 F5 ) 1/4 measure38
+CHORD ( -G4 G5 ) 1/4
+
+; ----------- measure 39 --- beat 343/4 ------
+CHORD ( A4 F5 ) 1/4 measure39
+CHORD ( -A4 G5 ) 1/4
+CHORD ( E4 F5 ) 1/4
+CHORD ( -E4 E5 ) 1/4
+CHORD ( -E4 F5 ) 1/4
+CHORD ( -E4 E5 ) 1/4
+
+; ----------- measure 40 --- beat 349/4 ------
+CHORD ( D4 F5 ) 1/4 measure40
+CHORD ( -D4 G5 ) 1/4
+CHORD ( -D4 F5 ) 1/4
+CHORD ( -D4 G5 ) 1/4
+CHORD ( -D4 F5 ) 1/4
+CHORD ( -D4 E5 ) 1/4
+CHORD ( -D4 F5 ) 1/4
+CHORD ( -D4 E5 ) 1/4
+CHORD ( C4 F5 ) 1/4
+CHORD ( -C4 E5 ) 1/4
+CHORD ( -C4 F5 ) 1/4
+CHORD ( -C4 E5 ) 1/4
+CHORD ( C4 F5 ) 1/4
+CHORD ( -C4 E5 ) 1/4
+CHORD ( -C4 F5 ) 1/4
+CHORD ( -C4 E5 ) 1/4
+
+; ----------- measure 41 --- beat 365/4 ------
+CHORD ( B3 F5 ) 1/4 measure41
+CHORD ( -B3 E5 ) 1/4
+CHORD ( -B3 F5 ) 1/4
+CHORD ( -B3 E5 ) 1/4
+CHORD ( B3 F5 ) 1/4
+CHORD ( -B3 C5 ) 1/4
+CHORD ( -B3 E5 ) 1/4
+CHORD ( -B3 C5 ) 1/4
+CHORD ( A3 E5 ) 1/4
+CHORD ( -A3 C5 ) 1/4
+CHORD ( -A3 A5 ) 1/4
+CHORD ( -A3 C5 ) 1/4
+CHORD ( A3 A5 ) 1/4
+CHORD ( -A3 B4 ) 1/4
+CHORD ( -A3 A5 ) 1/4
+CHORD ( -A3 B4 ) 1/4
+
+; ----------- measure 42 --- beat 381/4 ------
+CHORD ( G3 A5 ) 1/4 measure42
+CHORD ( -G3 E5 ) 1/4
+CHORD ( -G3 G5 ) 1/4
+CHORD ( -G3 E5 ) 1/4
+
+; ----------- measure 46 --- beat 385/4 ------
+CHORD ( B4 G5 ) 1/4 measure46
+CHORD ( -B4 E5 ) 1/4
+CHORD ( -B4 F#5 ) 1/4
+CHORD ( -B4 E5 ) 1/4
+CHORD ( C5 F#5 ) 1/4
+CHORD ( -C5 D5 ) 1/4
+CHORD ( -C5 B5 ) 1/4
+CHORD ( -C5 D5 ) 1/4
+CHORD ( -C5 B5 ) 1/4
+CHORD ( -C5 C#5 ) 1/4
+CHORD ( -C5 B5 ) 1/4
+CHORD ( -C5 C#5 ) 1/4
+CHORD ( B4 B5 ) 1/4
+CHORD ( -B4 C#5 ) 1/4
+CHORD ( -B4 A5 ) 1/4
+CHORD ( -B4 C#5 ) 1/4
+
+; ----------- measure 47 --- beat 401/4 ------
+CHORD ( -B4 A5 ) 1/4 measure47
+CHORD ( -B4 ) 1/4
+CHORD ( -B4 A5 ) 1/4
+CHORD ( -B4 ) 1/4
+CHORD ( A4 A5 ) 1/4
+CHORD ( -A4 B4 ) 1/4
+CHORD ( -A4 G5 ) 1/4
+CHORD ( -A4 B4 ) 1/4
+CHORD ( -A4 G5 ) 1/4
+CHORD ( -A4 ) 1/4
+CHORD ( -A4 G5 ) 1/4
+CHORD ( -A4 ) 1/4
+CHORD ( G3 G4 G5 ) 1/4
+CHORD ( -G3 -G4 A4 ) 1/4
+CHORD ( -G3 -G4 F#5 ) 1/4
+CHORD ( -G3 -G4 A4 ) 1/4
+
+; ----------- measure 48 --- beat 417/4 ------
+CHORD ( G3 -G4 F#5 ) 1/4 measure48
+CHORD ( -G3 -G4 ) 1/4
+CHORD ( -G3 -G4 B4 ) 1/4
+CHORD ( -G3 -G4 ) 1/4
+CHORD ( G3 F4 B4 ) 1/4
+CHORD ( -G3 -F4 G4 ) 1/4
+CHORD ( -G3 -F4 E5 ) 1/4
+CHORD ( -G3 -F4 G4 ) 1/4
+CHORD ( G3 -F4 E5 ) 1/4
+CHORD ( -G3 -F4 F#4 ) 1/4
+CHORD ( -G3 -F4 E5 ) 1/4
+CHORD ( -G3 -F4 F#4 ) 1/4
+CHORD ( G3 F4 E5 ) 1/4
+CHORD ( -G3 -F4 F#4 ) 1/4
+CHORD ( -G3 -F4 D#5 ) 1/4
+CHORD ( -G3 -F4 F#4 ) 1/4
+
+; ----------- measure 49 --- beat 433/4 ------
+CHORD ( G3 E4 D#5 ) 1/4 measure49
+CHORD ( -G3 -E4 ) 1/4
+CHORD ( -G3 -E4 E5 ) 1/4
+CHORD ( -G3 -E4 ) 1/4
+CHORD ( G3 D#4 E5 ) 1/4
+CHORD ( -G3 -D#4 B4 ) 1/4
+CHORD ( -G3 -D#4 E5 ) 1/4
+CHORD ( -G3 -D#4 B4 ) 1/4
+CHORD ( G3 D4 E5 ) 1/4
+CHORD ( -G3 -D4 C5 ) 1/4
+CHORD ( -G3 -D4 E5 ) 1/4
+CHORD ( -G3 -D4 C5 ) 1/4
+CHORD ( G3 F4 E5 ) 1/4
+CHORD ( -G3 -F4 D#5 ) 1/4
+CHORD ( -G3 -F4 E5 ) 1/4
+CHORD ( -G3 -F4 D#5 ) 1/4
+
+; ----------- measure 28 --- beat 449/4 ------
+NOTE E5 1/4 measure28
+NOTE E5 1/4
+NOTE E5 1/4
+NOTE D5 1/4
+NOTE E5 1/4
+NOTE C5 1/4
+NOTE E5 1/4
+NOTE B4 1/4
+NOTE E5 1/4
+
+; ----------- measure 29 --- beat 229/2 ------
+NOTE C5 1/4 measure29
+NOTE E5 1/4
+NOTE B4 1/4
+NOTE E5 1/4
+NOTE A4 1/4
+NOTE E5 1/4
+NOTE G4 1/4
+NOTE E5 1/4
+CHORD ( D#4 A4 ) 1
+NOTE E4 1
+NOTE A3 1/4
+
+; ----------- measure 30 --- beat 475/4 ------
+NOTE E4 1 measure30
+NOTE D#4 1
+CHORD ( E4 B4 E5 ) 2
+
+; ----------- measure 31 --- beat 491/4 ------
+NOTE E4 1/2 measure31
+NOTE G5 1/2
+NOTE A5 1/2
+NOTE E5 1/2
+NOTE F5 1/2
+NOTE F5 1/2
+NOTE G5 1/2
+NOTE B4 1/2
+
+; ----------- measure 32 --- beat 507/4 ------
+NOTE C5 1/2 measure32
+NOTE D5 1/4
+NOTE E5 1/4
+NOTE F5 1/2
+NOTE D5 1/4
+NOTE C5 1/4
+NOTE B4 1/2
+NOTE G4 1/2
+NOTE C5 2
+
+; ----------- measure 33 --- beat 527/4 ------
+NOTE B4 1 measure33
+CHORD ( E4 -B4 ) 1
+NOTE A4 1
+
+; ----------- measure 34 --- beat 539/4 ------
+NOTE G4 1/2 measure34
+NOTE A4 1/4
+NOTE B4 1/4
+NOTE C5 1/2
+NOTE C5 1/2
+NOTE C5 1
+NOTE D4 1/2
+NOTE B4 1
+
+; ----------- measure 35 --- beat 557/4 ------
+NOTE A4 1 measure35
+NOTE A4 1
+NOTE G4 1/2
+NOTE B4 1/2
+NOTE E5 1/2
+NOTE E5 1/2
+
+; ----------- measure 36 --- beat 573/4 ------
+NOTE E5 1/2 measure36
+NOTE E5 1/2
+NOTE F5 1/2
+NOTE F5 1/2
+NOTE F5 1/2
+NOTE F5 1/2
+NOTE G5 1/2
+NOTE G5 1/2
+
+; ----------- measure 37 --- beat 589/4 ------
+NOTE G5 1/2 measure37
+NOTE G5 1/2
+NOTE A5 1/2
+NOTE A5 1/2
+NOTE F5 1
+NOTE E5 1/4
+NOTE F5 1/4
+NOTE G5 1/2
+NOTE B4 1/2
+
+; ----------- measure 38 --- beat 607/4 ------
+NOTE C5 1/2 measure38
+NOTE D5 1/4
+NOTE E5 1/4
+NOTE F5 1/2
+NOTE D5 1/4
+NOTE C5 1/4
+NOTE B4 1/2
+NOTE C5 1/4
+NOTE D5 1/4
+NOTE E5 1/2
+NOTE E5 1/2
+
+; ----------- measure 39 --- beat 623/4 ------
+NOTE C5 1 measure39
+NOTE B4 1/4
+NOTE C5 1/4
+NOTE D5 1/2
+NOTE C5 1/2
+NOTE B4 1/2
+NOTE G4 1/2
+NOTE C5 2
+
+; ----------- measure 40 --- beat 645/4 ------
+NOTE B4 1 measure40
+CHORD ( E4 -B4 ) 1
+NOTE A4 1
+
+; ----------- measure 41 --- beat 657/4 ------
+CHORD ( A4 D5 ) 1 measure41
+NOTE G4 1
+CHORD ( G4 C5 ) 1
+NOTE F4 1
+
+; ----------- measure 42 --- beat 673/4 ------
+CHORD ( F4 B4 ) 1 measure42
+NOTE E5 1/4
+NOTE G5 1/4
+NOTE E5 1/4
+NOTE G5 1/4
+NOTE E5 1/4
+NOTE F5 1/4
+NOTE E5 1/4
+NOTE F5 1/4
+NOTE D5 1/4
+NOTE F5 1/4
+NOTE D5 1/4
+NOTE F5 1/4
+
+; ----------- measure 43 --- beat 689/4 ------
+NOTE D5 1/4 measure43
+NOTE E5 1/4
+NOTE D5 1/4
+NOTE E5 1/4
+NOTE E5 1/4
+NOTE C6 1/4
+NOTE E5 1/4
+NOTE C6 1/4
+NOTE D5 1/4
+NOTE C6 1/4
+NOTE D5 1/4
+NOTE C6 1/4
+NOTE G5 1/4
+NOTE B5 1/4
+NOTE G5 1/4
+NOTE B5 1/4
+
+; ----------- measure 44 --- beat 705/4 ------
+NOTE G5 1/4 measure44
+NOTE A5 1/4
+NOTE G5 1/4
+NOTE A5 1/4
+NOTE A4 1/4
+NOTE F5 1/4
+NOTE A4 1/4
+NOTE F5 1/4
+NOTE G4 1/4
+NOTE F5 1/4
+NOTE G4 1/4
+NOTE F5 1/4
+NOTE C5 1/4
+NOTE E5 1/4
+NOTE C5 1/4
+NOTE E5 1/4
+
+; ----------- measure 45 --- beat 721/4 ------
+NOTE C5 1/4 measure45
+NOTE D5 1/4
+NOTE C5 1/4
+NOTE D5 1/4
+NOTE B4 1/4
+NOTE G5 1/4
+NOTE B4 1/4
+NOTE G5 1/4
+NOTE A4 1/4
+NOTE G5 1/4
+NOTE A4 1/4
+NOTE G5 1/4
+NOTE A4 1/4
+NOTE F5 1/4
+NOTE A4 1/4
+NOTE F5 1/4
+
+; ----------- measure 46 --- beat 737/4 ------
+NOTE F5 1 measure46
+NOTE E5 1
+NOTE D5 1
+NOTE D5 1
+
+; ----------- measure 47 --- beat 753/4 ------
+NOTE C5 1 measure47
+NOTE C5 1
+NOTE B4 1
+NOTE B4 1
+
+; ----------- measure 48 --- beat 769/4 ------
+NOTE A4 1 measure48
+NOTE A4 1
+NOTE B4 1
+NOTE D5 2
+
+; ----------- measure 49 --- beat 789/4 ------
+NOTE C5 2 measure49
+NOTE B4 1
