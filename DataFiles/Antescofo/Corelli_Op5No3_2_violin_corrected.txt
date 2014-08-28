@@ -2,18 +2,23 @@
 ; Copyright (c) Thomas Coffy - IRCAM 2013
 ; Corelli Op.5 No.3, 2nd movement. Violin.
 
+antescofo::analysis 4096 128
+antescofo::harmlist 1 2 3 4 5
+antescofo::variance 0.2
+antescofo::tune 423
+antescofo::temposmoothness 0.1
+BPM 90
 
 ; ----------- measure 1 
-BPM 90
 NOTE 0 1/2 measure1
 NOTE G5 1/2 
-sfc 0
 NOTE A5 1/2
 NOTE E5 1/2
 NOTE F5 1/2
 NOTE D5 1/2
 NOTE G5 1/2
 NOTE G4 1/2
+from-violin-message now
 
 ; ----------- measure 2 
 NOTE C5 1/2 measure2
