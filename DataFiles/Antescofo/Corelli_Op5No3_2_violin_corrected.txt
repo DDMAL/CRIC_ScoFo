@@ -5,6 +5,8 @@
 antescofo::analysis 4096 128
 antescofo::harmlist 1 2 3 4 5
 antescofo::variance 0.2
+antescofo::tune 423
+antescofo::temposmoothness 0.1
 BPM 90
 
 ; ----------- measure 1 
