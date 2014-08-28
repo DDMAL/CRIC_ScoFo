@@ -1,5 +1,6 @@
 ; Antescofo score generated using libmusicxml and embedded xml2antescofo converter.
 ; Copyright (c) Thomas Coffy - IRCAM 2013
+; Corelli Op.5 No.3, 2nd movement. Violin.
 
 
 ; ----------- measure 1 
