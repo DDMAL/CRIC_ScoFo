@@ -2,11 +2,11 @@
 ; Copyright (c) Thomas Coffy - IRCAM 2013
 ; Corelli Op.5 No.3, 2nd movement. Violin.
 
-antescofo::analysis 4096 128
+antescofo::analysis 4096 512
 antescofo::harmlist 1 2 3 4 5
 antescofo::variance 0.2
-antescofo::tune 423
-antescofo::temposmoothness 0.1
+antescofo::temposmoothness 0.25
+antescofo_mess tune 423
 BPM 90
 
 ; ----------- measure 1 
@@ -141,7 +141,6 @@ CHORD (G#4 E5) 1/2
 
 ; ----------- measure 12
 CHORD (A4 C5) 1/2 measure12
-BPM 90
 CHORD (A4 D5) 1/4
 CHORD (A4 E5) 1/4
 NOTE F5 1/4
@@ -178,7 +177,6 @@ NOTE A4 1/4
 
 ; ----------- measure 14
 NOTE G#4 1/4 measure14
-BPM 90 @modulate
 NOTE E4 1/4
 NOTE A4 1/4
 NOTE A3 1/4
@@ -213,21 +211,16 @@ CHORD (G4 B4) 1/2
 CHORD (G3 B4) 1/2
 
 ; ----------- measure 17
-BPM 80 @modulate
 CHORD (C4 E4 B4) 1/1 measure17
 CHORD (C4 A4) 1/1
-BPM 75 @modulate
 CHORD (B3 A4 D5) 1/1
 CHORD (B3 G4) 1/1
 
 ; ----------- measure 18
-BPM 70 @modulate
 CHORD (A3 G4 C5) 1/1 measure18
 CHORD (A3 F4) 1/1
-BPM 65 @modulate
 CHORD (G3 F4 B4) 1/1
 NOTE 0 1/2
-BPM 90
 CHORD (E4 C5) 1/2
 
 ; ----------- measure 19
@@ -248,7 +241,6 @@ CHORD (E4 C5) 1/1
 ; ----------- measure 21
 CHORD (D4 C5) 1/1 measure21
 CHORD (D4 B4) 1/1
-BPM 100
 CHORD (C5 E5) 1/4
 CHORD (D5 F5) 1/4
 CHORD (C5 E5) 1/4
@@ -394,16 +386,15 @@ NOTE A4 1/4
 NOTE E5 1/4
 NOTE G4 1/4
 NOTE E5 1/4
-BPM 75 
+BPM 45 @modulate
 CHORD (B3 D#4 A4) 1/1
 CHORD (G3 E4) 3/4
 CHORD (A3 E4) 1/4
 
 ; ----------- measure 30
-BPM 40 
 CHORD (B3 E4) 1/1 measure30
 CHORD (B3 D#4) 1/1
-BPM 20 
+BPM 30 @modulate
 TRILL (G3 E4 B4 E5) 2
 
 
@@ -495,6 +486,7 @@ NOTE D5 1/2
 NOTE C5 1/2
 NOTE B4 1/2
 NOTE G4 1/2
+BPM 60 @modulate
 CHORD (E4 C5) 1/1
 
 ; ----------- measure 40
