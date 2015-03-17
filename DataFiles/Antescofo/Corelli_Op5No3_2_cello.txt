@@ -1,19 +1,25 @@
-; Antescofo score generated using libmusicxml and embedded xml2antescofo converter.
+; Antescofo score manually transcribed by Gabriel Vigliensoni
 ; Copyright (c) Thomas Coffy - IRCAM 2013
-; Corelli Op.5 No.3, 2nd movement. Cello.
+; Corelli Op.5 No.3, 2nd movement, cello part.
 
-antescofo::analysis 4096 128
-antescofo::harmlist 1 2 3 4 5
-antescofo::variance 0.2
-antescofo::tune 423
-antescofo::temposmoothness 0.1
+; antescofo::analysis 4096 512
+; antescofo::harmlist 1 2 3 4 5
+; antescofo::variance 0.2
+; antescofo::temposmoothness 0.25
+
+antescofo-mess-cello 4096 512
+antescofo-mess-cello harmlist 1 2 3 4 5
+antescofo-mess-cello variance 0.2
+antescofo-mess-cello temposmoothness 0.25
+antescofo-mess-cello tune 415
 BPM 90
 
+
 ; ----------- measure 1 --- beat 1
+leading 2
 NOTE C3 1 measure1
 NOTE C4 2
 NOTE B3 2
-from-cello-message now
 
 ; ----------- measure 2 --- beat 6
 NOTE A3 1 measure2
@@ -224,10 +230,12 @@ NOTE F#3 1/2
 NOTE E3 1/2
 NOTE B3 1
 NOTE E3 1
+BPM 20
 
 ; ----------- measure 30 --- beat 117
 NOTE B2 2 measure30
 NOTE E2 2
+BPM 90
 
 ; ----------- measure 31 --- beat 121
 NOTE C3 1 measure31

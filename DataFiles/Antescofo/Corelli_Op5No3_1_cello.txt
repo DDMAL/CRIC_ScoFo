@@ -1,0 +1,238 @@
+; Antescofo score manually transcribed by Gabriel Vigliensoni
+; Copyright (c) Thomas Coffy - IRCAM 2013
+; Corelli Op.5 No.3, 1st movement, cello part.
+
+
+antescofo-mess-cello 4096 512
+antescofo-mess-cello harmlist 1 2 3 4 5
+antescofo-mess-cello variance 0.2
+antescofo-mess-cello temposmoothness 0.25
+antescofo-mess-cello tune 415
+BPM 35
+
+
+; ----------- measure 1 --- beat 1
+NOTE 0 17/2 measure1
+; ----------- measure 3 --- beat 19/2 ------
+leading 2
+NOTE C4 1/4 measure3
+pause 0
+NOTE D4 1/4
+NOTE E4 1/2
+NOTE C4 1/2
+NOTE A3 1/2
+NOTE A3 1/4
+NOTE B3 1/4
+NOTE C4 1/2
+NOTE E3 1/2
+
+; ----------- measure 4 --- beat 13
+NOTE F3 1/2 measure4
+NOTE E3 1/4
+NOTE F3 1/4
+NOTE G3 1/2
+NOTE G2 1/2
+NOTE 0 1/2
+NOTE C4 1/2
+NOTE B3 1/2
+NOTE G3 1/2
+
+; ----------- measure 5 --- beat 17
+NOTE 0 1/2 measure5
+NOTE C4 1/2
+NOTE B3 1/2
+NOTE G3 1/2
+NOTE C4 1/2
+NOTE B3 1/2
+NOTE A3 1/2
+NOTE D3 1/2
+
+; ----------- measure 6 --- beat 21
+NOTE G3 2 measure6
+NOTE 0 5/2
+
+; ----------- measure 7 --- beat 51/2 ------
+NOTE G3 1/4 measure7
+NOTE A3 1/4
+NOTE B3 1/2
+NOTE G3 1/2
+NOTE E3 1/2
+NOTE E3 1/4
+NOTE F#3 1/4
+NOTE G3 1/2
+NOTE B2 1/2
+
+; ----------- measure 8 --- beat 29
+NOTE C3 1/2 measure8
+NOTE B2 1/4
+NOTE C3 1/4
+NOTE D3 1/2
+NOTE D2 1/2
+NOTE 0 1/2
+NOTE G3 1/2
+NOTE F#3 1/2
+NOTE D3 1/2
+
+; ----------- measure 9 --- beat 33
+NOTE 0 1/2 measure9
+NOTE G3 1/2
+NOTE F#3 1/2
+NOTE D3 1/2
+NOTE G3 1/2
+NOTE F#3 1/2
+NOTE E3 1/2
+NOTE A2 1/2
+
+; ----------- measure 10 --- beat 37
+NOTE D3 1/2 measure10
+NOTE D4 1/4
+NOTE C4 1/4
+NOTE B3 1/2
+NOTE G3 1/2
+NOTE C4 1/2
+NOTE B3 1/2
+NOTE A3 1/2
+NOTE G3 1/2
+
+; ----------- measure 11 --- beat 41
+NOTE F#3 1/2 measure11
+NOTE D3 1/2
+NOTE B2 1/2
+NOTE C3 1/2
+NOTE D3 1/2
+NOTE C3 1/2
+NOTE D3 1/2
+NOTE D2 1/2
+
+; ----------- measure 12 --- beat 45
+NOTE G2 1/2 measure12
+NOTE G3 1/4
+NOTE F3 1/4
+NOTE E3 1/2
+NOTE C3 1/2
+NOTE F3 1
+NOTE E3 1
+
+; ----------- measure 13 --- beat 49
+NOTE D3 1/2 measure13
+NOTE D4 1/4
+NOTE C4 1/4
+NOTE B3 1/2
+NOTE G3 1/2
+NOTE 0 1/2
+NOTE C4 1/4
+NOTE B3 1/4
+NOTE A3 1/2
+NOTE F3 1/2
+
+; ----------- measure 14 --- beat 53
+NOTE 0 1/2 measure14
+NOTE B3 1/4
+NOTE A3 1/4
+NOTE G#3 1/2
+NOTE E3 1/2
+NOTE A3 1/2
+NOTE D3 1/2
+NOTE E3 1/2
+NOTE E2 1/2
+
+; ----------- measure 15 --- beat 57
+NOTE A2 1 measure15
+NOTE 0 1/2
+NOTE E3 1/2
+NOTE F3 1/2
+NOTE F2 1/2
+NOTE 0 1/2
+NOTE F#3 1/2
+
+; ----------- measure 16 --- beat 61
+NOTE G3 1/2 measure16
+NOTE G2 1/2
+NOTE 0 1/2
+NOTE G#3 1/2
+NOTE A3 1/2
+NOTE A2 1/2
+NOTE 0 1/2
+NOTE A3 1/2
+
+; ----------- measure 17 --- beat 65
+NOTE B3 1/2 measure17
+NOTE E3 1/2
+NOTE B3 1/2
+NOTE B2 1/2
+NOTE E3 1/2
+NOTE C4 1/4
+NOTE B3 1/4
+NOTE C4 1/2
+NOTE G3 1/2
+
+; ----------- measure 18 --- beat 69
+NOTE A3 1/2 measure18
+NOTE A3 1/4
+NOTE G3 1/4
+NOTE A3 1/2
+NOTE E3 1/2
+NOTE F3 1/2
+NOTE F3 1/4
+NOTE E3 1/4
+NOTE F3 1/2
+NOTE E3 1/2
+
+; ----------- measure 19 --- beat 73
+NOTE F3 1/2 measure19
+NOTE E3 1/2
+NOTE D3 1/2
+NOTE C3 1/2
+NOTE G2 1/2
+NOTE G3 1/4
+NOTE F3 1/4
+NOTE E3 1/2
+NOTE C3 1/2
+
+; ----------- measure 20 --- beat 77
+NOTE F3 1/2 measure20
+NOTE G3 1/2
+NOTE A3 1/2
+NOTE B3 1/2
+NOTE C4 1/2
+NOTE C3 1/2
+NOTE F3 1/2
+NOTE E3 1/4
+NOTE F3 1/4
+
+; ----------- measure 21 --- beat 81
+NOTE G3 1/2 measure21
+NOTE C3 1/2
+NOTE G3 1/2
+NOTE G2 1/2
+NOTE C3 1/2
+NOTE C4 1/2
+NOTE B3 1/2
+NOTE B2 1/2
+
+; ----------- measure 22 --- beat 85
+NOTE A2 1/2 measure22
+NOTE A3 1/2
+NOTE G3 1/2
+NOTE G2 1/2
+NOTE F2 1/2
+NOTE F3 1/2
+NOTE E3 1/2
+NOTE F3 1/2
+
+; ----------- measure 23 --- beat 89
+NOTE G3 1/2 measure23
+NOTE C3 1/2
+NOTE G3 1/2
+NOTE G2 1/2
+NOTE C3 1/2
+NOTE D3 1/4
+NOTE E3 1/4
+NOTE F3 3/2
+
+; ----------- measure 24 --- beat 187/2 ------
+NOTE E3 1/4 measure24
+NOTE F3 1/4
+NOTE G3 1/2
+NOTE G2 1/2
+NOTE C3 2

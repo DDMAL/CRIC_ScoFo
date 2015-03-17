@@ -1,6 +1,6 @@
 ; Antescofo score generated using libmusicxml and embedded xml2antescofo converter.
 ; Copyright (c) Thomas Coffy - IRCAM 2013
-BPM 60
+BPM 30
 
 ; ----------- measure 1 --- beat 1
 NOTE 0 1/2 measure1

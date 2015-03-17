@@ -1,188 +1,586 @@
-; This is a sample score for AnteScofo - Anticipatory Score Following
-; Common messages include:
-; 	BPM <float> : indicating tempo in BPM
-;	<float1> <float2> <string> : indicate PITCH (MIDI or MIDIcent) + BEAT DURATION + CUENAME
-;		The Beat duration can be ZERO, indicating a GRACE NOTE or "hors-temps" events.
-;		A Pitch value of ZERO indicates silence.
-;	TRILL	( <float1> <float2> ... <floatN> ) <floatN+> <string>: Indicate a Trill class
-;		with based notes of <float-i> in MIDIcents. A trill, in this terminology is ONE event that
-;		possess several sub-events in time - but all these sub-events contribute to one global event
-;		in time. <floatN+> is the duration in beats and <string> is the cue name.
-;		The trill class can successfully encode multi-phonics when used with yin~ or fiddle~
-;	MULTI	( <float1> <float2> ... <floatN> ) <floatN+> <string>
-;		Multi class is the same as Trills except that we want access to EACH of the events indicated
-;		by <float-i>s. Think of the floats (MIDIcents) between parenthesis as a table of values in
-;		time.
-;		The Multi class can successfully encode continuous events such as Glissandi.
-;	AUDIO OFF: Turns off audio so that events will be triggered automatically using the current
-;		detected TEMPO and their corresponding score beat duration. It must be turned ON afterwards.
-;		AUDIO OFF/ON can successfully detect problematic repeated notes!
-;		AUDIO OFF/ON can be thought of as some sort of tempo locked Q-list.
-;	TEMPO ON/OFF:	Turns tempo decoding on or off for places in the score where the tempo should not
-;		be updated. A typical example is a FERMATA.
-; NOTE: Note the space after and before the opening and closing parenthesis for TRILL and MULTI classes.
-;
-; Transferred from NoteAbilityPro score: Untitled-3
-; Date: 2014 5 16 15:28:22 GMT-04:00
-;
-BPM 40.00
-oscsend NAPro "localhost" :3002 "syncf"
-$index:=0
-whenever ( $RT_TEMPO )
-{
-	$index := $index + 1
-	NAPro $index $RT_TEMPO $BEAT_POS
-}
+; Antescofo score generated using libmusicxml and embedded xml2antescofo converter.
+; Copyright (c) Thomas Coffy - IRCAM 2013
+BPM 100
 
-; ---------- measure 1 beat 0.00 ---------
+; ----------- measure 1 
+NOTE 0 1/8 measure1
+NOTE G5 1/8 
+NOTE A5 1/8
+NOTE E5 1/8
+NOTE F5 1/8
+NOTE D5 1/8
+NOTE G5 1/8
+NOTE G4 1/8
+
+; ----------- measure 2 
+NOTE C5 1/8 measure2
+NOTE D5 1/16
+NOTE E5 1/16
+NOTE F5 1/8
+NOTE A4 1/8 
+NOTE B4 1/8 
+NOTE C5 1/4
+NOTE B4 1/8 
+
+; ----------- measure 3 
+NOTE C5 1/16 measure3
+NOTE B4 1/16
+NOTE C5 1/16
+NOTE D5 1/16
+NOTE E5 1/16
+NOTE D5 1/16
+NOTE E5 1/16
+NOTE F#5 1/16
+CHORD (0 G5) 1/8
+CHORD (D5 G5) 1/8
+CHORD (E5 G5) 1/8
+CHORD (B4 G5) 1/8
+
+; ----------- measure 4 
+CHORD (C5 G5) 1/8 measure4
+CHORD (A4 G5) 1/8
+CHORD (D5 F#5) 1/8
+NOTE D4 1/8
+NOTE G4 1/8
+NOTE A4 1/16
+NOTE B4 1/16
+CHORD (0 C5) 1/8
+CHORD (E4 C5) 1/8
+
+; ----------- measure 5
+CHORD (F#4 C5) 1/8 measure5
+CHORD (G4 B4) 1/8
+CHORD (D4 G4 A4) 1/8
+CHORD (D4 F#4 A4) 1/8
+NOTE G3 1/8
+NOTE A4 1/16
+NOTE B4 1/16
+CHORD (0 C5) 1/16
+CHORD (E4 C5) 1/16 
+
+; ----------- measure 6
+CHORD (F#4 A4) 1/8 measure6
+CHORD (F#4 D5) 1/8
+CHORD (G4 B4) 1/8
+CHORD (G4 E5) 1/8
+CHORD (A4 C5) 1/8
+CHORD (G4 E5) 1/8
+CHORD (D4 B4) 1/8
+CHORD (D4 G5) 1/8
+
+; ----------- measure 7
+CHORD (E4 C5) 1/4 measure7
+NOTE 0 1/8
+NOTE G4 1/8
+NOTE A4 1/16
+NOTE C5 1/16
+NOTE B4 1/16
+NOTE A4 1/16
+NOTE B4 1/16
+NOTE D5 1/16
+NOTE C5 1/16
+NOTE B4 1/16
+
+; ----------- measure 8
+NOTE C5 1/16 measure8
+NOTE E5 1/16
+NOTE F5 1/16
+NOTE G5 1/16
+NOTE A5 1/16
+NOTE A4 1/16
+NOTE D5 1/16
+NOTE C5 1/16
+NOTE B4 1/16
+NOTE G4 1/16
+NOTE C5 1/16
+NOTE E4 1/16
+NOTE D4 1/16
+NOTE C5 1/16
+NOTE B4 1/16
+NOTE D4 1/16
+
+; ----------- measure 9
+NOTE C4 1/8 measure9
+NOTE E4 1/8
+NOTE A4 1/8
+NOTE A3 1/8
+CHORD (B3 D4) 1/8
+NOTE E4 1/16
+NOTE F#4 1/16
+CHORD (0 G4) 1/8
+CHORD (B3 G4) 1/8
+
+; ----------- measure 10
+CHORD (A3 G4) 1/4 measure10
+CHORD (A3 F#4) 1/4
+CHORD (G3 G4) 1/8
+CHORD (G3 A4) 1/16
+CHORD (G3 B4) 1/16
+CHORD (0 C5) 1/8
+CHORD (E4 C5) 1/8
+
+; ----------- measure 11
+CHORD (F#4 A4) 1/8 measure11
+CHORD (F#4 B4) 1/16
+CHORD (F#4 C5) 1/16
+CHORD (0 D5) 1/8
+CHORD (F#4 D5) 1/8
+CHORD (G4 B4) 1/8
+CHORD (G4 C5) 1/16
+CHORD (G4 D5) 1/16
+CHORD (0 E5) 1/8
+CHORD (G#4 E5) 1/8
+
+; ----------- measure 12
+CHORD (A4 C5) 1/8 measure12
+CHORD (A4 D5) 1/16
+CHORD (A4 E5) 1/16
+NOTE F5 1/16
+NOTE E5 1/16
+NOTE D5 1/16
+NOTE C5 1/16
+NOTE B4 1/16
+NOTE C5 1/16
+NOTE D5 1/16
+NOTE B4 1/16
+NOTE E5 1/16
+NOTE D5 1/16
+NOTE C5 1/16
+NOTE B4 1/16
 
 
+; ----------- measure 13
+NOTE A4 1/16 measure13
+NOTE B4 1/16
+NOTE C5 1/16
+NOTE A4 1/16
+NOTE D5 1/16
+NOTE E5 1/16
+NOTE F5 1/16
+NOTE D5 1/16
+NOTE G#5 1/16
+NOTE E5 1/16
+NOTE F#5 1/16
+NOTE G#5 1/16
+NOTE A5 1/16
+NOTE C5 1/16
+NOTE B4 1/16
+NOTE A4 1/16
 
-NOTE 7100 5/4 note1_0.00
-NOTE 7300 1/8 note2_1.25
-NOTE 7500 1/8 note3_1.38
-NOTE 7600 1/8 note4_1.50
-NOTE 7800 1/8 note5_1.62
-NOTE 8000 1/4 note6_1.75
-NOTE 7800 1/4 note7_2.00
-NOTE 7500 1/4 note8_2.25
-NOTE 7100 1/2 note9_2.50
-NOTE 0 1/1 space
+; ----------- measure 14
+NOTE G#4 1/16 measure14
+NOTE E4 1/16
+NOTE A4 1/16
+NOTE A3 1/16
+NOTE B3 1/16
+NOTE A4 1/16
+NOTE G4 1/16
+NOTE B3 1/16
+NOTE A3 1/8
+NOTE E5 1/8
+NOTE F5 1/8
+NOTE C5 1/8
 
-; ---------- measure 2 beat 4.00 ---------
+; ----------- measure 15
+NOTE D5 1/8 measure15
+NOTE B4 1/8
+NOTE E5 1/8
+NOTE E4 1/8
+NOTE A4 1/8
+NOTE B4 1/16
+NOTE C5 1/16
+NOTE D5 1/8
+NOTE D4 1/8
 
-NOTE 7100 9/8 note10_4.00
-NOTE 7300 1/8 note11_5.12
-NOTE 7500 1/8 note12_5.25
-NOTE 7600 1/8 note13_5.38
-NOTE 7800 1/8 note14_5.50
-NOTE 8000 1/8 note15_5.62
-NOTE 8100 1/4 note16_5.75
-NOTE 8000 1/8 note17_6.00
-NOTE 7800 1/8 note18_6.12
-NOTE 7600 1/4 note19_6.25
-NOTE 7600 1/2 note20_6.50
-NOTE 0 1/4 space
-NOTE 7400 1/2 note21_7.25
-NOTE 7300 1/8 note22_7.75
-NOTE 7100 1/8 note23_7.88
+; ----------- measure 16
+NOTE G4 1/8 measure16
+NOTE B4 1/8
+CHORD (0 C5) 1/8
+CHORD (E4 C5) 1/8
+CHORD (F4 C5) 1/8
+CHORD (D4 C5) 1/8
+CHORD (G4 B4) 1/8
+CHORD (G3 B4) 1/8
 
-; ---------- measure 3 beat 8.00 ---------
+; ----------- measure 17
+CHORD (C4 E4 B4) 1/4 measure17
+CHORD (C4 A4) 1/4
+CHORD (B3 A4 D5) 1/4
+CHORD (B3 G4) 1/4
 
-NOTE 7300 1/4 note24_8.00
-NOTE 7800 1/4 note25_8.25
-NOTE 7500 1/4 note26_8.50
-NOTE 7600 1/4 note27_8.75
-NOTE 6900 1/4 note28_9.00
-NOTE 6800 1/8 note29_9.25
-NOTE 6600 1/8 note30_9.38
-NOTE 6800 1/4 note31_9.50
-NOTE 7600 1/4 note32_9.75
-NOTE 6800 1/2 note33_10.00
-NOTE 6600 1/2 note34_10.50
-NOTE 0 1/4 space
-NOTE 7100 1/4 note35_11.25
-NOTE 7500 1/4 note36_11.50
-NOTE 7800 1/4 note37_11.75
+; ----------- measure 18
+CHORD (A3 G4 C5) 1/4 measure18
+CHORD (A3 F4) 1/4
+CHORD (G3 F4 B4) 1/4
+NOTE 0 1/8
+CHORD (E4 C5) 1/8
 
-; ---------- measure 4 beat 12.00 ---------
+; ----------- measure 19
+CHORD (F4 A4) 1/8 measure19
+CHORD (F4 B4) 1/8
+CHORD (E4 C5) 1/4
+CHORD (D4 C5) 1/4
+CHORD (D4 B4) 1/4
 
-NOTE 8100 1/8 note38_12.00
-NOTE 8000 1/8 note39_12.12
-NOTE 7800 1/4 note40_12.25
-NOTE 8000 5/8 note41_12.50
-NOTE 7800 1/8 note42_13.12
-NOTE 7600 1/8 note43_13.25
-NOTE 7500 1/8 note44_13.38
-NOTE 7300 1/4 note45_13.50
-NOTE 7500 1/8 note46_13.75
-NOTE 7600 1/8 note47_13.88
-NOTE 7100 1/2 note48_14.00
-NOTE 7000 1/2 note49_14.50
-NOTE 0 1/4 space
-NOTE 7500 1/4 note50_15.25
-NOTE 7800 1/4 note51_15.50
-NOTE 8200 1/4 note52_15.75
+; ----------- measure 20
+CHORD (C4 E4 C5) 1/4 measure20
+NOTE 0 1/8
+CHORD (E5 G5) 1/8
+CHORD (F4 A4) 1/8
+CHORD (F4 B4) 1/8
+CHORD (E4 C5) 1/4
 
-; ---------- measure 5 beat 16.00 ---------
+; ----------- measure 21
+CHORD (D4 C5) 1/4 measure21
+CHORD (D4 B4) 1/4
+CHORD (C5 E5) 1/16
+CHORD (D5 F5) 1/16
+CHORD (C5 E5) 1/16
+CHORD (D5 F5) 1/16
+CHORD (E5 G5) 1/16
+CHORD (D5 F5) 1/16
+CHORD (E5 G5) 1/16
+CHORD (D5 F5) 1/16
 
-NOTE 8500 1/8 note53_16.00
-NOTE 8300 1/8 note54_16.12
-NOTE 8200 1/4 note55_16.25
-NOTE 8300 5/8 note56_16.50
-NOTE 8200 1/8 note57_17.12
-NOTE 8000 1/8 note58_17.25
-NOTE 7800 1/8 note59_17.38
-NOTE 7600 1/8 note60_17.50
-NOTE 7500 1/8 note61_17.62
-NOTE 7600 1/4 note62_17.75
-NOTE 7600 1/2 note63_18.00
-NOTE 6600 5/8 note64_18.50
-NOTE 7000 1/8 note65_19.12
-NOTE 6800 1/8 note66_19.25
-NOTE 6600 1/8 note67_19.38
-NOTE 6800 1/8 note68_19.50
-NOTE 7000 1/8 note69_19.62
-NOTE 7100 1/8 note70_19.75
-NOTE 7300 1/8 note71_19.88
+; ----------- measure 22
+CHORD (C5 E5) 1/16 measure22
+CHORD (D5 F5) 1/16
+CHORD (C5 E5) 1/16
+CHORD (D5 F5) 1/16
+CHORD (E5 G5) 1/16
+CHORD (D5 F5) 1/16
+CHORD (E5 G5) 1/16
+CHORD (D5 F5) 1/16
+CHORD (C5 E5) 1/16
+CHORD (D5 F5) 1/16
+CHORD (C5 E5) 1/16
+CHORD (D5 F5) 1/16
+CHORD (C5 E5) 1/16
+CHORD (D5 F5) 1/16
+CHORD (C5 E5) 1/16
+CHORD (D5 F5) 1/16
 
-; ---------- measure 6 beat 20.00 ---------
+; ----------- measure 23
+CHORD (C5 E5) 1/16 measure23
+CHORD (D5 F5) 1/16
+CHORD (C5 E5) 1/16
+CHORD (D5 F5) 1/16
+CHORD (C5 E5) 1/16
+CHORD (D5 F5) 1/16
+CHORD (C5 E5) 1/16
+CHORD (D5 F5) 1/16
+NOTE C5 1/16
+NOTE E5 1/16
+NOTE C5 1/16
+NOTE E5 1/16
+NOTE C5 1/16
+NOTE A5 1/16
+NOTE C5 1/16
+NOTE A5 1/16
 
-NOTE 7500 1/8 note72_20.00
-NOTE 7100 1/8 note73_20.12
-NOTE 7300 1/8 note74_20.25
-NOTE 7500 1/8 note75_20.38
-NOTE 7600 1/8 note76_20.50
-NOTE 8000 1/8 note77_20.62
-NOTE 7800 1/8 note78_20.75
-NOTE 7600 1/8 note79_20.88
-NOTE 8300 1/2 note80_21.00
-NOTE 8200 3/8 note81_21.50
-NOTE 8300 1/8 note82_21.88
-NOTE 8300 1/6 note83_22.00
-NOTE 7600 1/6 note84_22.17
-NOTE 7500 1/6 note85_22.33
-NOTE 7600 1/6 note86_22.50
-NOTE 7800 1/6 note87_22.67
-NOTE 8000 1/6 note88_22.83
-NOTE 8000 1/6 note89_23.00
-NOTE 7800 1/6 note90_23.17
-NOTE 7600 1/6 note91_23.33
-NOTE 7600 1/6 note92_23.50
-NOTE 7500 1/6 note93_23.67
-NOTE 7600 1/6 note94_23.83
+; ----------- measure 24
+NOTE B4 1/16 measure24
+NOTE A5 1/16
+NOTE B4 1/16
+NOTE A5 1/16
+NOTE E5 1/16
+NOTE G5 1/16
+NOTE E5 1/16
+NOTE G5 1/16
+NOTE E5 1/16
+NOTE F#5 1/16
+NOTE E5 1/16
+NOTE F#5 1/16
+NOTE D5 1/16
+NOTE B5 1/16
+NOTE D5 1/16
+NOTE B5 1/16
 
-; ---------- measure 7 beat 24.00 ---------
 
-NOTE 8500 1/6 note95_24.00
-NOTE 7600 1/6 note96_24.17
-NOTE 7500 1/6 note97_24.33
-NOTE 7600 1/6 note98_24.50
-NOTE 7800 1/6 note99_24.67
-NOTE 8000 1/6 note100_24.83
-NOTE 8000 1/6 note101_25.00
-NOTE 7800 1/6 note102_25.17
-NOTE 7600 1/6 note103_25.33
-NOTE 7600 1/6 note104_25.50
-NOTE 7500 1/6 note105_25.67
-NOTE 7600 1/6 note106_25.83
-NOTE 8700 5/8 note107_26.00
-NOTE 8500 1/8 note108_26.62
-NOTE 8300 1/8 note109_26.75
-NOTE 8200 1/8 note110_26.88
-NOTE 8000 3/4 note111_27.00
-NOTE 8200 1/8 note112_27.75
-NOTE 8300 1/8 note113_27.88
+; ----------- measure 25
+NOTE C#5 1/16 measure25
+NOTE B5 1/16
+NOTE C#5 1/16
+NOTE B5 1/16
+NOTE C#5 1/16
+NOTE A5 1/16
+NOTE C#5 1/16
+NOTE A5 1/16
+NOTE B4 1/16
+NOTE A5 1/16
+NOTE B4 1/16
+NOTE A5 1/16
+NOTE B5 1/16
+NOTE G5 1/16
+NOTE B5 1/16
+NOTE G5 1/16
 
-; ---------- measure 8 beat 28.00 ---------
+; ----------- measure 26
+NOTE A4 1/16 measure26
+NOTE G5 1/16
+NOTE A4 1/16
+NOTE G5 1/16
+NOTE A4 1/16
+NOTE F#5 1/16
+NOTE A4 1/16
+NOTE F#5 1/16
+NOTE G4 1/16
+NOTE B4 1/16
+NOTE G4 1/16
+NOTE B4 1/16
+NOTE G4 1/16
+NOTE E5 1/16
+NOTE G4 1/16
+NOTE E5 1/16
 
-NOTE 7700 1/4 note114_28.00
-NOTE 7800 1/8 note115_28.25
-NOTE 7300 1/8 note116_28.38
-NOTE 7500 1/8 note117_28.50
-NOTE 7000 1/8 note118_28.62
-NOTE 7100 1/8 note119_28.75
-NOTE 7600 1/8 note120_28.88
-NOTE 7300 3/4 note121_29.00
-NOTE 7100 1/4 note122_29.75
-NOTE 7100 1/1 note123_30.00
+; ----------- measure 27
+NOTE F#4 1/16 measure27
+NOTE E5 1/16
+NOTE F#4 1/16
+NOTE E5 1/16
+NOTE F#4 1/16
+NOTE D#5 1/16
+NOTE F#4 1/16
+NOTE D#5 1/16
+NOTE E4 1/16
+NOTE E5 1/16
+NOTE E4 1/16
+NOTE E5 1/16
+NOTE B4 1/16
+NOTE E5 1/16
+NOTE B4 1/16
+NOTE E5 1/16
+
+; ----------- measure 28
+NOTE C5 1/16 measure28
+NOTE E5 1/16
+NOTE C5 1/16
+NOTE E5 1/16
+NOTE D#5 1/16
+NOTE E5 1/16
+NOTE D#5 1/16
+NOTE E5 1/16
+NOTE E5 1/16
+NOTE E5 1/16
+NOTE D5 1/16
+NOTE E5 1/16
+NOTE C5 1/16
+NOTE E5 1/16
+NOTE B4 1/16
+NOTE E5 1/16
+
+; ----------- measure 29
+NOTE C5 1/16 measure29
+NOTE E5 1/16
+NOTE B4 1/16
+NOTE E5 1/16
+NOTE A4 1/16
+NOTE E5 1/16
+NOTE G4 1/16
+NOTE E5 1/16
+CHORD (B3 D#4 A4) 1/4
+CHORD (G3 E4) 3/16
+CHORD (A3 E4) 1/16
+
+; ----------- measure 30
+CHORD (B3 E4) 1/4 measure30
+CHORD (B3 D#4) 1/4
+CHORD (G3 E4 B4 E5) 1/2
+
+
+; ----------- measure 31
+CHORD (C4 E4) 1/8 measure31
+CHORD (C4 G5) 1/8
+CHORD (0 A5) 1/8
+CHORD (C4 E5) 1/8
+CHORD (D5 F5) 1/8
+CHORD (D5 F5) 1/8
+CHORD (0 G5) 1/8
+CHORD (G4 B4) 1/8
+
+; ----------- measure 32
+CHORD (E4 C5) 1/8 measure32
+CHORD (E4 D5) 1/16
+CHORD (E4 E5) 1/16
+NOTE F5 1/8
+NOTE D5 1/16
+NOTE C5 1/16
+NOTE B4 1/8
+NOTE G4 1/8
+CHORD (E4 C5) 1/4
+
+; ----------- measure 33
+CHORD (D4 C5) 1/4 measure33
+CHORD (D4 B4) 1/4
+CHORD (C4 E4 B4) 1/4
+CHORD (C4 A4) 1/4
+
+; ----------- measure 34
+CHORD (B3 G4) 1/8 measure34
+CHORD (B3 A4) 1/16
+CHORD (B3 B4) 1/16
+CHORD (0 C5) 1/8
+CHORD (E4 C5) 1/8
+CHORD (F#4 C5) 1/8
+CHORD (D4 C5) 1/8
+CHORD (G4 B4) 1/4
+
+; ----------- measure 35
+CHORD (G4 A4) 1/4 measure35
+CHORD (F#4 A4) 1/4
+CHORD (G3 G4) 1/8
+CHORD (G3 B4) 1/8
+CHORD (0 E5) 1/8
+CHORD (B4 E5) 1/8
+
+; ----------- measure 36
+CHORD (C5 E5) 1/8 measure36
+CHORD (C5 E5) 1/8
+CHORD (0 F5) 1/8
+CHORD (C5 F5) 1/8
+CHORD (D5 F5) 1/8
+CHORD (D5 F5) 1/8
+CHORD (0 G5) 1/8
+CHORD (D5 G5) 1/8
+
+; ----------- measure 37
+CHORD (E5 G5) 1/8 measure37
+CHORD (E5 G5) 1/8
+CHORD (0 A5) 1/8
+CHORD (C5 A5) 1/8
+CHORD (D5 F5) 1/8
+CHORD (E5 F5) 1/16
+CHORD (F5 F5) 1/16
+NOTE G5 1/8
+CHORD (G4 B4) 1/8
+
+; ----------- measure 38
+CHORD (E4 C5) 1/8 measure38
+CHORD (E4 D5) 1/16
+CHORD (E4 E5) 1/16
+NOTE F5 1/8
+NOTE D5 1/16
+NOTE C5 1/16
+CHORD (D4 B4) 1/8
+CHORD (D4 C5) 1/16
+CHORD (D4 D5) 1/16
+CHORD (0 E5) 1/8
+CHORD (G4 E5) 1/8
+
+; ----------- measure 39
+CHORD (A4 C5) 1/8 measure39
+CHORD (B4 C5) 1/16
+CHORD (C5 C5) 1/16
+NOTE D5 1/8
+NOTE C5 1/8
+NOTE B4 1/8
+NOTE G4 1/8
+CHORD (E4 C5) 1/4
+
+; ----------- measure 40
+CHORD (D4 C5) 1/4 measure40
+CHORD (D4 B4) 1/4
+CHORD (C4 E4 B4) 1/4
+CHORD (C4 A4) 1/4
+
+; ----------- measure 41
+CHORD (B3 A4 D5) 1/4 measure41
+CHORD (B3 G4) 1/4
+CHORD (A3 G4 C5) 1/4
+CHORD (A3 F4) 1/4
+
+; ----------- measure 42
+CHORD (G3 F4 B4) 1/4 measure42
+NOTE E5 1/16
+NOTE G5 1/16
+NOTE E5 1/16
+NOTE G5 1/16
+NOTE E5 1/16
+NOTE F5 1/16
+NOTE E5 1/16
+NOTE F5 1/16
+NOTE D5 1/16
+NOTE F5 1/16
+NOTE D5 1/16
+NOTE F5 1/16
+
+; ----------- measure 43
+NOTE D5 1/16 measure43
+NOTE E5 1/16
+NOTE D5 1/16
+NOTE E5 1/16
+NOTE E5 1/16
+NOTE C6 1/16
+NOTE E5 1/16
+NOTE C6 1/16
+NOTE D5 1/16
+NOTE C6 1/16
+NOTE D5 1/16
+NOTE C6 1/16
+NOTE G5 1/16
+NOTE B5 1/16
+NOTE G5 1/16
+NOTE B5 1/16
+
+; ----------- measure 44
+NOTE G5 1/16 measure44
+NOTE A5 1/16
+NOTE G5 1/16
+NOTE A5 1/16
+NOTE A4 1/16
+NOTE F5 1/16
+NOTE A4 1/16
+NOTE F5 1/16
+NOTE G4 1/16
+NOTE F5 1/16
+NOTE G4 1/16
+NOTE F5 1/16
+NOTE C5 1/16
+NOTE E5 1/16
+NOTE C5 1/16
+NOTE E5 1/16
+
+; ----------- measure 45
+NOTE C5 1/16 measure45
+NOTE D5 1/16
+NOTE C5 1/16
+NOTE D5 1/16
+NOTE B4 1/16
+NOTE G5 1/16
+NOTE B4 1/16
+NOTE G5 1/16
+NOTE A4 1/16
+NOTE G5 1/16
+NOTE A4 1/16
+NOTE G5 1/16
+NOTE A4 1/16
+NOTE F5 1/16
+NOTE A4 1/16
+NOTE F5 1/16
+
+; ----------- measure 46
+CHORD (G3 B4 F5) 1/4 measure46
+CHORD (G3 C5 E5) 1/4 
+CHORD (G3 C5 D5) 1/4 
+CHORD (G3 B4 D4) 1/4 
+
+; ----------- measure 47
+CHORD (G3 B4 C5) 1/4 measure47
+CHORD (G3 A4 C5) 1/4 
+CHORD (G3 A4 B4) 1/4 
+CHORD (G3 G4 B4) 1/4 
+
+; ----------- measure 48
+CHORD (G3 G4 A4) 1/4 measure48
+CHORD (G3 F4 A4) 1/4 
+CHORD (G3 F4 B4) 1/4 
+CHORD (G3 F4 D5) 1/4 
+
+; ----------- measure 49
+CHORD (G3 E4 D5) 1/4 measure49
+CHORD (G3 Eb4 C5) 1/4 
+CHORD (G3 D4 C5) 1/4 
+CHORD (G3 F4 B4) 1/4
+
+; ----------- measure 50
+CHORD (C4 E4 C5 E5) 1 measure50
