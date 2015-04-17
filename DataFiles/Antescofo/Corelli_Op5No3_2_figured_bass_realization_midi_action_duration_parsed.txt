@@ -1,3 +1,5 @@
+group midiactions @tight @local {
+	; delay msgrecvr pitch velocity duration
 0.0,mnote_violin,48.0,69.0,0.95
 0.0,mnote_violin,67.0,69.0,0.95
 0.0,mnote_violin,72.0,69.0,0.95
@@ -708,3 +710,4 @@
 0.0,mnote_violin,64.0,69.0,3.7979
 0.0,mnote_violin,67.0,69.0,3.7979
 0.0,mnote_violin,72.0,69.0,3.7979
+}
