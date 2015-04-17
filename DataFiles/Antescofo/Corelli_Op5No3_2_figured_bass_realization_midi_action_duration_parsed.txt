@@ -1,710 +1,713 @@
-0.0,mnote_violin,48.0,69.0,0.95
-0.0,mnote_violin,67.0,69.0,0.95
-0.0,mnote_violin,72.0,69.0,0.95
-0.0,mnote_violin,76.0,69.0,0.95
-0.05,mnote_violin,60.0,64.0,1.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.0,mnote_violin,76.0,64.0,0.95
-0.05,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.0,mnote_violin,77.0,64.0,0.95
-0.05,mnote_violin,59.0,64.0,1.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.05,mnote_violin,67.0,69.0,0.95
-0.0,mnote_violin,72.0,69.0,0.95
-0.0,mnote_violin,76.0,69.0,0.95
-0.05,mnote_violin,57.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.0,mnote_violin,77.0,64.0,0.95
-0.05,mnote_violin,55.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.4729
-0.0,mnote_violin,74.0,64.0,0.4729
-0.0,mnote_violin,77.0,64.0,0.4729
-0.0271,mnote_violin,52.0,64.0,0.4729
-0.0,mnote_violin,72.0,64.0,0.4729
-0.0,mnote_violin,76.0,64.0,0.4729
-0.0271,mnote_violin,53.0,64.0,0.4729
-0.0,mnote_violin,69.0,64.0,0.4729
-0.0,mnote_violin,72.0,64.0,0.4729
-0.0,mnote_violin,74.0,64.0,0.4729
-0.0271,mnote_violin,55.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.4729
-0.0,mnote_violin,74.0,64.0,0.4729
-0.0271,mnote_violin,48.0,69.0,0.95
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,67.0,69.0,0.95
-0.0,mnote_violin,72.0,69.0,0.95
-0.55,mnote_violin,60.0,64.0,0.4729
-0.0271,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.55,mnote_violin,55.0,64.0,0.4729
-0.0271,mnote_violin,57.0,69.0,0.95
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,67.0,69.0,0.95
-0.0,mnote_violin,72.0,69.0,0.95
-0.55,mnote_violin,50.0,64.0,0.4729
-0.0,mnote_violin,62.0,64.0,0.4729
-0.0,mnote_violin,66.0,64.0,0.4729
-0.0,mnote_violin,72.0,64.0,0.4729
-0.0271,mnote_violin,52.0,64.0,0.95
-0.0,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.55,mnote_violin,48.0,64.0,0.4729
-0.0271,mnote_violin,50.0,69.0,0.4729
-0.0,mnote_violin,62.0,69.0,0.4729
-0.0,mnote_violin,66.0,69.0,0.4729
-0.0,mnote_violin,72.0,69.0,0.4729
-0.0271,mnote_violin,43.0,64.0,0.4729
-0.0,mnote_violin,62.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.4729
-0.0271,mnote_violin,50.0,64.0,0.4729
-0.0,mnote_violin,62.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0,mnote_violin,69.0,64.0,0.4729
-0.0271,mnote_violin,38.0,64.0,0.4729
-0.0,mnote_violin,62.0,64.0,0.4729
-0.0,mnote_violin,66.0,64.0,0.4729
-0.0,mnote_violin,69.0,64.0,0.4729
-0.0271,mnote_violin,43.0,64.0,0.95
-0.0,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-5.55,mnote_violin,55.0,64.0,0.4729
-0.0,mnote_violin,59.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0271,mnote_violin,57.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0271,mnote_violin,52.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0271,mnote_violin,53.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0271,mnote_violin,50.0,64.0,0.4729
-0.0271,mnote_violin,55.0,64.0,0.4729
-0.0,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0271,mnote_violin,43.0,64.0,0.4729
-0.0271,mnote_violin,48.0,69.0,0.4729
-0.0,mnote_violin,60.0,69.0,0.95
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,67.0,69.0,0.95
-0.0271,mnote_violin,50.0,64.0,0.2354
-0.0146,mnote_violin,52.0,64.0,0.2354
-0.0146,mnote_violin,53.0,64.0,1.4729
-0.0,mnote_violin,57.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.4729
-0.0,mnote_violin,65.0,64.0,0.4729
-0.0271,mnote_violin,57.0,64.0,0.4729
-0.0,mnote_violin,62.0,64.0,0.4729
-0.0,mnote_violin,65.0,64.0,0.4729
-0.0271,mnote_violin,59.0,64.0,0.4729
-0.0,mnote_violin,62.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0271,mnote_violin,52.0,64.0,0.2354
-0.0,mnote_violin,60.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0146,mnote_violin,53.0,64.0,0.2354
-0.0146,mnote_violin,55.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.4729
-0.0,mnote_violin,62.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0271,mnote_violin,43.0,64.0,0.4729
-0.0,mnote_violin,59.0,64.0,0.4729
-0.0,mnote_violin,62.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0271,mnote_violin,48.0,69.0,1.45
-0.0,mnote_violin,60.0,69.0,0.95
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,67.0,69.0,0.95
-0.05,mnote_violin,60.0,64.0,0.95
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.05,mnote_violin,48.0,64.0,0.4729
-0.0271,mnote_violin,47.0,64.0,1.45
-0.0,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.05,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.05,mnote_violin,47.0,64.0,0.4729
-0.0271,mnote_violin,48.0,69.0,0.4729
-0.0,mnote_violin,57.0,69.0,0.95
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,67.0,69.0,0.95
-0.0271,mnote_violin,45.0,64.0,0.4729
-0.0271,mnote_violin,50.0,64.0,0.4729
-0.0,mnote_violin,57.0,64.0,0.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,66.0,64.0,0.95
-0.0271,mnote_violin,38.0,64.0,0.4729
-0.0271,mnote_violin,43.0,64.0,0.95
-0.0,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.55,mnote_violin,48.0,64.0,0.4729
-0.0271,mnote_violin,53.0,69.0,0.95
-0.0,mnote_violin,60.0,69.0,0.95
-0.0,mnote_violin,65.0,69.0,0.95
-0.0,mnote_violin,69.0,69.0,0.95
-0.55,mnote_violin,50.0,64.0,0.4729
-0.0,mnote_violin,62.0,64.0,0.4729
-0.0,mnote_violin,66.0,64.0,0.4729
-0.0,mnote_violin,69.0,64.0,0.4729
-0.0271,mnote_violin,55.0,64.0,0.95
-0.0,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.55,mnote_violin,52.0,64.0,0.4729
-0.0,mnote_violin,59.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,68.0,64.0,0.4729
-0.0271,mnote_violin,57.0,69.0,0.95
-0.0,mnote_violin,60.0,69.0,0.95
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,69.0,69.0,0.95
-0.55,mnote_violin,57.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.4729
-0.0,mnote_violin,65.0,64.0,0.4729
-0.0,mnote_violin,69.0,64.0,0.4729
-0.0271,mnote_violin,56.0,64.0,0.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,65.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.05,mnote_violin,55.0,64.0,0.95
-0.0,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.05,mnote_violin,54.0,69.0,0.95
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,66.0,69.0,0.95
-0.0,mnote_violin,69.0,69.0,0.95
-0.05,mnote_violin,53.0,64.0,0.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,65.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.05,mnote_violin,52.0,64.0,0.95
-0.0,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,68.0,64.0,0.95
-0.05,mnote_violin,45.0,64.0,0.95
-0.0,mnote_violin,60.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.05,mnote_violin,52.0,69.0,0.4729
-0.0,mnote_violin,59.0,69.0,0.4729
-0.0,mnote_violin,64.0,69.0,0.4729
-0.0,mnote_violin,68.0,69.0,0.4729
-0.0271,mnote_violin,48.0,64.0,0.4729
-0.0,mnote_violin,57.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,69.0,64.0,0.4729
-0.0271,mnote_violin,50.0,64.0,0.4729
-0.0,mnote_violin,59.0,64.0,0.4729
-0.0,mnote_violin,65.0,64.0,0.4729
-0.0,mnote_violin,69.0,64.0,0.4729
-0.0271,mnote_violin,52.0,64.0,0.4729
-0.0,mnote_violin,59.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,68.0,64.0,0.4729
-0.0271,mnote_violin,45.0,64.0,0.95
-0.0,mnote_violin,60.0,64.0,0.95
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.05,mnote_violin,57.0,64.0,1.95
-0.0,mnote_violin,60.0,64.0,0.95
-0.0,mnote_violin,65.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.05,mnote_violin,62.0,69.0,0.95
-0.0,mnote_violin,65.0,69.0,0.95
-0.0,mnote_violin,71.0,69.0,0.95
-0.05,mnote_violin,55.0,64.0,1.95
-0.0,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.05,mnote_violin,60.0,64.0,0.95
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.05,mnote_violin,53.0,64.0,1.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,65.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.05,mnote_violin,62.0,69.0,0.95
-0.0,mnote_violin,67.0,69.0,0.95
-0.0,mnote_violin,71.0,69.0,0.95
-0.05,mnote_violin,52.0,64.0,0.95
-0.0,mnote_violin,60.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.05,mnote_violin,50.0,64.0,0.95
-0.0,mnote_violin,65.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.55,mnote_violin,55.0,64.0,0.4729
-0.0271,mnote_violin,48.0,69.0,0.4729
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,71.0,69.0,0.95
-0.0,mnote_violin,72.0,69.0,0.95
-0.0271,mnote_violin,50.0,64.0,0.2375
-0.0125,mnote_violin,52.0,64.0,0.23750000000000002
-0.0125,mnote_violin,53.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.0271,mnote_violin,41.0,64.0,0.4729
-0.0271,mnote_violin,47.0,64.0,0.4729
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.0271,mnote_violin,48.0,64.0,0.2375
-0.0125,mnote_violin,50.0,64.0,0.23750000000000002
-0.0125,mnote_violin,52.0,64.0,0.4729
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.0271,mnote_violin,40.0,64.0,0.4729
-0.0271,mnote_violin,45.0,69.0,0.4729
-0.0,mnote_violin,60.0,69.0,0.95
-0.0,mnote_violin,67.0,69.0,0.95
-0.0,mnote_violin,69.0,69.0,0.95
-0.0271,mnote_violin,47.0,64.0,0.2375
-0.0125,mnote_violin,48.0,64.0,0.23750000000000002
-0.0125,mnote_violin,50.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.95
-0.0,mnote_violin,65.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0271,mnote_violin,38.0,64.0,0.4729
-0.0271,mnote_violin,43.0,64.0,0.4729
-0.0,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,65.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0271,mnote_violin,55.0,64.0,0.2375
-0.0125,mnote_violin,53.0,64.0,0.23750000000000002
-0.0125,mnote_violin,52.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.95
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0271,mnote_violin,48.0,64.0,0.4729
-0.0271,mnote_violin,53.0,69.0,0.4729
-0.0,mnote_violin,57.0,69.0,0.95
-0.0,mnote_violin,60.0,69.0,0.95
-0.0,mnote_violin,65.0,69.0,0.95
-0.0271,mnote_violin,55.0,64.0,0.4729
-0.0271,mnote_violin,57.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0271,mnote_violin,52.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0271,mnote_violin,53.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0271,mnote_violin,50.0,64.0,0.4729
-0.0271,mnote_violin,55.0,64.0,0.4729
-0.0,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0271,mnote_violin,43.0,64.0,0.4729
-0.0271,mnote_violin,48.0,69.0,0.4729
-0.0,mnote_violin,60.0,69.0,0.95
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,67.0,69.0,0.95
-0.0271,mnote_violin,50.0,64.0,0.4729
-0.0271,mnote_violin,52.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0271,mnote_violin,48.0,64.0,0.4729
-0.0271,mnote_violin,53.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.95
-0.0,mnote_violin,65.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0271,mnote_violin,55.0,64.0,0.4729
-0.0271,mnote_violin,57.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,69.0,64.0,0.4729
-0.0271,mnote_violin,52.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0,mnote_violin,72.0,64.0,0.4729
-0.0271,mnote_violin,53.0,69.0,0.4729
-0.0,mnote_violin,62.0,69.0,0.95
-0.0,mnote_violin,69.0,69.0,0.95
-0.0,mnote_violin,72.0,69.0,0.95
-0.0271,mnote_violin,50.0,64.0,0.4729
-0.0271,mnote_violin,55.0,64.0,0.4729
-0.0,mnote_violin,62.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.0271,mnote_violin,43.0,64.0,0.4729
-0.0271,mnote_violin,48.0,64.0,0.95
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-1.05,mnote_violin,48.0,69.0,0.95
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,67.0,69.0,0.95
-0.0,mnote_violin,72.0,69.0,0.95
-1.05,mnote_violin,45.0,64.0,0.95
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-1.05,mnote_violin,45.0,69.0,0.95
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,72.0,69.0,0.95
-1.05,mnote_violin,57.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.0271,mnote_violin,45.0,64.0,0.4729
-0.0271,mnote_violin,48.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.0271,mnote_violin,45.0,64.0,0.4729
-0.0271,mnote_violin,52.0,69.0,1.95
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,69.0,69.0,0.95
-0.0,mnote_violin,71.0,69.0,0.95
-0.05,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.05,mnote_violin,59.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.4729
-0.0271,mnote_violin,47.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,66.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.4729
-0.0271,mnote_violin,50.0,64.0,0.4729
-0.0,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,66.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.0271,mnote_violin,47.0,64.0,0.4729
-0.0271,mnote_violin,54.0,69.0,1.95
-0.0,mnote_violin,61.0,69.0,0.95
-0.0,mnote_violin,66.0,69.0,0.95
-0.0,mnote_violin,71.0,69.0,0.95
-0.05,mnote_violin,61.0,64.0,0.95
-0.0,mnote_violin,66.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.05,mnote_violin,51.0,64.0,0.95
-0.0,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,66.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.05,mnote_violin,52.0,64.0,0.95
-0.0,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.05,mnote_violin,49.0,69.0,0.95
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,67.0,69.0,0.95
-0.0,mnote_violin,69.0,69.0,0.95
-0.05,mnote_violin,51.0,64.0,0.95
-0.0,mnote_violin,66.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.05,mnote_violin,52.0,64.0,0.95
-0.0,mnote_violin,66.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.05,mnote_violin,43.0,64.0,0.95
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.05,mnote_violin,45.0,69.0,0.95
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,66.0,69.0,0.95
-0.0,mnote_violin,72.0,69.0,0.95
-0.05,mnote_violin,47.0,64.0,0.95
-0.0,mnote_violin,63.0,64.0,0.95
-0.0,mnote_violin,66.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.05,mnote_violin,52.0,64.0,0.95
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.05,mnote_violin,55.0,64.0,0.95
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.05,mnote_violin,57.0,69.0,0.95
-0.0,mnote_violin,64.0,69.0,0.95
-0.0,mnote_violin,69.0,69.0,0.95
-0.0,mnote_violin,72.0,69.0,0.95
-0.05,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.05,mnote_violin,60.0,64.0,0.4729
-0.0,mnote_violin,60.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0271,mnote_violin,59.0,64.0,0.4729
-0.0271,mnote_violin,57.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,69.0,64.0,0.4729
-0.0,mnote_violin,72.0,64.0,0.4729
-0.0271,mnote_violin,55.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.4729
-0.0,mnote_violin,76.0,64.0,0.4729
-0.0271,mnote_violin,57.0,69.0,0.4729
-0.0,mnote_violin,69.0,69.0,0.4729
-0.0,mnote_violin,72.0,69.0,0.4729
-0.0,mnote_violin,76.0,69.0,0.4729
-0.0271,mnote_violin,55.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.4729
-0.0,mnote_violin,76.0,64.0,0.4729
-0.0271,mnote_violin,54.0,64.0,0.4729
-0.0,mnote_violin,69.0,64.0,0.4729
-0.0,mnote_violin,76.0,64.0,0.4729
-0.0,mnote_violin,78.0,64.0,0.4729
-0.0271,mnote_violin,52.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.4729
-0.0,mnote_violin,79.0,64.0,0.4729
-0.0271,mnote_violin,59.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,75.0,64.0,0.95
-0.0,mnote_violin,78.0,64.0,0.95
-0.05,mnote_violin,52.0,64.0,0.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.0,mnote_violin,76.0,64.0,0.95
-0.05,mnote_violin,47.0,69.0,1.95
-0.0,mnote_violin,67.0,69.0,0.95
-0.0,mnote_violin,71.0,69.0,0.95
-0.0,mnote_violin,76.0,69.0,0.95
-0.05,mnote_violin,66.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.0,mnote_violin,75.0,64.0,0.95
-0.05,mnote_violin,40.0,64.0,1.9
-0.0,mnote_violin,67.0,64.0,1.9
-0.0,mnote_violin,71.0,64.0,1.9
-0.0,mnote_violin,76.0,64.0,1.9
-0.1,mnote_violin,48.0,69.0,0.95
-0.0,mnote_violin,67.0,69.0,0.95
-0.0,mnote_violin,72.0,69.0,0.95
-0.0,mnote_violin,76.0,69.0,0.95
-0.05,mnote_violin,60.0,64.0,1.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.0,mnote_violin,76.0,64.0,0.95
-0.05,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.0,mnote_violin,77.0,64.0,0.95
-0.05,mnote_violin,59.0,64.0,1.95
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.0,mnote_violin,79.0,64.0,0.95
-0.05,mnote_violin,67.0,69.0,0.95
-0.0,mnote_violin,72.0,69.0,0.95
-0.0,mnote_violin,76.0,69.0,0.95
-0.05,mnote_violin,57.0,64.0,0.95
-0.0,mnote_violin,65.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.0,mnote_violin,77.0,64.0,0.95
-0.55,mnote_violin,55.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.4729
-0.0,mnote_violin,76.0,64.0,0.4729
-0.0271,mnote_violin,57.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,72.0,64.0,0.4729
-0.0,mnote_violin,76.0,64.0,0.4729
-0.0271,mnote_violin,52.0,64.0,0.4729
-0.0,mnote_violin,72.0,64.0,0.4729
-0.0,mnote_violin,76.0,64.0,0.4729
-0.0,mnote_violin,79.0,64.0,0.4729
-0.0271,mnote_violin,53.0,69.0,0.4729
-0.0,mnote_violin,72.0,69.0,0.95
-0.0,mnote_violin,74.0,69.0,0.95
-0.0,mnote_violin,81.0,69.0,0.95
-0.0271,mnote_violin,50.0,64.0,0.4729
-0.0271,mnote_violin,55.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.0,mnote_violin,79.0,64.0,0.95
-0.0271,mnote_violin,43.0,64.0,0.4729
-0.0271,mnote_violin,48.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.95
-0.0,mnote_violin,76.0,64.0,0.95
-0.0,mnote_violin,79.0,64.0,0.95
-0.0271,mnote_violin,50.0,64.0,0.2375
-0.0125,mnote_violin,52.0,64.0,0.23750000000000002
-0.0125,mnote_violin,53.0,64.0,1.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,77.0,64.0,0.95
-0.05,mnote_violin,71.0,69.0,0.95
-0.0,mnote_violin,74.0,69.0,0.95
-0.0,mnote_violin,79.0,69.0,0.95
-0.05,mnote_violin,52.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.0,mnote_violin,79.0,64.0,0.95
-0.05,mnote_violin,50.0,64.0,0.4729
-0.0,mnote_violin,72.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.0,mnote_violin,78.0,64.0,0.95
-0.0271,mnote_violin,62.0,64.0,0.4729
-0.0271,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.4729
-0.0,mnote_violin,79.0,64.0,0.4729
-0.0271,mnote_violin,59.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.4729
-0.0,mnote_violin,74.0,64.0,0.4729
-0.0,mnote_violin,79.0,64.0,0.4729
-0.0271,mnote_violin,60.0,69.0,0.4729
-0.0,mnote_violin,67.0,69.0,0.95
-0.0,mnote_violin,69.0,69.0,0.95
-0.0,mnote_violin,76.0,69.0,0.95
-0.0271,mnote_violin,57.0,64.0,0.4729
-0.0271,mnote_violin,62.0,64.0,0.4729
-0.0,mnote_violin,66.0,64.0,0.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.0271,mnote_violin,50.0,64.0,0.4729
-0.0271,mnote_violin,43.0,64.0,1.45
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.05,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.0,mnote_violin,76.0,64.0,0.95
-0.05,mnote_violin,55.0,64.0,0.4729
-0.0271,mnote_violin,57.0,69.0,1.45
-0.0,mnote_violin,69.0,69.0,0.95
-0.0,mnote_violin,72.0,69.0,0.95
-0.0,mnote_violin,76.0,69.0,0.95
-0.05,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.0,mnote_violin,77.0,64.0,0.95
-0.05,mnote_violin,57.0,64.0,0.4729
-0.0271,mnote_violin,59.0,64.0,1.45
-0.0,mnote_violin,71.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.0,mnote_violin,77.0,64.0,0.95
-0.05,mnote_violin,71.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.0,mnote_violin,79.0,64.0,0.95
-0.05,mnote_violin,59.0,64.0,0.4729
-0.0271,mnote_violin,60.0,69.0,0.4729
-0.0,mnote_violin,72.0,69.0,0.95
-0.0,mnote_violin,76.0,69.0,0.95
-0.0,mnote_violin,79.0,69.0,0.95
-0.0271,mnote_violin,55.0,64.0,0.4729
-0.0271,mnote_violin,60.0,64.0,1.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.0,mnote_violin,76.0,64.0,0.95
-0.0,mnote_violin,81.0,64.0,0.95
-0.05,mnote_violin,74.0,64.0,0.95
-0.0,mnote_violin,77.0,64.0,0.95
-0.0,mnote_violin,81.0,64.0,0.95
-0.05,mnote_violin,59.0,64.0,1.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.0,mnote_violin,79.0,64.0,0.95
-0.05,mnote_violin,72.0,69.0,0.95
-0.0,mnote_violin,76.0,69.0,0.95
-0.0,mnote_violin,79.0,69.0,0.95
-0.05,mnote_violin,57.0,64.0,1.95
-0.0,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.0,mnote_violin,77.0,64.0,0.95
-0.05,mnote_violin,71.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.0,mnote_violin,77.0,64.0,0.95
-0.05,mnote_violin,55.0,64.0,1.95
-0.0,mnote_violin,71.0,64.0,0.95
-0.0,mnote_violin,76.0,64.0,0.95
-0.0,mnote_violin,79.0,64.0,0.95
-0.05,mnote_violin,72.0,69.0,0.95
-0.0,mnote_violin,76.0,69.0,0.95
-0.0,mnote_violin,81.0,69.0,0.95
-0.05,mnote_violin,53.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.0,mnote_violin,81.0,64.0,0.95
-0.55,mnote_violin,55.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.4729
-0.0,mnote_violin,76.0,64.0,0.4729
-0.0,mnote_violin,79.0,64.0,0.4729
-0.0271,mnote_violin,57.0,64.0,0.4729
-0.0,mnote_violin,64.0,64.0,0.4729
-0.0,mnote_violin,72.0,64.0,0.4729
-0.0,mnote_violin,76.0,64.0,0.4729
-0.0271,mnote_violin,52.0,64.0,0.4729
-0.0,mnote_violin,72.0,64.0,0.4729
-0.0,mnote_violin,76.0,64.0,0.4729
-0.0,mnote_violin,79.0,64.0,0.4729
-0.0271,mnote_violin,53.0,69.0,0.4729
-0.0,mnote_violin,72.0,69.0,0.95
-0.0,mnote_violin,74.0,69.0,0.95
-0.0,mnote_violin,81.0,69.0,0.95
-0.0271,mnote_violin,50.0,64.0,0.4729
-0.0271,mnote_violin,55.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.0,mnote_violin,79.0,64.0,0.95
-0.0271,mnote_violin,43.0,64.0,0.4729
-0.0271,mnote_violin,48.0,64.0,0.4729
-0.0,mnote_violin,71.0,64.0,0.95
-0.0,mnote_violin,76.0,64.0,0.95
-0.0,mnote_violin,79.0,64.0,0.95
-0.0271,mnote_violin,50.0,64.0,0.2375
-0.0125,mnote_violin,52.0,64.0,0.23750000000000002
-0.0125,mnote_violin,53.0,64.0,0.4729
-0.0,mnote_violin,69.0,64.0,0.95
-0.0,mnote_violin,76.0,64.0,0.95
-0.0,mnote_violin,77.0,64.0,0.95
-0.0271,mnote_violin,41.0,64.0,0.4729
-0.0271,mnote_violin,47.0,69.0,0.4729
-0.0,mnote_violin,69.0,69.0,0.95
-0.0,mnote_violin,74.0,69.0,0.95
-0.0,mnote_violin,77.0,69.0,0.95
-0.0271,mnote_violin,48.0,64.0,0.2375
-0.0125,mnote_violin,50.0,64.0,0.23750000000000002
-0.0125,mnote_violin,52.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.0,mnote_violin,76.0,64.0,0.95
-0.0271,mnote_violin,40.0,64.0,0.4729
-0.0271,mnote_violin,45.0,64.0,0.4729
-0.0,mnote_violin,67.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.0,mnote_violin,76.0,64.0,0.95
-0.0271,mnote_violin,47.0,64.0,0.2375
-0.0125,mnote_violin,48.0,64.0,0.23750000000000002
-0.0125,mnote_violin,50.0,64.0,0.4729
-0.0,mnote_violin,65.0,64.0,0.95
-0.0,mnote_violin,72.0,64.0,0.95
-0.0,mnote_violin,74.0,64.0,0.95
-0.0271,mnote_violin,38.0,64.0,0.4729
-0.0271,mnote_violin,43.0,69.0,0.95
-0.0,mnote_violin,65.0,69.0,0.95
-0.0,mnote_violin,71.0,69.0,0.95
-0.0,mnote_violin,74.0,69.0,0.95
-1.05,mnote_violin,43.0,64.0,29.9
-0.0,mnote_violin,62.0,64.0,28.9
-0.0,mnote_violin,71.0,64.0,28.9
-0.0,mnote_violin,74.0,64.0,28.9
-0.1,mnote_violin,67.0,64.0,0.9500000000000001
-0.0,mnote_violin,71.0,64.0,0.9500000000000001
-0.0,mnote_violin,74.0,64.0,0.9500000000000001
-0.05,mnote_violin,48.0,69.0,3.7979
-0.0,mnote_violin,64.0,69.0,3.7979
-0.0,mnote_violin,67.0,69.0,3.7979
-0.0,mnote_violin,72.0,69.0,3.7979
+group midiactions @tight @local {
+	; delay msgrecvr pitch velocity duration
+0.0 mnote_violin 48.0 69.0 0.95
+0.0 mnote_violin 67.0 69.0 0.95
+0.0 mnote_violin 72.0 69.0 0.95
+0.0 mnote_violin 76.0 69.0 0.95
+0.05 mnote_violin 60.0 64.0 1.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.0 mnote_violin 76.0 64.0 0.95
+0.05 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.0 mnote_violin 77.0 64.0 0.95
+0.05 mnote_violin 59.0 64.0 1.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.05 mnote_violin 67.0 69.0 0.95
+0.0 mnote_violin 72.0 69.0 0.95
+0.0 mnote_violin 76.0 69.0 0.95
+0.05 mnote_violin 57.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.0 mnote_violin 77.0 64.0 0.95
+0.05 mnote_violin 55.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.4729
+0.0 mnote_violin 74.0 64.0 0.4729
+0.0 mnote_violin 77.0 64.0 0.4729
+0.0271 mnote_violin 52.0 64.0 0.4729
+0.0 mnote_violin 72.0 64.0 0.4729
+0.0 mnote_violin 76.0 64.0 0.4729
+0.0271 mnote_violin 53.0 64.0 0.4729
+0.0 mnote_violin 69.0 64.0 0.4729
+0.0 mnote_violin 72.0 64.0 0.4729
+0.0 mnote_violin 74.0 64.0 0.4729
+0.0271 mnote_violin 55.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.4729
+0.0 mnote_violin 74.0 64.0 0.4729
+0.0271 mnote_violin 48.0 69.0 0.95
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 67.0 69.0 0.95
+0.0 mnote_violin 72.0 69.0 0.95
+0.55 mnote_violin 60.0 64.0 0.4729
+0.0271 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.55 mnote_violin 55.0 64.0 0.4729
+0.0271 mnote_violin 57.0 69.0 0.95
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 67.0 69.0 0.95
+0.0 mnote_violin 72.0 69.0 0.95
+0.55 mnote_violin 50.0 64.0 0.4729
+0.0 mnote_violin 62.0 64.0 0.4729
+0.0 mnote_violin 66.0 64.0 0.4729
+0.0 mnote_violin 72.0 64.0 0.4729
+0.0271 mnote_violin 52.0 64.0 0.95
+0.0 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.55 mnote_violin 48.0 64.0 0.4729
+0.0271 mnote_violin 50.0 69.0 0.4729
+0.0 mnote_violin 62.0 69.0 0.4729
+0.0 mnote_violin 66.0 69.0 0.4729
+0.0 mnote_violin 72.0 69.0 0.4729
+0.0271 mnote_violin 43.0 64.0 0.4729
+0.0 mnote_violin 62.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.4729
+0.0271 mnote_violin 50.0 64.0 0.4729
+0.0 mnote_violin 62.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0 mnote_violin 69.0 64.0 0.4729
+0.0271 mnote_violin 38.0 64.0 0.4729
+0.0 mnote_violin 62.0 64.0 0.4729
+0.0 mnote_violin 66.0 64.0 0.4729
+0.0 mnote_violin 69.0 64.0 0.4729
+0.0271 mnote_violin 43.0 64.0 0.95
+0.0 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+5.55 mnote_violin 55.0 64.0 0.4729
+0.0 mnote_violin 59.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0271 mnote_violin 57.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0271 mnote_violin 52.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0271 mnote_violin 53.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0271 mnote_violin 50.0 64.0 0.4729
+0.0271 mnote_violin 55.0 64.0 0.4729
+0.0 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0271 mnote_violin 43.0 64.0 0.4729
+0.0271 mnote_violin 48.0 69.0 0.4729
+0.0 mnote_violin 60.0 69.0 0.95
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 67.0 69.0 0.95
+0.0271 mnote_violin 50.0 64.0 0.2354
+0.0146 mnote_violin 52.0 64.0 0.2354
+0.0146 mnote_violin 53.0 64.0 1.4729
+0.0 mnote_violin 57.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.4729
+0.0 mnote_violin 65.0 64.0 0.4729
+0.0271 mnote_violin 57.0 64.0 0.4729
+0.0 mnote_violin 62.0 64.0 0.4729
+0.0 mnote_violin 65.0 64.0 0.4729
+0.0271 mnote_violin 59.0 64.0 0.4729
+0.0 mnote_violin 62.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0271 mnote_violin 52.0 64.0 0.2354
+0.0 mnote_violin 60.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0146 mnote_violin 53.0 64.0 0.2354
+0.0146 mnote_violin 55.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.4729
+0.0 mnote_violin 62.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0271 mnote_violin 43.0 64.0 0.4729
+0.0 mnote_violin 59.0 64.0 0.4729
+0.0 mnote_violin 62.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0271 mnote_violin 48.0 69.0 1.45
+0.0 mnote_violin 60.0 69.0 0.95
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 67.0 69.0 0.95
+0.05 mnote_violin 60.0 64.0 0.95
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.05 mnote_violin 48.0 64.0 0.4729
+0.0271 mnote_violin 47.0 64.0 1.45
+0.0 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.05 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.05 mnote_violin 47.0 64.0 0.4729
+0.0271 mnote_violin 48.0 69.0 0.4729
+0.0 mnote_violin 57.0 69.0 0.95
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 67.0 69.0 0.95
+0.0271 mnote_violin 45.0 64.0 0.4729
+0.0271 mnote_violin 50.0 64.0 0.4729
+0.0 mnote_violin 57.0 64.0 0.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 66.0 64.0 0.95
+0.0271 mnote_violin 38.0 64.0 0.4729
+0.0271 mnote_violin 43.0 64.0 0.95
+0.0 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.55 mnote_violin 48.0 64.0 0.4729
+0.0271 mnote_violin 53.0 69.0 0.95
+0.0 mnote_violin 60.0 69.0 0.95
+0.0 mnote_violin 65.0 69.0 0.95
+0.0 mnote_violin 69.0 69.0 0.95
+0.55 mnote_violin 50.0 64.0 0.4729
+0.0 mnote_violin 62.0 64.0 0.4729
+0.0 mnote_violin 66.0 64.0 0.4729
+0.0 mnote_violin 69.0 64.0 0.4729
+0.0271 mnote_violin 55.0 64.0 0.95
+0.0 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.55 mnote_violin 52.0 64.0 0.4729
+0.0 mnote_violin 59.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 68.0 64.0 0.4729
+0.0271 mnote_violin 57.0 69.0 0.95
+0.0 mnote_violin 60.0 69.0 0.95
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 69.0 69.0 0.95
+0.55 mnote_violin 57.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.4729
+0.0 mnote_violin 65.0 64.0 0.4729
+0.0 mnote_violin 69.0 64.0 0.4729
+0.0271 mnote_violin 56.0 64.0 0.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 65.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.05 mnote_violin 55.0 64.0 0.95
+0.0 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.05 mnote_violin 54.0 69.0 0.95
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 66.0 69.0 0.95
+0.0 mnote_violin 69.0 69.0 0.95
+0.05 mnote_violin 53.0 64.0 0.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 65.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.05 mnote_violin 52.0 64.0 0.95
+0.0 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 68.0 64.0 0.95
+0.05 mnote_violin 45.0 64.0 0.95
+0.0 mnote_violin 60.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.05 mnote_violin 52.0 69.0 0.4729
+0.0 mnote_violin 59.0 69.0 0.4729
+0.0 mnote_violin 64.0 69.0 0.4729
+0.0 mnote_violin 68.0 69.0 0.4729
+0.0271 mnote_violin 48.0 64.0 0.4729
+0.0 mnote_violin 57.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 69.0 64.0 0.4729
+0.0271 mnote_violin 50.0 64.0 0.4729
+0.0 mnote_violin 59.0 64.0 0.4729
+0.0 mnote_violin 65.0 64.0 0.4729
+0.0 mnote_violin 69.0 64.0 0.4729
+0.0271 mnote_violin 52.0 64.0 0.4729
+0.0 mnote_violin 59.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 68.0 64.0 0.4729
+0.0271 mnote_violin 45.0 64.0 0.95
+0.0 mnote_violin 60.0 64.0 0.95
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.05 mnote_violin 57.0 64.0 1.95
+0.0 mnote_violin 60.0 64.0 0.95
+0.0 mnote_violin 65.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.05 mnote_violin 62.0 69.0 0.95
+0.0 mnote_violin 65.0 69.0 0.95
+0.0 mnote_violin 71.0 69.0 0.95
+0.05 mnote_violin 55.0 64.0 1.95
+0.0 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.05 mnote_violin 60.0 64.0 0.95
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.05 mnote_violin 53.0 64.0 1.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 65.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.05 mnote_violin 62.0 69.0 0.95
+0.0 mnote_violin 67.0 69.0 0.95
+0.0 mnote_violin 71.0 69.0 0.95
+0.05 mnote_violin 52.0 64.0 0.95
+0.0 mnote_violin 60.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.05 mnote_violin 50.0 64.0 0.95
+0.0 mnote_violin 65.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.55 mnote_violin 55.0 64.0 0.4729
+0.0271 mnote_violin 48.0 69.0 0.4729
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 71.0 69.0 0.95
+0.0 mnote_violin 72.0 69.0 0.95
+0.0271 mnote_violin 50.0 64.0 0.2375
+0.0125 mnote_violin 52.0 64.0 0.23750000000000002
+0.0125 mnote_violin 53.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.0271 mnote_violin 41.0 64.0 0.4729
+0.0271 mnote_violin 47.0 64.0 0.4729
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.0271 mnote_violin 48.0 64.0 0.2375
+0.0125 mnote_violin 50.0 64.0 0.23750000000000002
+0.0125 mnote_violin 52.0 64.0 0.4729
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.0271 mnote_violin 40.0 64.0 0.4729
+0.0271 mnote_violin 45.0 69.0 0.4729
+0.0 mnote_violin 60.0 69.0 0.95
+0.0 mnote_violin 67.0 69.0 0.95
+0.0 mnote_violin 69.0 69.0 0.95
+0.0271 mnote_violin 47.0 64.0 0.2375
+0.0125 mnote_violin 48.0 64.0 0.23750000000000002
+0.0125 mnote_violin 50.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.95
+0.0 mnote_violin 65.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0271 mnote_violin 38.0 64.0 0.4729
+0.0271 mnote_violin 43.0 64.0 0.4729
+0.0 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 65.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0271 mnote_violin 55.0 64.0 0.2375
+0.0125 mnote_violin 53.0 64.0 0.23750000000000002
+0.0125 mnote_violin 52.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.95
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0271 mnote_violin 48.0 64.0 0.4729
+0.0271 mnote_violin 53.0 69.0 0.4729
+0.0 mnote_violin 57.0 69.0 0.95
+0.0 mnote_violin 60.0 69.0 0.95
+0.0 mnote_violin 65.0 69.0 0.95
+0.0271 mnote_violin 55.0 64.0 0.4729
+0.0271 mnote_violin 57.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0271 mnote_violin 52.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0271 mnote_violin 53.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0271 mnote_violin 50.0 64.0 0.4729
+0.0271 mnote_violin 55.0 64.0 0.4729
+0.0 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0271 mnote_violin 43.0 64.0 0.4729
+0.0271 mnote_violin 48.0 69.0 0.4729
+0.0 mnote_violin 60.0 69.0 0.95
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 67.0 69.0 0.95
+0.0271 mnote_violin 50.0 64.0 0.4729
+0.0271 mnote_violin 52.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0271 mnote_violin 48.0 64.0 0.4729
+0.0271 mnote_violin 53.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.95
+0.0 mnote_violin 65.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0271 mnote_violin 55.0 64.0 0.4729
+0.0271 mnote_violin 57.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 69.0 64.0 0.4729
+0.0271 mnote_violin 52.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0 mnote_violin 72.0 64.0 0.4729
+0.0271 mnote_violin 53.0 69.0 0.4729
+0.0 mnote_violin 62.0 69.0 0.95
+0.0 mnote_violin 69.0 69.0 0.95
+0.0 mnote_violin 72.0 69.0 0.95
+0.0271 mnote_violin 50.0 64.0 0.4729
+0.0271 mnote_violin 55.0 64.0 0.4729
+0.0 mnote_violin 62.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.0271 mnote_violin 43.0 64.0 0.4729
+0.0271 mnote_violin 48.0 64.0 0.95
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+1.05 mnote_violin 48.0 69.0 0.95
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 67.0 69.0 0.95
+0.0 mnote_violin 72.0 69.0 0.95
+1.05 mnote_violin 45.0 64.0 0.95
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+1.05 mnote_violin 45.0 69.0 0.95
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 72.0 69.0 0.95
+1.05 mnote_violin 57.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.0271 mnote_violin 45.0 64.0 0.4729
+0.0271 mnote_violin 48.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.0271 mnote_violin 45.0 64.0 0.4729
+0.0271 mnote_violin 52.0 69.0 1.95
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 69.0 69.0 0.95
+0.0 mnote_violin 71.0 69.0 0.95
+0.05 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.05 mnote_violin 59.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.4729
+0.0271 mnote_violin 47.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 66.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.4729
+0.0271 mnote_violin 50.0 64.0 0.4729
+0.0 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 66.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.0271 mnote_violin 47.0 64.0 0.4729
+0.0271 mnote_violin 54.0 69.0 1.95
+0.0 mnote_violin 61.0 69.0 0.95
+0.0 mnote_violin 66.0 69.0 0.95
+0.0 mnote_violin 71.0 69.0 0.95
+0.05 mnote_violin 61.0 64.0 0.95
+0.0 mnote_violin 66.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.05 mnote_violin 51.0 64.0 0.95
+0.0 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 66.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.05 mnote_violin 52.0 64.0 0.95
+0.0 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.05 mnote_violin 49.0 69.0 0.95
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 67.0 69.0 0.95
+0.0 mnote_violin 69.0 69.0 0.95
+0.05 mnote_violin 51.0 64.0 0.95
+0.0 mnote_violin 66.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.05 mnote_violin 52.0 64.0 0.95
+0.0 mnote_violin 66.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.05 mnote_violin 43.0 64.0 0.95
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.05 mnote_violin 45.0 69.0 0.95
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 66.0 69.0 0.95
+0.0 mnote_violin 72.0 69.0 0.95
+0.05 mnote_violin 47.0 64.0 0.95
+0.0 mnote_violin 63.0 64.0 0.95
+0.0 mnote_violin 66.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.05 mnote_violin 52.0 64.0 0.95
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.05 mnote_violin 55.0 64.0 0.95
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.05 mnote_violin 57.0 69.0 0.95
+0.0 mnote_violin 64.0 69.0 0.95
+0.0 mnote_violin 69.0 69.0 0.95
+0.0 mnote_violin 72.0 69.0 0.95
+0.05 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.05 mnote_violin 60.0 64.0 0.4729
+0.0 mnote_violin 60.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0271 mnote_violin 59.0 64.0 0.4729
+0.0271 mnote_violin 57.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 69.0 64.0 0.4729
+0.0 mnote_violin 72.0 64.0 0.4729
+0.0271 mnote_violin 55.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.4729
+0.0 mnote_violin 76.0 64.0 0.4729
+0.0271 mnote_violin 57.0 69.0 0.4729
+0.0 mnote_violin 69.0 69.0 0.4729
+0.0 mnote_violin 72.0 69.0 0.4729
+0.0 mnote_violin 76.0 69.0 0.4729
+0.0271 mnote_violin 55.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.4729
+0.0 mnote_violin 76.0 64.0 0.4729
+0.0271 mnote_violin 54.0 64.0 0.4729
+0.0 mnote_violin 69.0 64.0 0.4729
+0.0 mnote_violin 76.0 64.0 0.4729
+0.0 mnote_violin 78.0 64.0 0.4729
+0.0271 mnote_violin 52.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.4729
+0.0 mnote_violin 79.0 64.0 0.4729
+0.0271 mnote_violin 59.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 75.0 64.0 0.95
+0.0 mnote_violin 78.0 64.0 0.95
+0.05 mnote_violin 52.0 64.0 0.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.0 mnote_violin 76.0 64.0 0.95
+0.05 mnote_violin 47.0 69.0 1.95
+0.0 mnote_violin 67.0 69.0 0.95
+0.0 mnote_violin 71.0 69.0 0.95
+0.0 mnote_violin 76.0 69.0 0.95
+0.05 mnote_violin 66.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.0 mnote_violin 75.0 64.0 0.95
+0.05 mnote_violin 40.0 64.0 1.9
+0.0 mnote_violin 67.0 64.0 1.9
+0.0 mnote_violin 71.0 64.0 1.9
+0.0 mnote_violin 76.0 64.0 1.9
+0.1 mnote_violin 48.0 69.0 0.95
+0.0 mnote_violin 67.0 69.0 0.95
+0.0 mnote_violin 72.0 69.0 0.95
+0.0 mnote_violin 76.0 69.0 0.95
+0.05 mnote_violin 60.0 64.0 1.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.0 mnote_violin 76.0 64.0 0.95
+0.05 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.0 mnote_violin 77.0 64.0 0.95
+0.05 mnote_violin 59.0 64.0 1.95
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.0 mnote_violin 79.0 64.0 0.95
+0.05 mnote_violin 67.0 69.0 0.95
+0.0 mnote_violin 72.0 69.0 0.95
+0.0 mnote_violin 76.0 69.0 0.95
+0.05 mnote_violin 57.0 64.0 0.95
+0.0 mnote_violin 65.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.0 mnote_violin 77.0 64.0 0.95
+0.55 mnote_violin 55.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.4729
+0.0 mnote_violin 76.0 64.0 0.4729
+0.0271 mnote_violin 57.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 72.0 64.0 0.4729
+0.0 mnote_violin 76.0 64.0 0.4729
+0.0271 mnote_violin 52.0 64.0 0.4729
+0.0 mnote_violin 72.0 64.0 0.4729
+0.0 mnote_violin 76.0 64.0 0.4729
+0.0 mnote_violin 79.0 64.0 0.4729
+0.0271 mnote_violin 53.0 69.0 0.4729
+0.0 mnote_violin 72.0 69.0 0.95
+0.0 mnote_violin 74.0 69.0 0.95
+0.0 mnote_violin 81.0 69.0 0.95
+0.0271 mnote_violin 50.0 64.0 0.4729
+0.0271 mnote_violin 55.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.0 mnote_violin 79.0 64.0 0.95
+0.0271 mnote_violin 43.0 64.0 0.4729
+0.0271 mnote_violin 48.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.95
+0.0 mnote_violin 76.0 64.0 0.95
+0.0 mnote_violin 79.0 64.0 0.95
+0.0271 mnote_violin 50.0 64.0 0.2375
+0.0125 mnote_violin 52.0 64.0 0.23750000000000002
+0.0125 mnote_violin 53.0 64.0 1.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 77.0 64.0 0.95
+0.05 mnote_violin 71.0 69.0 0.95
+0.0 mnote_violin 74.0 69.0 0.95
+0.0 mnote_violin 79.0 69.0 0.95
+0.05 mnote_violin 52.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.0 mnote_violin 79.0 64.0 0.95
+0.05 mnote_violin 50.0 64.0 0.4729
+0.0 mnote_violin 72.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.0 mnote_violin 78.0 64.0 0.95
+0.0271 mnote_violin 62.0 64.0 0.4729
+0.0271 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.4729
+0.0 mnote_violin 79.0 64.0 0.4729
+0.0271 mnote_violin 59.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.4729
+0.0 mnote_violin 74.0 64.0 0.4729
+0.0 mnote_violin 79.0 64.0 0.4729
+0.0271 mnote_violin 60.0 69.0 0.4729
+0.0 mnote_violin 67.0 69.0 0.95
+0.0 mnote_violin 69.0 69.0 0.95
+0.0 mnote_violin 76.0 69.0 0.95
+0.0271 mnote_violin 57.0 64.0 0.4729
+0.0271 mnote_violin 62.0 64.0 0.4729
+0.0 mnote_violin 66.0 64.0 0.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.0271 mnote_violin 50.0 64.0 0.4729
+0.0271 mnote_violin 43.0 64.0 1.45
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.05 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.0 mnote_violin 76.0 64.0 0.95
+0.05 mnote_violin 55.0 64.0 0.4729
+0.0271 mnote_violin 57.0 69.0 1.45
+0.0 mnote_violin 69.0 69.0 0.95
+0.0 mnote_violin 72.0 69.0 0.95
+0.0 mnote_violin 76.0 69.0 0.95
+0.05 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.0 mnote_violin 77.0 64.0 0.95
+0.05 mnote_violin 57.0 64.0 0.4729
+0.0271 mnote_violin 59.0 64.0 1.45
+0.0 mnote_violin 71.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.0 mnote_violin 77.0 64.0 0.95
+0.05 mnote_violin 71.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.0 mnote_violin 79.0 64.0 0.95
+0.05 mnote_violin 59.0 64.0 0.4729
+0.0271 mnote_violin 60.0 69.0 0.4729
+0.0 mnote_violin 72.0 69.0 0.95
+0.0 mnote_violin 76.0 69.0 0.95
+0.0 mnote_violin 79.0 69.0 0.95
+0.0271 mnote_violin 55.0 64.0 0.4729
+0.0271 mnote_violin 60.0 64.0 1.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.0 mnote_violin 76.0 64.0 0.95
+0.0 mnote_violin 81.0 64.0 0.95
+0.05 mnote_violin 74.0 64.0 0.95
+0.0 mnote_violin 77.0 64.0 0.95
+0.0 mnote_violin 81.0 64.0 0.95
+0.05 mnote_violin 59.0 64.0 1.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.0 mnote_violin 79.0 64.0 0.95
+0.05 mnote_violin 72.0 69.0 0.95
+0.0 mnote_violin 76.0 69.0 0.95
+0.0 mnote_violin 79.0 69.0 0.95
+0.05 mnote_violin 57.0 64.0 1.95
+0.0 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.0 mnote_violin 77.0 64.0 0.95
+0.05 mnote_violin 71.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.0 mnote_violin 77.0 64.0 0.95
+0.05 mnote_violin 55.0 64.0 1.95
+0.0 mnote_violin 71.0 64.0 0.95
+0.0 mnote_violin 76.0 64.0 0.95
+0.0 mnote_violin 79.0 64.0 0.95
+0.05 mnote_violin 72.0 69.0 0.95
+0.0 mnote_violin 76.0 69.0 0.95
+0.0 mnote_violin 81.0 69.0 0.95
+0.05 mnote_violin 53.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.0 mnote_violin 81.0 64.0 0.95
+0.55 mnote_violin 55.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.4729
+0.0 mnote_violin 76.0 64.0 0.4729
+0.0 mnote_violin 79.0 64.0 0.4729
+0.0271 mnote_violin 57.0 64.0 0.4729
+0.0 mnote_violin 64.0 64.0 0.4729
+0.0 mnote_violin 72.0 64.0 0.4729
+0.0 mnote_violin 76.0 64.0 0.4729
+0.0271 mnote_violin 52.0 64.0 0.4729
+0.0 mnote_violin 72.0 64.0 0.4729
+0.0 mnote_violin 76.0 64.0 0.4729
+0.0 mnote_violin 79.0 64.0 0.4729
+0.0271 mnote_violin 53.0 69.0 0.4729
+0.0 mnote_violin 72.0 69.0 0.95
+0.0 mnote_violin 74.0 69.0 0.95
+0.0 mnote_violin 81.0 69.0 0.95
+0.0271 mnote_violin 50.0 64.0 0.4729
+0.0271 mnote_violin 55.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.0 mnote_violin 79.0 64.0 0.95
+0.0271 mnote_violin 43.0 64.0 0.4729
+0.0271 mnote_violin 48.0 64.0 0.4729
+0.0 mnote_violin 71.0 64.0 0.95
+0.0 mnote_violin 76.0 64.0 0.95
+0.0 mnote_violin 79.0 64.0 0.95
+0.0271 mnote_violin 50.0 64.0 0.2375
+0.0125 mnote_violin 52.0 64.0 0.23750000000000002
+0.0125 mnote_violin 53.0 64.0 0.4729
+0.0 mnote_violin 69.0 64.0 0.95
+0.0 mnote_violin 76.0 64.0 0.95
+0.0 mnote_violin 77.0 64.0 0.95
+0.0271 mnote_violin 41.0 64.0 0.4729
+0.0271 mnote_violin 47.0 69.0 0.4729
+0.0 mnote_violin 69.0 69.0 0.95
+0.0 mnote_violin 74.0 69.0 0.95
+0.0 mnote_violin 77.0 69.0 0.95
+0.0271 mnote_violin 48.0 64.0 0.2375
+0.0125 mnote_violin 50.0 64.0 0.23750000000000002
+0.0125 mnote_violin 52.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.0 mnote_violin 76.0 64.0 0.95
+0.0271 mnote_violin 40.0 64.0 0.4729
+0.0271 mnote_violin 45.0 64.0 0.4729
+0.0 mnote_violin 67.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.0 mnote_violin 76.0 64.0 0.95
+0.0271 mnote_violin 47.0 64.0 0.2375
+0.0125 mnote_violin 48.0 64.0 0.23750000000000002
+0.0125 mnote_violin 50.0 64.0 0.4729
+0.0 mnote_violin 65.0 64.0 0.95
+0.0 mnote_violin 72.0 64.0 0.95
+0.0 mnote_violin 74.0 64.0 0.95
+0.0271 mnote_violin 38.0 64.0 0.4729
+0.0271 mnote_violin 43.0 69.0 0.95
+0.0 mnote_violin 65.0 69.0 0.95
+0.0 mnote_violin 71.0 69.0 0.95
+0.0 mnote_violin 74.0 69.0 0.95
+1.05 mnote_violin 43.0 64.0 29.9
+0.0 mnote_violin 62.0 64.0 28.9
+0.0 mnote_violin 71.0 64.0 28.9
+0.0 mnote_violin 74.0 64.0 28.9
+0.1 mnote_violin 67.0 64.0 0.9500000000000001
+0.0 mnote_violin 71.0 64.0 0.9500000000000001
+0.0 mnote_violin 74.0 64.0 0.9500000000000001
+0.05 mnote_violin 48.0 69.0 3.7979
+0.0 mnote_violin 64.0 69.0 3.7979
+0.0 mnote_violin 67.0 69.0 3.7979
+0.0 mnote_violin 72.0 69.0 3.7979
+}
