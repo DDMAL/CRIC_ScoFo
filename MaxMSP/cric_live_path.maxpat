@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 45.0, 1402.0, 1031.0 ],
+		"rect" : [ -145.0, 47.0, 1402.0, 1031.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -649,7 +649,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 401.0, 303.0, 204.0, 18.0 ],
-									"text" : "50. 80. 0.4979"
+									"text" : "48. 80. 1.9979"
 								}
 
 							}
@@ -1741,12 +1741,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-55",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 595.0, 708.0, 110.0, 16.0 ],
-					"text" : "syncf 0 40. 0."
+					"patching_rect" : [ 595.0, 708.0, 110.0, 27.0 ],
+					"text" : "syncf 167 28.622667 86.5"
 				}
 
 			}
@@ -2084,7 +2085,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 460.0, 170.0, 50.0, 16.0 ],
-									"text" : "0"
+									"text" : "1"
 								}
 
 							}
@@ -2098,7 +2099,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 372.75, 120.0, 50.0, 16.0 ],
-									"text" : "0"
+									"text" : "1"
 								}
 
 							}
@@ -3154,7 +3155,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1305.0, 597.0, 475.0, 378.0 ],
+						"rect" : [ 1414.0, 679.0, 475.0, 378.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -3173,6 +3174,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -4131,7 +4133,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1021.25, 553.75, 205.75, 16.0 ],
-					"text" : "syncf 0 40. 0."
+					"text" : "syncf 167 28.622667 86.5"
 				}
 
 			}
@@ -4229,7 +4231,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 932.25, 461.25, 80.0, 16.0 ],
-					"text" : "measure1"
+					"text" : "measure22"
 				}
 
 			}
