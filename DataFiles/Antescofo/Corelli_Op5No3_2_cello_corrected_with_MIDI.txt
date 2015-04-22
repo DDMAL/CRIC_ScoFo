@@ -6,7 +6,7 @@
 antescofo-mess-cello 4096 512
 antescofo-mess-cello harmlist 1 2 3 4 5
 antescofo-mess-cello variance 0.2
-antescofo-mess-cello temposmoothness 0.25
+antescofo-mess-cello temposmoothness 0.10
 antescofo-mess-cello tune 415
 BPM 90
 
@@ -1442,315 +1442,315 @@ NOTE C4 2
 NOTE B3 2 ; tied to next one
 
 ; ----------- measure 2 --- beat 6
-NOTE A3 1 measure2 ; tied from previous one
-NOTE G3 1/2
-NOTE E3 1/2
-NOTE F3 1/2
-NOTE G3 1/2
+; NOTE A3 1 measure2 ; tied from previous one
+; NOTE G3 1/2
+; NOTE E3 1/2
+; NOTE F3 1/2
+; NOTE G3 1/2
 
 ; ----------- measure 3 --- beat 9
-NOTE C3 1 measure3
-NOTE 0 1/2
-NOTE C4 1/2
-NOTE B3 1
-NOTE 0 1/2
-NOTE G3 1/2
+; NOTE C3 1 measure3
+; NOTE 0 1/2
+; NOTE C4 1/2
+; NOTE B3 1
+; NOTE 0 1/2
+; NOTE G3 1/2
 
 ; ----------- measure 4 --- beat 13
-NOTE A3 1 measure4
-NOTE 0 1/2
-NOTE D3 1/2
-NOTE E3 1
-NOTE 0 1/2
-NOTE C3 1/2
+; NOTE A3 1 measure4
+; NOTE 0 1/2
+; NOTE D3 1/2
+; NOTE E3 1
+; NOTE 0 1/2
+; NOTE C3 1/2
 
 ; ----------- measure 5 --- beat 17
-NOTE D3 1/2 measure5
-NOTE G2 1/2
-NOTE D3 1/2
-NOTE D2 1/2
-NOTE G2 1
-NOTE 0 1 ; 
+; NOTE D3 1/2 measure5
+; NOTE G2 1/2
+; NOTE D3 1/2
+; NOTE D2 1/2
+; NOTE G2 1
+; NOTE 0 1 ; 
 
 ; ----------- measure 6--- 
-NOTE 0 4 ; silence
+; NOTE 0 4 ; silence
 
 ; ----------- measure 7 --- beat 51/2 ------
-NOTE 0 1/2 measure7
-NOTE G3 1/2 
-NOTE A3 1/2
-NOTE E3 1/2
-NOTE F3 1/2
-NOTE D3 1/2
-NOTE G3 1/2
-NOTE G2 1/2
+; NOTE 0 1/2 measure7
+; NOTE G3 1/2 
+; NOTE A3 1/2
+; NOTE E3 1/2
+; NOTE F3 1/2
+; NOTE D3 1/2
+; NOTE G3 1/2
+; NOTE G2 1/2
 
 ; ----------- measure 8 --- beat 29
-NOTE C3 1/2 measure8
-NOTE D3 1/4
-NOTE E3 1/4
-NOTE F3 3/2
-NOTE E3 1/4
-NOTE F3 1/4
-NOTE G3 1/2
-NOTE G2 1/2
+; NOTE C3 1/2 measure8
+; NOTE D3 1/4
+; NOTE E3 1/4
+; NOTE F3 3/2
+; NOTE E3 1/4
+; NOTE F3 1/4
+; NOTE G3 1/2
+; NOTE G2 1/2
 
 ; ----------- measure 9 --- beat 33
-NOTE C3 3/2 measure9
-NOTE C3 1/2
-NOTE B2 3/2
-NOTE B2 1/2
+; NOTE C3 3/2 measure9
+; NOTE C3 1/2
+; NOTE B2 3/2
+; NOTE B2 1/2
 
 ; ----------- measure 10 --- beat 37
-NOTE C3 1/2 measure10
-NOTE A2 1/2
-NOTE D3 1/2
-NOTE D2 1/2
-NOTE G2 1
-NOTE 0 1/2
-NOTE C3 1/2
+; NOTE C3 1/2 measure10
+; NOTE A2 1/2
+; NOTE D3 1/2
+; NOTE D2 1/2
+; NOTE G2 1
+; NOTE 0 1/2
+; NOTE C3 1/2
 
 ; ----------- measure 11 --- beat 41
-NOTE F3 1 measure11
-NOTE 0 1/2
-NOTE D3 1/2
-NOTE G3 1
-NOTE 0 1/2
-NOTE E3 1/2
+; NOTE F3 1 measure11
+; NOTE 0 1/2
+; NOTE D3 1/2
+; NOTE G3 1
+; NOTE 0 1/2
+; NOTE E3 1/2
 
 ; ----------- measure 12 --- beat 45
-NOTE A3 1 measure12
-NOTE 0 1/2
-NOTE A3 1/2
-NOTE G#3 1
-NOTE G3 1
+; NOTE A3 1 measure12
+; NOTE 0 1/2
+; NOTE A3 1/2
+; NOTE G#3 1
+; NOTE G3 1
 
 ; ----------- measure 13 --- beat 49
-NOTE F#3 1 measure13
-NOTE F3 1
-NOTE E3 1
-NOTE A2 1
+; NOTE F#3 1 measure13
+; NOTE F3 1
+; NOTE E3 1
+; NOTE A2 1
 
 ; ----------- measure 14 --- beat 53
-NOTE E3 1/2 measure14
-NOTE C3 1/2
-NOTE D3 1/2
-NOTE E3 1/2
-NOTE A2 1
-NOTE A3 2 ; tied to next one
+; NOTE E3 1/2 measure14
+; NOTE C3 1/2
+; NOTE D3 1/2
+; NOTE E3 1/2
+; NOTE A2 1
+; NOTE A3 2 ; tied to next one
 
 ; ----------- measure 15 --- beat 58
-NOTE G3 2 measure15 ; tied from previous one
-NOTE F3 2 ; tied to next one
+; NOTE G3 2 measure15 ; tied from previous one
+; NOTE F3 2 ; tied to next one
 
 ; ----------- measure 16 --- beat 62
-NOTE E3 1 measure16 ; tied from previous one
-NOTE D3 1
-NOTE 0 1/2
-NOTE G3 1/2
+; NOTE E3 1 measure16 ; tied from previous one
+; NOTE D3 1
+; NOTE 0 1/2
+; NOTE G3 1/2
 
 ; ----------- measure 17 --- beat 65
-NOTE C3 1/2 measure17
-NOTE D3 1/4
-NOTE E3 1/4
-NOTE F3 1/2
-NOTE F2 1/2
-NOTE B2 1/2
-NOTE C3 1/4
-NOTE D3 1/4
-NOTE E3 1/2
-NOTE E2 1/2
+; NOTE C3 1/2 measure17
+; NOTE D3 1/4
+; NOTE E3 1/4
+; NOTE F3 1/2
+; NOTE F2 1/2
+; NOTE B2 1/2
+; NOTE C3 1/4
+; NOTE D3 1/4
+; NOTE E3 1/2
+; NOTE E2 1/2
 
 ; ----------- measure 18 --- beat 69
-NOTE A2 1/2 measure18
-NOTE B2 1/4
-NOTE C3 1/4
-NOTE D3 1/2
-NOTE D2 1/2
-NOTE G2 1/2
-NOTE G3 1/4
-NOTE F3 1/4
-NOTE E3 1/2
-NOTE C3 1/2
+; NOTE A2 1/2 measure18
+; NOTE B2 1/4
+; NOTE C3 1/4
+; NOTE D3 1/2
+; NOTE D2 1/2
+; NOTE G2 1/2
+; NOTE G3 1/4
+; NOTE F3 1/4
+; NOTE E3 1/2
+; NOTE C3 1/2
 
 ; ----------- measure 19 --- beat 73
-NOTE F3 1/2 measure19
-NOTE G3 1/2
-NOTE A3 1/2
-NOTE E3 1/2
-NOTE F3 1/2
-NOTE D3 1/2
-NOTE G3 1/2
-NOTE G2 1/2
+; NOTE F3 1/2 measure19
+; NOTE G3 1/2
+; NOTE A3 1/2
+; NOTE E3 1/2
+; NOTE F3 1/2
+; NOTE D3 1/2
+; NOTE G3 1/2
+; NOTE G2 1/2
 
 ; ----------- measure 20 --- beat 77
-NOTE C3 1/2 measure20
-NOTE D3 1/2
-NOTE E3 1/2
-NOTE C3 1/2
-NOTE F3 1/2
-NOTE G3 1/2
-NOTE A3 1/2
-NOTE E3 1/2
+; NOTE C3 1/2 measure20
+; NOTE D3 1/2
+; NOTE E3 1/2
+; NOTE C3 1/2
+; NOTE F3 1/2
+; NOTE G3 1/2
+; NOTE A3 1/2
+; NOTE E3 1/2
 
 ; ----------- measure 21 --- beat 81
-NOTE F3 1/2 measure21
-NOTE D3 1/2
-NOTE G3 1/2
-NOTE G2 1/2
-NOTE C3 1
-NOTE 0 1
+; NOTE F3 1/2 measure21
+; NOTE D3 1/2
+; NOTE G3 1/2
+; NOTE G2 1/2
+; NOTE C3 1
+; NOTE 0 1
 
 ; ----------- measure 22 --- beat 85
-NOTE C3 1 measure22
-NOTE 0 1
-NOTE A2 1
-NOTE 0 1
+; NOTE C3 1 measure22
+; NOTE 0 1
+; NOTE A2 1
+; NOTE 0 1
 
 ; ----------- measure 23 --- beat 89
-NOTE A2 1 measure23
-NOTE 0 1
-NOTE A3 1/2
-NOTE A2 1/2
-NOTE C3 1/2
-NOTE A2 1/2
+; NOTE A2 1 measure23
+; NOTE 0 1
+; NOTE A3 1/2
+; NOTE A2 1/2
+; NOTE C3 1/2
+; NOTE A2 1/2
 
 ; ----------- measure 24 --- beat 93
-NOTE E3 2 measure24
-NOTE B3 1/2
-NOTE B2 1/2
-NOTE D3 1/2
-NOTE B2 1/2
+; NOTE E3 2 measure24
+; NOTE B3 1/2
+; NOTE B2 1/2
+; NOTE D3 1/2
+; NOTE B2 1/2
 
 ; ----------- measure 25 --- beat 97
-NOTE F#3 2 measure25
-NOTE D#3 1
-NOTE E3 1
+; NOTE F#3 2 measure25
+; NOTE D#3 1
+; NOTE E3 1
 
 ; ----------- measure 26 --- beat 101
-NOTE C#3 1 measure26
-NOTE D#3 1
-NOTE E3 1
-NOTE G2 1
+; NOTE C#3 1 measure26
+; NOTE D#3 1
+; NOTE E3 1
+; NOTE G2 1
 
 ; ----------- measure 27 --- beat 105
-NOTE A2 1 measure27
-NOTE B2 1
-NOTE E3 1
-NOTE G3 1
+; NOTE A2 1 measure27
+; NOTE B2 1
+; NOTE E3 1
+; NOTE G3 1
 
 ; ----------- measure 28 --- beat 109
-NOTE A3 1 measure28
-NOTE B3 1
-NOTE C4 1/2
-NOTE B3 1/2
-NOTE A3 1/2
-NOTE G3 1/2
+; NOTE A3 1 measure28
+; NOTE B3 1
+; NOTE C4 1/2
+; NOTE B3 1/2
+; NOTE A3 1/2
+; NOTE G3 1/2
 
 ; ----------- measure 29 --- beat 113
-NOTE A3 1/2 measure29
-NOTE G3 1/2
-NOTE F#3 1/2
-NOTE E3 1/2
-NOTE B3 1
-NOTE E3 1
+; NOTE A3 1/2 measure29
+; NOTE G3 1/2
+; NOTE F#3 1/2
+; NOTE E3 1/2
+; NOTE B3 1
+; NOTE E3 1
 ;BPM 20
 
 ; ----------- measure 30 --- beat 117
-NOTE B2 2 measure30
-NOTE E2 2
+; NOTE B2 2 measure30
+; NOTE E2 2
 ;BPM 90
 
 ; ----------- measure 31 --- beat 121
-NOTE C3 1 measure31
-NOTE C4 2
-NOTE B3 2 ; tied to next one
+; NOTE C3 1 measure31
+; NOTE C4 2
+; NOTE B3 2 ; tied to next one
 
 ; ----------- measure 32 --- beat 126
-NOTE A3 1 measure32 ; tied from previous one
-NOTE 0 1/2
-NOTE G3 1/2
-NOTE A3 1/2
-NOTE E3 1/2
+; NOTE A3 1 measure32 ; tied from previous one
+; NOTE 0 1/2
+; NOTE G3 1/2
+; NOTE A3 1/2
+; NOTE E3 1/2
 
 ; ----------- measure 33 --- beat 129
-NOTE F3 1/2 measure33
-NOTE D3 1/2
-NOTE G3 1/2
-NOTE G2 1/2
-NOTE C3 1/2
-NOTE D3 1/4
-NOTE E3 1/4
-NOTE F3 2 ; tied to next one
+; NOTE F3 1/2 measure33
+; NOTE D3 1/2
+; NOTE G3 1/2
+; NOTE G2 1/2
+; NOTE C3 1/2
+; NOTE D3 1/4
+; NOTE E3 1/4
+; NOTE F3 2 ; tied to next one
 
 ; ----------- measure 34 --- beat 134
-NOTE E3 1 measure34 ; tied from previous one
-NOTE D3 1/2
-NOTE D4 1/2
-NOTE E4 1/2
-NOTE B3 1/2
+; NOTE E3 1 measure34 ; tied from previous one
+; NOTE D3 1/2
+; NOTE D4 1/2
+; NOTE E4 1/2
+; NOTE B3 1/2
 
 ; ----------- measure 35 --- beat 137
-NOTE C4 1/2 measure35
-NOTE A3 1/2
-NOTE D4 1/2
-NOTE D3 1/2
-NOTE G2 3/2
-NOTE G3 1/2
+; NOTE C4 1/2 measure35
+; NOTE A3 1/2
+; NOTE D4 1/2
+; NOTE D3 1/2
+; NOTE G2 3/2
+; NOTE G3 1/2
 
 ; ----------- measure 36 --- beat 141
-NOTE A3 3/2 measure36
-NOTE A3 1/2
-NOTE B3 3/2
-NOTE B3 1/2
+; NOTE A3 3/2 measure36
+; NOTE A3 1/2
+; NOTE B3 3/2
+; NOTE B3 1/2
 
 ; ----------- measure 37 --- beat 145
-NOTE C4 1/2 measure37
-NOTE G3 1/2
-NOTE C4 2
-NOTE B3 2 ; tied to next one
+; NOTE C4 1/2 measure37
+; NOTE G3 1/2
+; NOTE C4 2
+; NOTE B3 2 ; tied to next one
 
 ; ----------- measure 38 --- beat 150
-NOTE A3 2 measure38 ; tied from previous one
-NOTE G3 2 ; tied to next one
+; NOTE A3 2 measure38 ; tied from previous one
+; NOTE G3 2 ; tied to next one
 
 ; ----------- measure 39 --- beat 154
-NOTE F3 1 measure39 ; tied from previous one
-NOTE 0 1/2
-NOTE G3 1/2
-NOTE A3 1/2
-NOTE E3 1/2
+; NOTE F3 1 measure39 ; tied from previous one
+; NOTE 0 1/2
+; NOTE G3 1/2
+; NOTE A3 1/2
+; NOTE E3 1/2
 
 ; ----------- measure 40 --- beat 157
-NOTE F3 1/2 measure40
-NOTE D3 1/2
-NOTE G3 1/2
-NOTE G2 1/2
-NOTE C3 1/2
-NOTE D3 1/4
-NOTE E3 1/4
-NOTE F3 1/2
-NOTE F2 1/2
+; NOTE F3 1/2 measure40
+; NOTE D3 1/2
+; NOTE G3 1/2
+; NOTE G2 1/2
+; NOTE C3 1/2
+; NOTE D3 1/4
+; NOTE E3 1/4
+; NOTE F3 1/2
+; NOTE F2 1/2
 
 ; ----------- measure 41 --- beat 161
-NOTE B2 1/2 measure41
-NOTE C3 1/4
-NOTE D3 1/4
-NOTE E3 1/2
-NOTE E2 1/2
-NOTE A2 1/2
-NOTE B2 1/4
-NOTE C3 1/4
-NOTE D3 1/2
-NOTE D2 1/2
+; NOTE B2 1/2 measure41
+; NOTE C3 1/4
+; NOTE D3 1/4
+; NOTE E3 1/2
+; NOTE E2 1/2
+; NOTE A2 1/2
+; NOTE B2 1/4
+; NOTE C3 1/4
+; NOTE D3 1/2
+; NOTE D2 1/2
 
 ; ----------- measure 42 --- beat 165
-NOTE G2 1 measure42
-NOTE 0 1
-NOTE G2 30
+; NOTE G2 1 measure42
+; NOTE 0 1
+; NOTE G2 30
 
 ; ----------- measure 50 --- beat 197
-NOTE C3 4 measure50
+; NOTE C3 4 measure50
 
 ; ----------- measure 51 --- beat 201
-NOTE 0 24 measure51
+; NOTE 0 24 measure51

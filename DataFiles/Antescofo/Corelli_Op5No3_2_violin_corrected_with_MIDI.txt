@@ -5,7 +5,7 @@
 antescofo-mess-violin analysis 4096 512
 antescofo-mess-violin harmlist 1 2 3 4 5
 antescofo-mess-violin variance 0.2
-antescofo-mess-violin temposmoothness 0.25
+antescofo-mess-violin temposmoothness 0.75
 antescofo-mess-violin tune 415
 BPM 90
 pause 1
@@ -2051,28 +2051,84 @@ NOTE F5 1/4
 
 ; ----------- measure 46
 ; BPM 90
-TRILL (G3 B4 F5) 1/1 measure46
-TRILL (G3 C5 E5) 1/1 
-TRILL (G3 C5 D5) 1/1 
-TRILL (G3 B4 D4) 1/1 
+;NOTE G3 1/2 m46
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+
+TRILL (G3 B4 F5) 1/2 measure46
+TRILL (G3 B4 F5) 1/2
+TRILL (G3 C5 E5) 1/2
+TRILL (G3 C5 E5) 1/2 
+TRILL (G3 C5 D5) 1/2
+TRILL (G3 C5 D5) 1/2 
+TRILL (G3 B4 D4) 1/2
+TRILL (G3 B4 D4) 1/2 
 
 ; ----------- measure 47
-TRILL (G3 B4 C5) 1/1 measure47
-TRILL (G3 A4 C5) 1/1 
-TRILL (G3 A4 B4) 1/1 
-TRILL (G3 G4 B4) 1/1 
+;NOTE G3 1/2 m47
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+
+
+TRILL (G3 B4 C5) 1/2 measure47
+TRILL (G3 B4 C5) 1/2
+TRILL (G3 A4 C5) 1/2
+TRILL (G3 A4 C5) 1/2 
+TRILL (G3 A4 B4) 1/2
+TRILL (G3 A4 B4) 1/2 
+TRILL (G3 G4 B4) 1/2
+TRILL (G3 G4 B4) 1/2 
 
 ; ----------- measure 48
-TRILL (G3 G4 A4) 1/1 measure48
-TRILL (G3 F4 A4) 1/1 
-TRILL (G3 F4 B4) 1/1 
-TRILL (G3 F4 D5) 1/1 
+;NOTE G3 1/2 m48
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+
+TRILL (G3 G4 A4) 1/2 measure48
+TRILL (G3 G4 A4) 1/2
+TRILL (G3 F4 A4) 1/2
+TRILL (G3 F4 A4) 1/2 
+TRILL (G3 F4 B4) 1/2
+TRILL (G3 F4 B4) 1/2 
+TRILL (G3 F4 D5) 1/2
+TRILL (G3 F4 D5) 1/2 
 
 ; ----------- measure 49
-TRILL (G3 E4 D5) 1/1 measure49
-TRILL (G3 Eb4 C5) 1/1 
-TRILL (G3 D4 C5) 1/1 
-TRILL (G3 F4 B4) 1/1
+;NOTE G3 1/2 m49
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+;NOTE G3 1/2
+
+
+
+TRILL (G3 E4 D5) 1/2 measure49
+TRILL (G3 E4 D5) 1/2
+TRILL (G3 Eb4 C5) 1/2
+TRILL (G3 Eb4 C5) 1/2 
+TRILL (G3 D4 C5) 1/2
+TRILL (G3 D4 C5) 1/2
+TRILL (G3 F4 B4) 1/2
+TRILL (G3 F4 B4) 1/4
+TRILL (G3 F4 B4) 1/4
 
 ; ----------- measure 50
 CHORD (C4 E4 C5 E5) 4 measure50
