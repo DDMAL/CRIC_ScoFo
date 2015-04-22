@@ -1,4 +1,4 @@
-group midiactions @loose @local {
+group midiactions @tight @local {
 	; delay msgrecvr pitch velocity
 	0.5000 mnote 60 80
 	0.2479 mnote 60 0
