@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 45.0, 1440.0, 806.0 ],
+		"rect" : [ 0.0, 45.0, 1402.0, 1031.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -31,12 +31,26 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-105",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 938.0, 438.75, 59.0, 18.0 ],
+					"presentation_rect" : [ 942.25, 436.0, 0.0, 0.0 ],
+					"text" : "s temposcf"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-100",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 221.25, 443.0, 64.0, 18.0 ],
-					"text" : "s temposcf1"
+					"patching_rect" : [ 221.25, 443.0, 59.0, 18.0 ],
+					"text" : "s temposcf"
 				}
 
 			}
@@ -243,7 +257,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1065.0, 852.0, 625.0, 61.0 ],
+					"patching_rect" : [ 1065.0, 852.0, 625.0, 60.0 ],
 					"text" : ";\rdeck1 open /Users/cric/Documents/5_DATA/1_CRIC/Audio_Files/VION1PIEZO_04.wav;\rdeck2 open /Users/cric/Documents/5_DATA/1_CRIC/Audio_Files/CELLO2DPA_04.wav;\rsf1 score /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_2_violin_corrected_with_MIDI.txt;\rsf2 score /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_2_cello_corrected_with_MIDI.txt"
 				}
 
@@ -449,7 +463,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 581.0, 263.0, 853.0, 725.0 ],
+						"rect" : [ 544.0, 441.0, 853.0, 725.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -491,8 +505,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 663.0, 106.0, 73.0, 20.0 ],
-									"text" : "r temposcf1"
+									"patching_rect" : [ 663.0, 106.0, 67.0, 20.0 ],
+									"text" : "r temposcf"
 								}
 
 							}
@@ -635,7 +649,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 401.0, 303.0, 204.0, 18.0 ],
-									"text" : "47. 80. 0.2479"
+									"text" : "50. 80. 0.4979"
 								}
 
 							}
@@ -1087,6 +1101,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-136", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-25", 0 ]
@@ -1723,7 +1746,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 595.0, 708.0, 110.0, 16.0 ],
-					"text" : "syncf 0 90. 0."
+					"text" : "syncf 0 40. 0."
 				}
 
 			}
@@ -4108,7 +4131,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1021.25, 553.75, 205.75, 16.0 ],
-					"text" : "syncf 0 90. 0."
+					"text" : "syncf 0 40. 0."
 				}
 
 			}
@@ -4206,7 +4229,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 932.25, 461.25, 80.0, 16.0 ],
-					"text" : "measure17"
+					"text" : "measure1"
 				}
 
 			}
@@ -4224,7 +4247,7 @@
 						"ascograph_height" : 768,
 						"ascograph_width" : 1024,
 						"ascographpanel" : 1,
-						"ascographpos" : [ 100, 100 ]
+						"ascographpos" : [ 382, 62 ]
 					}
 ,
 					"text" : "antescofo~ @outlets beatnum"
@@ -5777,6 +5800,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-93", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-114", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5894,10 +5926,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-37" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-99" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-4" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-7" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-4" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-37" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-99" : [ "live.gain~[4]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
