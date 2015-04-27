@@ -26,7 +26,7 @@ BPM 35
 NOTE C5 7/2 measure1
 group midiactions @tight @local {
 	; delay msgrecvr pitch velocity duration
-	0.0 mnote 60.0 80.0 0.2479 ; the actual score should have a delay of 0.5, 0.375 to compensate the delay
+	0.0 mnote 60.0 80.0 0.2479 ; the actual score has a delay of 0.5. this value compensates the delay
 	0.25 mnote 62.0 80.0 0.2479
 	0.25 mnote 64.0 80.0 0.4979
 	0.0 mnote 67.0 80.0 0.9979
