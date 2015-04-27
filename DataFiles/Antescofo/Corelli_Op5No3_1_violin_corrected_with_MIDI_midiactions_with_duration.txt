@@ -1,0 +1,1164 @@
+; Antescofo score manually transcribed by Gabriel Vigliensoni
+; Copyright (c) Thomas Coffy - IRCAM 2013
+; Corelli Op.5 No.3, 1st movement, violin part.
+
+
+antescofo-mess-violin 4096 512
+antescofo-mess-violin harmlist 1 2 3 4 5
+antescofo-mess-violin variance 0.2
+antescofo-mess-violin temposmoothness 0.25
+antescofo-mess-violin tune 415
+BPM 35
+
+; ----------- measure 1
+NOTE C5 7/2 measure1
+group midiactions @tight @local {
+	; delay msgrecvr pitch velocity
+	0.5000 mnote_violin 60 80
+	0.2479 mnote_violin 60 0
+	0.0021 mnote_violin 62 80
+	0.2479 mnote_violin 62 0
+	0.0021 mnote_violin 64 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 64 80
+	0.4979 mnote_violin 64 0
+	0.0021 mnote_violin 60 80
+	0.4979 mnote_violin 64 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 60 0
+	0.0021 mnote_violin 64 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 57 80
+	0.4979 mnote_violin 57 0
+	0.0021 mnote_violin 57 80
+	0.2479 mnote_violin 57 0
+	0.0021 mnote_violin 59 80
+	0.2479 mnote_violin 64 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 59 0
+	0.0021 mnote_violin 64 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 60 80
+	0.4979 mnote_violin 64 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 60 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 52 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 52 0
+	0.0021 mnote_violin 72 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 81 80
+	0.0000 mnote_violin 53 80
+	0.4979 mnote_violin 72 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 81 0
+	0.0000 mnote_violin 53 0
+	0.0021 mnote_violin 72 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 52 80
+	0.2479 mnote_violin 52 0
+	0.0021 mnote_violin 53 80
+	0.2479 mnote_violin 72 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 53 0
+	0.0021 mnote_violin 72 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 55 80
+	0.4979 mnote_violin 72 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 71 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 43 80
+	0.4979 mnote_violin 71 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 43 0
+	0.5021 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 60 80
+	0.4979 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 60 0
+	0.0021 mnote_violin 74 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 59 80
+	0.4979 mnote_violin 59 0
+	0.0021 mnote_violin 55 80
+	0.4979 mnote_violin 74 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 55 0
+	0.5021 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 60 80
+	0.4979 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 60 0
+	0.0021 mnote_violin 74 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 59 80
+	0.4979 mnote_violin 59 0
+	0.0021 mnote_violin 55 80
+	0.4979 mnote_violin 74 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 60 80
+	0.4979 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 60 0
+	0.0021 mnote_violin 74 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 59 80
+	0.4979 mnote_violin 74 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 59 0
+	0.0021 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 57 80
+	0.4979 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 57 0
+	0.0021 mnote_violin 72 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 78 80
+	0.0000 mnote_violin 50 80
+	0.4979 mnote_violin 72 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 78 0
+	0.0000 mnote_violin 50 0
+	0.0021 mnote_violin 71 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 55 80
+	1.9979 mnote_violin 71 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 55 0
+	2.5021 mnote_violin 55 80
+	0.2479 mnote_violin 55 0
+	0.0021 mnote_violin 57 80
+	0.2479 mnote_violin 57 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 59 80
+	0.4979 mnote_violin 59 0
+	0.0021 mnote_violin 55 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 52 80
+	0.4979 mnote_violin 52 0
+	0.0021 mnote_violin 52 80
+	0.2479 mnote_violin 52 0
+	0.0021 mnote_violin 54 80
+	0.2479 mnote_violin 67 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 54 0
+	0.0021 mnote_violin 71 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 55 80
+	0.4979 mnote_violin 71 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 47 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 47 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 48 80
+	0.4979 mnote_violin 48 0
+	0.0021 mnote_violin 47 80
+	0.2479 mnote_violin 47 0
+	0.0021 mnote_violin 48 80
+	0.2479 mnote_violin 67 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 48 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 50 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 50 0
+	0.0021 mnote_violin 66 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 38 80
+	0.4979 mnote_violin 66 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 38 0
+	0.5021 mnote_violin 67 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 55 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 54 80
+	0.4979 mnote_violin 54 0
+	0.0021 mnote_violin 50 80
+	0.4979 mnote_violin 69 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 50 0
+	0.5021 mnote_violin 67 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 55 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 54 80
+	0.4979 mnote_violin 54 0
+	0.0021 mnote_violin 50 80
+	0.4979 mnote_violin 69 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 50 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 55 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 54 80
+	0.4979 mnote_violin 69 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 54 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 52 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 52 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 73 80
+	0.0000 mnote_violin 45 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 73 0
+	0.0000 mnote_violin 45 0
+	0.0021 mnote_violin 66 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 50 80
+	0.4979 mnote_violin 50 0
+	0.0021 mnote_violin 62 80
+	0.2479 mnote_violin 62 0
+	0.0021 mnote_violin 60 80
+	0.2479 mnote_violin 66 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 60 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 59 80
+	0.4979 mnote_violin 59 0
+	0.0021 mnote_violin 55 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 60 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 60 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 59 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 59 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 78 80
+	0.0000 mnote_violin 57 80
+	0.4979 mnote_violin 57 0
+	0.0021 mnote_violin 55 80
+	0.4979 mnote_violin 69 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 78 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 72 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 81 80
+	0.0000 mnote_violin 54 80
+	0.4979 mnote_violin 72 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 81 0
+	0.0000 mnote_violin 54 0
+	0.0021 mnote_violin 72 80
+	0.0000 mnote_violin 78 80
+	0.0000 mnote_violin 81 80
+	0.0000 mnote_violin 50 80
+	0.4979 mnote_violin 72 0
+	0.0000 mnote_violin 78 0
+	0.0000 mnote_violin 81 0
+	0.0000 mnote_violin 50 0
+	0.0021 mnote_violin 71 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 47 80
+	0.4979 mnote_violin 47 0
+	0.0021 mnote_violin 48 80
+	0.4979 mnote_violin 71 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 48 0
+	0.0021 mnote_violin 71 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 50 80
+	0.4979 mnote_violin 50 0
+	0.0021 mnote_violin 48 80
+	0.4979 mnote_violin 71 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 48 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 50 80
+	0.4979 mnote_violin 69 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 50 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 78 80
+	0.0000 mnote_violin 38 80
+	0.4979 mnote_violin 69 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 78 0
+	0.0000 mnote_violin 38 0
+	0.0021 mnote_violin 71 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 43 80
+	0.4979 mnote_violin 43 0
+	0.0021 mnote_violin 55 80
+	0.2479 mnote_violin 55 0
+	0.0021 mnote_violin 53 80
+	0.2479 mnote_violin 71 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 53 0
+	0.0021 mnote_violin 72 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 52 80
+	0.4979 mnote_violin 52 0
+	0.0021 mnote_violin 48 80
+	0.4979 mnote_violin 72 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 48 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 77 80
+	0.0000 mnote_violin 53 80
+	0.4979 mnote_violin 69 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 77 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 77 80
+	0.4979 mnote_violin 53 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 77 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 52 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 76 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.4979 mnote_violin 52 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 77 80
+	0.0000 mnote_violin 50 80
+	0.4979 mnote_violin 50 0
+	0.0021 mnote_violin 62 80
+	0.2479 mnote_violin 62 0
+	0.0021 mnote_violin 60 80
+	0.2479 mnote_violin 69 0
+	0.0000 mnote_violin 77 0
+	0.0000 mnote_violin 60 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 77 80
+	0.0000 mnote_violin 59 80
+	0.4979 mnote_violin 59 0
+	0.0021 mnote_violin 55 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 77 0
+	0.0000 mnote_violin 55 0
+	0.5021 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 60 80
+	0.2479 mnote_violin 60 0
+	0.0021 mnote_violin 59 80
+	0.2479 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 59 0
+	0.0021 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 77 80
+	0.0000 mnote_violin 57 80
+	0.4979 mnote_violin 57 0
+	0.0021 mnote_violin 53 80
+	0.4979 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 77 0
+	0.0000 mnote_violin 53 0
+	0.5021 mnote_violin 74 80
+	0.0000 mnote_violin 77 80
+	0.0000 mnote_violin 81 80
+	0.0000 mnote_violin 59 80
+	0.2479 mnote_violin 59 0
+	0.0021 mnote_violin 57 80
+	0.2479 mnote_violin 74 0
+	0.0000 mnote_violin 77 0
+	0.0000 mnote_violin 81 0
+	0.0000 mnote_violin 57 0
+	0.0021 mnote_violin 74 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 83 80
+	0.0000 mnote_violin 56 80
+	0.4979 mnote_violin 56 0
+	0.0021 mnote_violin 52 80
+	0.4979 mnote_violin 74 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 83 0
+	0.0000 mnote_violin 52 0
+	0.0021 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 81 80
+	0.0000 mnote_violin 57 80
+	0.4979 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 81 0
+	0.0000 mnote_violin 57 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 77 80
+	0.0000 mnote_violin 50 80
+	0.4979 mnote_violin 69 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 77 0
+	0.0000 mnote_violin 50 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 52 80
+	0.4979 mnote_violin 69 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 52 0
+	0.0021 mnote_violin 68 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 40 80
+	0.4979 mnote_violin 68 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 40 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 45 80
+	0.9979 mnote_violin 69 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 45 0
+	0.5021 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 52 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 52 0
+	0.0021 mnote_violin 65 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 53 80
+	0.4979 mnote_violin 53 0
+	0.0021 mnote_violin 41 80
+	0.4979 mnote_violin 65 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 41 0
+	0.5021 mnote_violin 62 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 54 80
+	0.4979 mnote_violin 62 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 54 0
+	0.0021 mnote_violin 62 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 55 80
+	0.4979 mnote_violin 55 0
+	0.0021 mnote_violin 43 80
+	0.4979 mnote_violin 62 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 43 0
+	0.5021 mnote_violin 64 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 56 80
+	0.4979 mnote_violin 64 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 56 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 57 80
+	0.4979 mnote_violin 57 0
+	0.0021 mnote_violin 45 80
+	0.4979 mnote_violin 69 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 45 0
+	0.5021 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 57 80
+	0.4979 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 57 0
+	0.0021 mnote_violin 71 80
+	0.0000 mnote_violin 75 80
+	0.0000 mnote_violin 81 80
+	0.0000 mnote_violin 59 80
+	0.4979 mnote_violin 71 0
+	0.0000 mnote_violin 75 0
+	0.0000 mnote_violin 81 0
+	0.0000 mnote_violin 59 0
+	0.0021 mnote_violin 71 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 52 80
+	0.4979 mnote_violin 71 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 52 0
+	0.0021 mnote_violin 71 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 78 80
+	0.0000 mnote_violin 59 80
+	0.4979 mnote_violin 71 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 78 0
+	0.0000 mnote_violin 59 0
+	0.0021 mnote_violin 71 80
+	0.0000 mnote_violin 75 80
+	0.0000 mnote_violin 78 80
+	0.0000 mnote_violin 47 80
+	0.4979 mnote_violin 71 0
+	0.0000 mnote_violin 75 0
+	0.0000 mnote_violin 78 0
+	0.0000 mnote_violin 47 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 52 80
+	0.4979 mnote_violin 52 0
+	0.0021 mnote_violin 60 80
+	0.2479 mnote_violin 60 0
+	0.0021 mnote_violin 59 80
+	0.2479 mnote_violin 67 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 59 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 60 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 60 0
+	0.0021 mnote_violin 71 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 55 80
+	0.4979 mnote_violin 71 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 57 80
+	0.4979 mnote_violin 57 0
+	0.0021 mnote_violin 57 80
+	0.2479 mnote_violin 57 0
+	0.0021 mnote_violin 55 80
+	0.2479 mnote_violin 69 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 64 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 57 80
+	0.4979 mnote_violin 57 0
+	0.0021 mnote_violin 52 80
+	0.4979 mnote_violin 64 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 52 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 77 80
+	0.0000 mnote_violin 53 80
+	0.4979 mnote_violin 53 0
+	0.0021 mnote_violin 53 80
+	0.2479 mnote_violin 53 0
+	0.0021 mnote_violin 52 80
+	0.2479 mnote_violin 69 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 77 0
+	0.0000 mnote_violin 52 0
+	0.0021 mnote_violin 65 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 53 80
+	0.4979 mnote_violin 65 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 53 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 52 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 52 0
+	0.0021 mnote_violin 62 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 53 80
+	0.4979 mnote_violin 62 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 53 0
+	0.0021 mnote_violin 64 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 52 80
+	0.4979 mnote_violin 64 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 52 0
+	0.0021 mnote_violin 59 80
+	0.0000 mnote_violin 65 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 50 80
+	0.4979 mnote_violin 59 0
+	0.0000 mnote_violin 65 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 50 0
+	0.0021 mnote_violin 64 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 48 80
+	0.4979 mnote_violin 64 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 48 0
+	0.0021 mnote_violin 62 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 43 80
+	0.4979 mnote_violin 62 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 43 0
+	0.0021 mnote_violin 62 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 55 80
+	0.2479 mnote_violin 55 0
+	0.0021 mnote_violin 53 80
+	0.2479 mnote_violin 62 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 53 0
+	0.0021 mnote_violin 60 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 52 80
+	0.4979 mnote_violin 52 0
+	0.0021 mnote_violin 48 80
+	0.4979 mnote_violin 60 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 48 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 53 80
+	0.4979 mnote_violin 53 0
+	0.0021 mnote_violin 55 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 65 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 57 80
+	0.4979 mnote_violin 57 0
+	0.0021 mnote_violin 59 80
+	0.4979 mnote_violin 65 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 59 0
+	0.0021 mnote_violin 65 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 60 80
+	0.4979 mnote_violin 65 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 60 0
+	0.0021 mnote_violin 64 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 48 80
+	0.4979 mnote_violin 64 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 48 0
+	0.0021 mnote_violin 65 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 53 80
+	0.4979 mnote_violin 65 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 53 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 52 80
+	0.2479 mnote_violin 52 0
+	0.0021 mnote_violin 53 80
+	0.2479 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 53 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 77 80
+	0.0000 mnote_violin 55 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 77 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 48 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 48 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 55 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 43 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 43 0
+	0.0021 mnote_violin 64 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 48 80
+	0.4979 mnote_violin 48 0
+	0.0021 mnote_violin 60 80
+	0.4979 mnote_violin 64 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 60 0
+	0.0021 mnote_violin 62 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 59 80
+	0.4979 mnote_violin 59 0
+	0.0021 mnote_violin 47 80
+	0.4979 mnote_violin 62 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 47 0
+	0.0021 mnote_violin 64 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 45 80
+	0.4979 mnote_violin 45 0
+	0.0021 mnote_violin 57 80
+	0.4979 mnote_violin 64 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 57 0
+	0.0021 mnote_violin 64 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 76 80
+	0.0000 mnote_violin 55 80
+	0.4979 mnote_violin 55 0
+	0.0021 mnote_violin 43 80
+	0.4979 mnote_violin 64 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 76 0
+	0.0000 mnote_violin 43 0
+	0.0021 mnote_violin 69 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 77 80
+	0.0000 mnote_violin 41 80
+	0.4979 mnote_violin 41 0
+	0.0021 mnote_violin 53 80
+	0.4979 mnote_violin 69 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 77 0
+	0.0000 mnote_violin 53 0
+	0.0021 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 79 80
+	0.0000 mnote_violin 52 80
+	0.4979 mnote_violin 52 0
+	0.0021 mnote_violin 53 80
+	0.4979 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 79 0
+	0.0000 mnote_violin 53 0
+	0.0021 mnote_violin 65 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 74 80
+	0.0000 mnote_violin 55 80
+	0.4979 mnote_violin 65 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 74 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 64 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 48 80
+	0.4979 mnote_violin 64 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 48 0
+	0.0021 mnote_violin 62 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 55 80
+	0.4979 mnote_violin 62 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 62 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 43 80
+	0.4979 mnote_violin 62 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 43 0
+	0.0021 mnote_violin 64 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 48 80
+	0.4979 mnote_violin 48 0
+	0.0021 mnote_violin 50 80
+	0.2479 mnote_violin 50 0
+	0.0021 mnote_violin 52 80
+	0.2479 mnote_violin 64 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 52 0
+	0.0021 mnote_violin 65 80
+	0.0000 mnote_violin 69 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 53 80
+	0.9979 mnote_violin 65 0
+	0.0000 mnote_violin 69 0
+	0.0000 mnote_violin 72 0
+	0.0021 mnote_violin 62 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 71 80
+	0.4979 mnote_violin 53 0
+	0.0000 mnote_violin 62 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 71 0
+	0.0021 mnote_violin 60 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 52 80
+	0.2479 mnote_violin 52 0
+	0.0021 mnote_violin 53 80
+	0.2479 mnote_violin 60 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 53 0
+	0.0021 mnote_violin 62 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 55 80
+	0.4979 mnote_violin 62 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 55 0
+	0.0021 mnote_violin 62 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 71 80
+	0.0000 mnote_violin 43 80
+	0.4979 mnote_violin 62 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 71 0
+	0.0000 mnote_violin 43 0
+	0.0021 mnote_violin 64 80
+	0.0000 mnote_violin 67 80
+	0.0000 mnote_violin 72 80
+	0.0000 mnote_violin 48 80
+	1.9979 mnote_violin 64 0
+	0.0000 mnote_violin 67 0
+	0.0000 mnote_violin 72 0
+	0.0000 mnote_violin 48 0
+}
+NOTE C5 1/2
+
+; ----------- measure 2
+NOTE D5 3/2 measure2
+NOTE D5 1/2
+NOTE E5 1
+NOTE 0 1/2
+NOTE G5 1/2
+
+; ----------- measure 3
+NOTE E5 1/2 measure3
+NOTE C5 1/2
+NOTE 0 1/2
+NOTE G5 1/2
+NOTE E5 1/2
+NOTE D5 1/2
+NOTE C5 1
+
+; ----------- measure 4
+NOTE B4 2 measure4
+NOTE 0 2
+
+; ----------- measure 5
+NOTE G5 7/2 measure5
+NOTE G5 1/2
+
+; ----------- measure 6
+NOTE A5 3/2 measure6
+NOTE A5 1/2
+NOTE B5 1
+NOTE 0 1/2
+NOTE D6 1/2
+
+; ----------- measure 7
+NOTE B5 1/2 measure7
+NOTE G5 1/2
+NOTE 0 1/2
+NOTE D6 1/2
+NOTE B5 1/2
+NOTE A5 1/2
+NOTE G5 1
+
+; ----------- measure 8
+NOTE F#5 1 measure8
+NOTE 0 1/2
+NOTE G5 1/4
+NOTE D5 1/4
+NOTE E5 1/2
+NOTE G4 1/2
+NOTE C5 1 ;this note goes tied to the next one
+
+; ----------- measure 9
+NOTE C5 1/1 measure9 ; tied from previous one
+NOTE D5 1/2 
+NOTE E5 1/2
+NOTE B4 1
+NOTE A4 1
+
+; ----------- measure 10
+NOTE G4 3/2 measure10
+NOTE G5 1/4
+NOTE E5 1/4
+NOTE A5 1/2
+NOTE D5 1/2
+NOTE G5 1/2
+NOTE C5 1/2
+
+; ----------- measure 11
+NOTE F5 3/2 measure11
+NOTE G5 1/4
+NOTE F5 1/4
+NOTE E5 3/2
+NOTE F5 1/4
+NOTE E5 1/4
+
+; ----------- measure 12
+NOTE D5 3/2 measure12
+NOTE E5 1/4
+NOTE D5 1/4
+NOTE C5 1/4
+NOTE E5 1/4
+NOTE D5 1/4
+NOTE C5 1/4
+NOTE B4 1
+
+; ----------- measure 13
+NOTE A4 1/2 measure13
+NOTE C5 1/4
+NOTE B4 1/4
+NOTE C5 3/2
+NOTE D5 1/4
+NOTE C5 1/4
+NOTE D5 2/2 ; tied to the next one
+
+; ----------- measure 14
+NOTE D5 1/2 measure14 ; tied from previous
+NOTE E5 1/4 
+NOTE D5 1/4
+NOTE E5 3/2
+NOTE F5 1/4
+NOTE E5 1/4
+NOTE F5 1/2
+NOTE E5 1/2
+
+; ----------- measure 15
+NOTE D#5 1/2 measure15
+NOTE E5 1/2
+NOTE E5 3/4
+NOTE D#5 1/4
+NOTE E5 3/2
+NOTE G5 1/2
+
+; ----------- measure 16
+NOTE C5 3/2 measure16
+NOTE E5 1/2
+NOTE A4 3/2
+NOTE C5 1/2
+
+; ----------- measure 17
+NOTE D5 1/2 measure17
+NOTE C5 1/2
+NOTE F5 1/2
+NOTE E5 1/2
+NOTE D5 1/2
+NOTE G4 1/2
+NOTE G5 2/2 ; tied to next one
+
+; ----------- measure 18
+NOTE G5 1/2 measure18 ; tied from previous
+NOTE F5 1/4 
+NOTE E5 1/4
+NOTE F5 3/2
+NOTE E5 1/2
+NOTE A4 1/2
+NOTE A5 1/2
+
+; ----------- measure 19
+NOTE B4 1/2 measure19
+NOTE C5 1/4
+NOTE D5 1/4
+NOTE D5 3/4
+NOTE C5 1/4
+NOTE C5 1
+NOTE 0 1/2
+NOTE G5 1/2
+
+; ----------- measure 20
+NOTE C5 1 measure20
+NOTE 0 1/2
+NOTE G5 1/2
+NOTE A4 1
+NOTE 0 1/2
+NOTE A5 1/2
+
+; ----------- measure 21
+NOTE B4 1/2 measure21
+NOTE C5 1/4
+NOTE D5 1/8
+NOTE E5 1/8
+NOTE C5 3/4
+NOTE B4 1/4
+NOTE C5 3/2
+NOTE A4 1/2
+
+; ----------- measure 22
+NOTE B3 1/2 measure22
+NOTE C4 1/4
+NOTE D4 1/4
+NOTE D4 3/4
+NOTE C4 1/4
+NOTE C4 2
