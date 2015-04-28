@@ -1,0 +1,18 @@
+AnteScofo values for pitches and durations
+
+MIDI Pitches
+
+48 60 72	C
+50 62 74	D
+52 64 76	E
+53 65 77	F
+55 67 79	G
+57 69 81	A
+59 71 83	B
+60 72 74	C
+
+4.00	Whole
+2.00	Double
+1.00	Quarter
+0.50	Eight
+0.25	Sixteenth
