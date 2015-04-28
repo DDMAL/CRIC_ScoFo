@@ -8,7 +8,7 @@ antescofo-mess-cello harmlist 1 2 3 4 5
 antescofo-mess-cello variance 0.2
 antescofo-mess-cello temposmoothness 0.25
 antescofo-mess-cello tune 415
-BPM 60
+BPM 90
 
 
 ; ----------- measure 1 --- beat 1
