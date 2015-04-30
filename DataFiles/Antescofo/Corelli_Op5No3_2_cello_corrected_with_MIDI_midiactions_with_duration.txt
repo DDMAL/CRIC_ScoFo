@@ -3,12 +3,12 @@
 ; Corelli Op.5 No.3  2nd movement  cello part.
 
 
-antescofo-mess-cello 4096 512
+antescofo-mess-cello analysis 4096 256
 antescofo-mess-cello harmlist 1 2 3 4 5
 antescofo-mess-cello variance 0.2
 antescofo-mess-cello temposmoothness 0.25
 antescofo-mess-cello tune 415
-BPM 90
+BPM 95
 
 
 ; ----------- measure 1 --- beat 1
@@ -20,7 +20,7 @@ group midiactions @tight @local {
 	0.0 mnote 67 80 0.95
 	0.0 mnote 72 80 0.95
 	0.0 mnote 76 80 0.95
-	1.0 mnote 60 80 1.95 ;C
+	0.90 mnote 60 80 1.95 ;C delay was 1.00
 	0.0 mnote 69 80 0.95
 	0.0 mnote 72 80 0.95
 	0.0 mnote 76 80 0.95
@@ -72,7 +72,7 @@ group midiactions @tight @local {
 	0.0 mnote 64 80 0.95
 	0.0 mnote 67 80 0.95
 	0.0 mnote 72 80 0.95
-	1.5 mnote 60 80 0.4729 ;C
+	1.40 mnote 60 80 0.4729 ;C delay was 1.5
 	0.5 mnote 59 80 0.95 ;B
 	0.0 mnote 62 80 0.95
 	0.0 mnote 67 80 0.95
@@ -148,7 +148,7 @@ group midiactions @tight @local {
 	0.0 mnote 59 80 0.4729
 	0.0 mnote 64 80 0.4729
 	0.0 mnote 67 80 0.4729
-	0.5 mnote 57 80 0.4729 ;A
+	0.40 mnote 57 80 0.4729 ;A delay was 0.5
 	0.0 mnote 60 80 0.4729
 	0.0 mnote 64 80 0.4729
 	0.5 mnote 52 80 0.4729 ;E
@@ -780,7 +780,7 @@ group midiactions @tight @local {
 	0.0 mnote 67 80 0.95
 	0.0 mnote 72 80 0.95
 	0.0 mnote 76 80 0.95
-	1.0 mnote 60 80 1.95 ;C
+	0.90 mnote 60 80 1.95 ;C delay was 1.0
 	0.0 mnote 69 80 0.95
 	0.0 mnote 72 80 0.95
 	0.0 mnote 76 80 0.95
