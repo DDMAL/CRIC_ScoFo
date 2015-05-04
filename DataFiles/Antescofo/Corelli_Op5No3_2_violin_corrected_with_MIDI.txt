@@ -5,21 +5,21 @@
 antescofo-mess-violin analysis 4096 256
 antescofo-mess-violin harmlist 1 2 3 4 5
 antescofo-mess-violin variance 0.2
-antescofo-mess-violin temposmoothness 100.75
+antescofo-mess-violin temposmoothness 0.1
 antescofo-mess-violin tune 415
-BPM 95
+BPM 110
 pause 1
+movave 1
 ; ----------- measure 1 
-leading 1
+
 NOTE 0 1/2 measure1
-pause 0
 group midiactions @tight @local {
 	; delay msgrecvr pitch velocity duration
 	0.0 mnote 48 80 0.95 ;C M1
 	0.0 mnote 67 80 0.95
 	0.0 mnote 72 80 0.95
 	0.0 mnote 76 80 0.95
-	1.0 mnote 60 80 1.95 ;C delay was 1.0
+	0.9 mnote 60 80 1.95 ;C delay was 1.0
 	0.0 mnote 69 80 0.95
 	0.0 mnote 72 80 0.95
 	0.0 mnote 76 80 0.95
@@ -543,10 +543,10 @@ group midiactions @tight @local {
 	0.0 mnote 71 80 1.9
 	0.0 mnote 76 80 1.9
 
-	2.0 mnote 48 80 0.95 ;C M31 
-	0.0 mnote 67 80 0.95
-	0.0 mnote 72 80 0.95
-	0.0 mnote 76 80 0.95
+	2.0 mnote 48 80 0.95 ; C M31 
+	0.0 mnote 67 80 0.95 
+	0.0 mnote 72 80 0.95 
+	0.0 mnote 76 80 0.95 
 	1.0 mnote 60 80 1.95 ;C
 	0.0 mnote 69 80 0.95
 	0.0 mnote 72 80 0.95
@@ -767,6 +767,8 @@ group midiactions @tight @local {
 }
 
 NOTE G5 1/2 
+pause 0
+movave 8
 NOTE A5 1/2
 NOTE E5 1/2
 NOTE F5 1/2
@@ -1160,6 +1162,7 @@ NOTE A4 1/4
 NOTE E5 1/4
 NOTE G4 1/4
 NOTE E5 1/4
+movave 1
 BPM 70 @modulate
 CHORD (B3 D#4 A4) 1/1
 CHORD (G3 E4) 3/4
@@ -1169,13 +1172,14 @@ CHORD (A3 E4) 1/4
 BPM 60 @modulate
 CHORD (B3 E4) 1/1 measure30
 CHORD (B3 D#4) 1/1
-BPM 35 @modulate
+BPM 50 @modulate
 TRILL (G3 E4 B4 E5) 2
-
-
+pause 1
 ; ----------- measure 31
-BPM 95
-CHORD (C4 E4) 1/2 @hook measure31
+CHORD (C4 E4) 1/2 measure31
+BPM 110
+movave 8
+pause 0
 CHORD (C4 G5) 1/2
 CHORD (0 A5) 1/2
 CHORD (C4 E5) 1/2
@@ -1387,6 +1391,42 @@ NOTE G3 1/8
 ;TRILL (G3 B4 D4) 1/4
 ;TRILL (G3 B4 D4) 1/4 
 
+; ----------- measure 46b
+NOTE G3 3/8 m46b
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+
+
+;TRILL (G3 B4 C5) 1/4 
+;TRILL (G3 B4 C5) 1/4
+;TRILL (G3 B4 C5) 1/4
+;TRILL (G3 B4 C5) 1/4
+;TRILL (G3 A4 C5) 1/4
+;TRILL (G3 A4 C5) 1/4
+;TRILL (G3 A4 C5) 1/4
+;TRILL (G3 A4 C5) 1/4 
+;TRILL (G3 A4 B4) 1/4
+;TRILL (G3 A4 B4) 1/4
+;TRILL (G3 A4 B4) 1/4
+;TRILL (G3 A4 B4) 1/4 
+;TRILL (G3 G4 B4) 1/4
+;TRILL (G3 G4 B4) 1/4
+;TRILL (G3 G4 B4) 1/4
+;TRILL (G3 G4 B4) 1/4 
+
 ; ----------- measure 47
 NOTE G3 3/8 m47
 NOTE G3 1/8
@@ -1405,43 +1445,7 @@ NOTE G3 1/8
 NOTE G3 3/8
 NOTE G3 1/8
 
-
-;TRILL (G3 B4 C5) 1/4 measure47
-;TRILL (G3 B4 C5) 1/4
-;TRILL (G3 B4 C5) 1/4
-;TRILL (G3 B4 C5) 1/4
-;TRILL (G3 A4 C5) 1/4
-;TRILL (G3 A4 C5) 1/4
-;TRILL (G3 A4 C5) 1/4
-;TRILL (G3 A4 C5) 1/4 
-;TRILL (G3 A4 B4) 1/4
-;TRILL (G3 A4 B4) 1/4
-;TRILL (G3 A4 B4) 1/4
-;TRILL (G3 A4 B4) 1/4 
-;TRILL (G3 G4 B4) 1/4
-;TRILL (G3 G4 B4) 1/4
-;TRILL (G3 G4 B4) 1/4
-;TRILL (G3 G4 B4) 1/4 
-
-; ----------- measure 48
-NOTE G3 3/8 m48
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-
-;TRILL (G3 G4 A4) 1/4 measure48
+;TRILL (G3 G4 A4) 1/4 
 ;TRILL (G3 G4 A4) 1/4
 ;TRILL (G3 G4 A4) 1/4
 ;TRILL (G3 G4 A4) 1/4
@@ -1458,8 +1462,8 @@ NOTE G3 1/8
 ;TRILL (G3 F4 D5) 1/4
 ;TRILL (G3 F4 D5) 1/4 
 
-; ----------- measure 49
-NOTE G3 3/8 m49
+; ----------- measure 47b
+NOTE G3 3/8 m47b
 NOTE G3 1/8
 NOTE G3 3/8
 NOTE G3 1/8
@@ -1477,7 +1481,7 @@ NOTE G3 3/8
 NOTE G3 1/8
 
 
-;TRILL (G3 E4 D5) 1/4 measure49
+;TRILL (G3 E4 D5) 1/4 
 ;TRILL (G3 E4 D5) 1/4
 ;TRILL (G3 E4 D5) 1/4
 ;TRILL (G3 E4 D5) 1/4
@@ -1494,81 +1498,8 @@ NOTE G3 1/8
 ;TRILL (G3 F4 B4) 1/4
 ;TRILL (G3 F4 B4) 1/4
 
-; ----------- measure 46
-; BPM 90
-antescofo-mess-violin pedal 1
-NOTE G3 3/8 m46
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-
-
-;TRILL (G3 B4 F5) 1/4 measure46
-;TRILL (G3 B4 F5) 1/4
-;TRILL (G3 B4 F5) 1/4
-;TRILL (G3 B4 F5) 1/4
-;TRILL (G3 C5 E5) 1/4
-;TRILL (G3 C5 E5) 1/4
-;TRILL (G3 C5 E5) 1/4
-;TRILL (G3 C5 E5) 1/4 
-;TRILL (G3 C5 D5) 1/4
-;TRILL (G3 C5 D5) 1/4
-;TRILL (G3 C5 D5) 1/4
-;TRILL (G3 C5 D5) 1/4 
-;TRILL (G3 B4 D4) 1/4
-;TRILL (G3 B4 D4) 1/4
-;TRILL (G3 B4 D4) 1/4
-;TRILL (G3 B4 D4) 1/4 
-
-; ----------- measure 47
-NOTE G3 3/8 m47
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-NOTE G3 3/8
-NOTE G3 1/8
-
-
-;TRILL (G3 B4 C5) 1/4 measure47
-;TRILL (G3 B4 C5) 1/4
-;TRILL (G3 B4 C5) 1/4
-;TRILL (G3 B4 C5) 1/4
-;TRILL (G3 A4 C5) 1/4
-;TRILL (G3 A4 C5) 1/4
-;TRILL (G3 A4 C5) 1/4
-;TRILL (G3 A4 C5) 1/4 
-;TRILL (G3 A4 B4) 1/4
-;TRILL (G3 A4 B4) 1/4
-;TRILL (G3 A4 B4) 1/4
-;TRILL (G3 A4 B4) 1/4 
-;TRILL (G3 G4 B4) 1/4
-;TRILL (G3 G4 B4) 1/4
-;TRILL (G3 G4 B4) 1/4
-;TRILL (G3 G4 B4) 1/4 
-
 ; ----------- measure 48
+; BPM 90
 NOTE G3 3/8 m48
 NOTE G3 1/8
 NOTE G3 3/8
@@ -1586,22 +1517,59 @@ NOTE G3 1/8
 NOTE G3 3/8
 NOTE G3 1/8
 
-;TRILL (G3 G4 A4) 1/4 measure48
-;TRILL (G3 G4 A4) 1/4
-;TRILL (G3 G4 A4) 1/4
-;TRILL (G3 G4 A4) 1/4
-;TRILL (G3 F4 A4) 1/4
-;TRILL (G3 F4 A4) 1/4
-;TRILL (G3 F4 A4) 1/4
-;TRILL (G3 F4 A4) 1/4 
-;TRILL (G3 F4 B4) 1/4
-;TRILL (G3 F4 B4) 1/4
-;TRILL (G3 F4 B4) 1/4
-;TRILL (G3 F4 B4) 1/4 
-;TRILL (G3 F4 D5) 1/4
-;TRILL (G3 F4 D5) 1/4
-;TRILL (G3 F4 D5) 1/4
-;TRILL (G3 F4 D5) 1/4 
+
+;TRILL (G3 B4 F5) 1/4 
+;TRILL (G3 B4 F5) 1/4
+;TRILL (G3 B4 F5) 1/4
+;TRILL (G3 B4 F5) 1/4
+;TRILL (G3 C5 E5) 1/4
+;TRILL (G3 C5 E5) 1/4
+;TRILL (G3 C5 E5) 1/4
+;TRILL (G3 C5 E5) 1/4 
+;TRILL (G3 C5 D5) 1/4
+;TRILL (G3 C5 D5) 1/4
+;TRILL (G3 C5 D5) 1/4
+;TRILL (G3 C5 D5) 1/4 
+;TRILL (G3 B4 D4) 1/4
+;TRILL (G3 B4 D4) 1/4
+;TRILL (G3 B4 D4) 1/4
+;TRILL (G3 B4 D4) 1/4 
+
+; ----------- measure 48b
+NOTE G3 3/8 m48b
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+
+
+;TRILL (G3 B4 C5) 1/4 
+;TRILL (G3 B4 C5) 1/4
+;TRILL (G3 B4 C5) 1/4
+;TRILL (G3 B4 C5) 1/4
+;TRILL (G3 A4 C5) 1/4
+;TRILL (G3 A4 C5) 1/4
+;TRILL (G3 A4 C5) 1/4
+;TRILL (G3 A4 C5) 1/4 
+;TRILL (G3 A4 B4) 1/4
+;TRILL (G3 A4 B4) 1/4
+;TRILL (G3 A4 B4) 1/4
+;TRILL (G3 A4 B4) 1/4 
+;TRILL (G3 G4 B4) 1/4
+;TRILL (G3 G4 B4) 1/4
+;TRILL (G3 G4 B4) 1/4
+;TRILL (G3 G4 B4) 1/4 
 
 ; ----------- measure 49
 NOTE G3 3/8 m49
@@ -1621,8 +1589,43 @@ NOTE G3 1/8
 NOTE G3 3/8
 NOTE G3 1/8
 
+;TRILL (G3 G4 A4) 1/4 
+;TRILL (G3 G4 A4) 1/4
+;TRILL (G3 G4 A4) 1/4
+;TRILL (G3 G4 A4) 1/4
+;TRILL (G3 F4 A4) 1/4
+;TRILL (G3 F4 A4) 1/4
+;TRILL (G3 F4 A4) 1/4
+;TRILL (G3 F4 A4) 1/4 
+;TRILL (G3 F4 B4) 1/4
+;TRILL (G3 F4 B4) 1/4
+;TRILL (G3 F4 B4) 1/4
+;TRILL (G3 F4 B4) 1/4 
+;TRILL (G3 F4 D5) 1/4
+;TRILL (G3 F4 D5) 1/4
+;TRILL (G3 F4 D5) 1/4
+;TRILL (G3 F4 D5) 1/4 
 
-;TRILL (G3 E4 D5) 1/4 measure49
+; ----------- measure 49b
+NOTE G3 3/8 m49b
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+NOTE G3 3/8
+NOTE G3 1/8
+
+
+;TRILL (G3 E4 D5) 1/4 
 ;TRILL (G3 E4 D5) 1/4
 ;TRILL (G3 E4 D5) 1/4
 ;TRILL (G3 E4 D5) 1/4
