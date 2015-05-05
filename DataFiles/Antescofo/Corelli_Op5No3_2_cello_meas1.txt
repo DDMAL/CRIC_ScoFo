@@ -1,0 +1,36 @@
+; Antescofo score manually transcribed by Gabriel Vigliensoni
+; Copyright (c) Thomas Coffy - IRCAM 2013
+; Corelli Op.5 No.3  2nd movement  cello part.
+
+
+antescofo-mess-cello analysis 4096 256
+antescofo-mess-cello harmlist 1 2 3 4 5
+antescofo-mess-cello variance 0.2
+antescofo-mess-cello temposmoothness 0.25
+antescofo-mess-cello tune 415
+BPM 100
+leading 1
+pause 1
+; ----------- measure 1 --- beat 1
+NOTE C3 1 measure1
+pause 0
+group midiactions @loose @local {
+	; delay msgrecvr pitch velocity duration
+	0.0 mnote 48 80 0.95 ;C M1
+	0.0 mnote 67 80 0.95
+	0.0 mnote 72 80 0.95
+	0.0 mnote 76 80 0.95
+	1.0 mnote 60 80 1.95 ;C delay was 1.00
+	0.0 mnote 69 80 0.95
+	0.0 mnote 72 80 0.95
+	0.0 mnote 76 80 0.95
+	1.0 mnote 69 80 0.95 ;
+	0.0 mnote 74 80 0.95
+	0.0 mnote 77 80 0.95
+	1.0 mnote 59 0 1.95 ;B
+	0.0 mnote 67 80 0.95
+	0.0 mnote 71 80 0.95
+	0.0 mnote 74 80 0.95
+}
+; NOTE C4 2
+; NOTE B3 2 ; tied to next one

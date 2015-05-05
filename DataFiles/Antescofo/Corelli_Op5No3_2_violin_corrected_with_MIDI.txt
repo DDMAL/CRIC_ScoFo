@@ -7,768 +7,18 @@ antescofo-mess-violin harmlist 1 2 3 4 5
 antescofo-mess-violin variance 0.2
 antescofo-mess-violin temposmoothness 0.1
 antescofo-mess-violin tune 415
-BPM 110
-pause 1
-movave 1
+; antescofo-mess-cello score "/Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_2_cello_meas1.txt"
+BPM 93
+clear bang
+; movave 8
+
 ; ----------- measure 1 
 
 NOTE 0 1/2 measure1
-group midiactions @tight @local {
-	; delay msgrecvr pitch velocity duration
-	0.0 mnote 48 80 0.95 ;C M1
-	0.0 mnote 67 80 0.95
-	0.0 mnote 72 80 0.95
-	0.0 mnote 76 80 0.95
-	0.9 mnote 60 80 1.95 ;C delay was 1.0
-	0.0 mnote 69 80 0.95
-	0.0 mnote 72 80 0.95
-	0.0 mnote 76 80 0.95
-	1.0 mnote 69 80 0.95 ;
-	0.0 mnote 74 80 0.95
-	0.0 mnote 77 80 0.95
-	1.0 mnote 59 80 1.95 ;B
-	0.0 mnote 67 80 0.95
-	0.0 mnote 71 80 0.95
-	0.0 mnote 74 80 0.95
-
-	1.0 mnote 67 80 0.95 ;B M2
-	0.0 mnote 72 80 0.95
-	0.0 mnote 76 80 0.95
-	1.0 mnote 57 80 0.95 ;A
-	0.0 mnote 72 80 0.95
-	0.0 mnote 77 80 0.95
-	1.0 mnote 55 80 0.4729 ;G
-	0.0 mnote 71 80 0.4729
-	0.0 mnote 74 80 0.4729
-	0.0 mnote 77 80 0.4729
-	0.5 mnote 52 80 0.4729 ;E
-	0.0 mnote 72 80 0.4729
-	0.0 mnote 76 80 0.4729
-	0.5 mnote 53 80 0.4729 ;F
-	0.0 mnote 69 80 0.4729
-	0.0 mnote 72 80 0.4729
-	0.0 mnote 74 80 0.4729
-	0.5 mnote 55 80 0.4729 ;G
-	0.0 mnote 67 80 0.4729
-	0.0 mnote 71 80 0.4729
-	0.0 mnote 74 80 0.4729
-
-	0.5 mnote 48 80 0.95 ;C 
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 72 80 0.95
-	1.5 mnote 60 80 0.4729 ;C
-	0.5 mnote 59 80 0.95 ;B
-	0.0 mnote 62 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 74 80 0.95
-	1.5 mnote 55 80 0.4729 ;G
-
-	0.5 mnote 57 80 0.95 ;A M4
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 72 80 0.95
-	1.5 mnote 50 80 0.4729 ;D
-	0.0 mnote 62 80 0.4729
-	0.0 mnote 66 80 0.4729
-	0.0 mnote 72 80 0.4729
-	0.5 mnote 52 80 0.95 ;E
-	0.0 mnote 59 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 71 80 0.95
-	1.5 mnote 48 80 0.4729 ;C
-
-	0.5 mnote 50 80 0.4729 ;D M5
-	0.0 mnote 62 80 0.4729
-	0.0 mnote 66 80 0.4729
-	0.0 mnote 72 80 0.4729
-	0.5 mnote 43 80 0.4729 ;G
-	0.0 mnote 62 80 0.4729
-	0.0 mnote 67 80 0.4729
-	0.0 mnote 71 80 0.4729
-	0.5 mnote 50 80 0.4729 ;D
-	0.0 mnote 62 80 0.4729
-	0.0 mnote 67 80 0.4729
-	0.0 mnote 69 80 0.4729
-	0.5 mnote 38 80 0.4729 ;D
-	0.0 mnote 62 80 0.4729
-	0.0 mnote 66 80 0.4729
-	0.0 mnote 69 80 0.4729
-	0.5 mnote 43 80 0.95	;G
-	0.0 mnote 59 80 0.95
-	0.0 mnote 62 80 0.95
-	0.0 mnote 67 80 0.95
-
-	6.5 mnote 55 80 0.4729 ;G M7
-	0.0 mnote 59 80 0.4729
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 67 80 0.4729
-	0.5 mnote 57 80 0.4729 ;A
-	0.0 mnote 60 80 0.4729
-	0.0 mnote 64 80 0.4729
-	0.5 mnote 52 80 0.4729 ;E
-	0.0 mnote 60 80 0.4729
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 67 80 0.4729
-	0.5 mnote 53 80 0.4729 ;F
-	0.0 mnote 60 80 0.95
-	0.0 mnote 62 80 0.95
-	0.0 mnote 69 80 0.95
-	0.5 mnote 50 80 0.4729 ;D
-	0.5 mnote 55 80 0.4729 ;G
-	0.0 mnote 59 80 0.95
-	0.0 mnote 62 80 0.95
-	0.0 mnote 67 80 0.95
-	0.5 mnote 43 80 0.4729 ;G
-
-	0.5 mnote 48 80 0.4729 ;C M8
-	0.0 mnote 60 80 0.95
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-	0.5 mnote 50 80 0.2354 ;D
-	0.25 mnote 52 80 0.2354 ;E
-	0.25 mnote 53 80 1.4729 ;F
-	0.0 mnote 57 80 0.4729
-	0.0 mnote 60 80 0.4729
-	0.0 mnote 65 80 0.4729
-	0.5 mnote 57 80 0.4729 ;F
-	0.0 mnote 62 80 0.4729
-	0.0 mnote 65 80 0.4729
-	0.5 mnote 59 80 0.4729 ;B
-	0.0 mnote 62 80 0.4729
-	0.0 mnote 67 80 0.4729
-	0.5 mnote 52 80 0.2354 ;E
-	0.0 mnote 60 80 0.4729
-	0.0 mnote 67 80 0.4729
-	0.25 mnote 53 80 0.2354 ;F
-	0.25 mnote 55 80 0.4729 ;G
-	0.0 mnote 60 80 0.4729
-	0.0 mnote 62 80 0.4729
-	0.0 mnote 67 80 0.4729
-	0.5 mnote 43 80 0.4729 ;G
-	0.0 mnote 59 80 0.4729
-	0.0 mnote 62 80 0.4729
-	0.0 mnote 67 80 0.4729	
-
-	0.5 mnote 48 80 1.45 ;C M9
-	0.0 mnote 60 80 0.95
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-	1.0 mnote 60 80 0.95 ;C
-	0.0 mnote 64 80 0.95
-	0.0 mnote 69 80 0.95
-	0.5 mnote 48 80 0.4729 ;C
-	0.5 mnote 47 80 1.45 ;B
-	0.0 mnote 59 80 0.95
-	0.0 mnote 62 80 0.95
-	0.0 mnote 69 80 0.95
-	1.0 mnote 59 80 0.95 ;B
-	0.0 mnote 62 80 0.95
-	0.0 mnote 67 80 0.95
-	0.5 mnote 47 80 0.4729 ;B
-
-	0.5 mnote 48 80 0.4729 ;C M10
-	0.0 mnote 57 80 0.95
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-	0.5 mnote 45 80 0.4729 ;A
-	0.5 mnote 50 80 0.4729 ;D
-	0.0 mnote 57 80 0.95
-	0.0 mnote 62 80 0.95
-	0.0 mnote 66 80 0.95
-	0.5 mnote 38 80 0.4729 ;D
-	0.5 mnote 43 80 0.95 ;G
-	0.0 mnote 59 80 0.95
-	0.0 mnote 62 80 0.95
-	0.0 mnote 67 80 0.95
-	1.5 mnote 48 80 0.4729 ;C
-
-	0.5 mnote 53 80 0.95 ;F M11
-	0.0 mnote 60 80 0.95
-	0.0 mnote 65 80 0.95
-	0.0 mnote 69 80 0.95
-	1.5 mnote 50 80 0.4729 ;D
-	0.0 mnote 62 80 0.4729
-	0.0 mnote 66 80 0.4729
-	0.0 mnote 69 80 0.4729
-	0.5 mnote 55 80 0.95 ;G
-	0.0 mnote 59 80 0.95
-	0.0 mnote 62 80 0.95
-	0.0 mnote 67 80 0.95
-	1.5 mnote 52 80 0.4729 ;E
-	0.0 mnote 59 80 0.4729
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 68 80 0.4729
-
-	0.5 mnote 57 80 0.95 ;A M12
-	0.0 mnote 60 80 0.95
-	0.0 mnote 64 80 0.95
-	0.0 mnote 69 80 0.95
-	1.5 mnote 57 80 0.4729 ;A
-	0.0 mnote 60 80 0.4729
-	0.0 mnote 65 80 0.4729
-	0.0 mnote 69 80 0.4729
-	0.5 mnote 56 80 0.95 ;G#
-	0.0 mnote 62 80 0.95
-	0.0 mnote 65 80 0.95
-	0.0 mnote 71 80 0.95
-	1.0 mnote 55 80 0.95  ;G
-	0.0 mnote 59 80 0.95
-	0.0 mnote 64 80 0.95
-	0.0 mnote 71 80 0.95
-
-	1.0 mnote 54 80 0.95 ;F# M13
-	0.0 mnote 64 80 0.95
-	0.0 mnote 66 80 0.95
-	0.0 mnote 69 80 0.95
-	1.0 mnote 53 80 0.95 ;F
-	0.0 mnote 62 80 0.95
-	0.0 mnote 65 80 0.95
-	0.0 mnote 69 80 0.95
-	1.0 mnote 52 80 0.95 ;E
-	0.0 mnote 59 80 0.95
-	0.0 mnote 62 80 0.95
-	0.0 mnote 68 80 0.95
-	1.0 mnote 45 80 0.95 ;A
-	0.0 mnote 60 80 0.95
-	0.0 mnote 69 80 0.95
-
-	1.0 mnote 52 80 0.4729 ;E M14
-	0.0 mnote 59 80 0.4729
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 68 80 0.4729
-	0.5 mnote 48 80 0.4729 ;C
-	0.0 mnote 57 80 0.4729
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 69 80 0.4729
-	0.5 mnote 50 80 0.4729 ;D
-	0.0 mnote 59 80 0.4729
-	0.0 mnote 65 80 0.4729
-	0.0 mnote 69 80 0.4729
-	0.5 mnote 52 80 0.4729 ;E
-	0.0 mnote 59 80 0.4729
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 68 80 0.4729
-	0.5 mnote 45 80 0.95 ;A
-	0.0 mnote 60 80 0.95
-	0.0 mnote 64 80 0.95
-	0.0 mnote 69 80 0.95
-	1.0 mnote 57 80 1.95 ;A
-	0.0 mnote 60 80 0.95
-	0.0 mnote 65 80 0.95
-	0.0 mnote 69 80 0.95
-
-	1.0 mnote 62 80 0.95 ;D M15
-	0.0 mnote 65 80 0.95
-	0.0 mnote 71 80 0.95
-	1.0 mnote 55 80 1.95 ;G
-	0.0 mnote 59 80 0.95
-	0.0 mnote 64 80 0.95
-	0.0 mnote 71 80 0.95
-	1.0 mnote 60 80 0.95 ;C
-	0.0 mnote 64 80 0.95
-	0.0 mnote 69 80 0.95
-	1.0 mnote 53 80 1.95 ;F
-	0.0 mnote 62 80 0.95
-	0.0 mnote 65 80 0.95
-	0.0 mnote 69 80 0.95
-
-	1.0 mnote 62 80 0.95 ;D M16
-	0.0 mnote 67 80 0.95
-	0.0 mnote 71 80 0.95
-	1.0 mnote 52 80 0.95 ;E
-	0.0 mnote 60 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 72 80 0.95
-	1.0 mnote 50 80 0.95 ;D
-	0.0 mnote 65 80 0.95
-	0.0 mnote 69 80 0.95
-	0.0 mnote 72 80 0.95
-	1.5 mnote 55 80 0.4729 ;G
-
-	0.5 mnote 48 80 0.4729 ;C M17
-	0.0 mnote 64 80 0.95
-	0.0 mnote 71 80 0.95
-	0.0 mnote 72 80 0.95
-	0.5 mnote 50 80 0.2375 ;D
-	0.25 mnote 52 80 0.2375 ;E
-	0.25 mnote 53 80 0.4729 ;F
-	0.0 mnote 64 80 0.95
-	0.0 mnote 69 80 0.95
-	0.0 mnote 72 80 0.95
-	0.5 mnote 41 80 0.4729 ;F
-	0.5 mnote 47 80 0.4729 ;B
-	0.0 mnote 62 80 0.95
-	0.0 mnote 69 80 0.95
-	0.0 mnote 71 80 0.95
-	0.5 mnote 48 80 0.2375 ;C
-	0.25 mnote 50 80 0.2375 ;D
-	0.25 mnote 52 80 0.4729 ;E
-	0.0 mnote 62 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 71 80 0.95
-	0.5 mnote 40 80 0.4729 ;E
-
-	0.5 mnote 45 80 0.4729 ;A M18
-	0.0 mnote 60 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 69 80 0.95
-	0.5 mnote 47 80 0.2375 ;B
-	0.25 mnote 48 80 0.2375 ;C
-	0.25 mnote 50 80 0.4729 ;D
-	0.0 mnote 60 80 0.95
-	0.0 mnote 65 80 0.95
-	0.0 mnote 69 80 0.95
-	0.5 mnote 38 80 0.4729 ;D
-	0.5 mnote 43 80 0.4729 ;G
-	0.0 mnote 59 80 0.95
-	0.0 mnote 65 80 0.95
-	0.0 mnote 67 80 0.95
-	0.5 mnote 55 80 0.2375 ;G
-	0.25 mnote 53 80 0.2375 ;F
-	0.25 mnote 52 80 0.4729 ;E
-	0.0 mnote 60 80 0.95
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-	0.5 mnote 48 80 0.4729 ;C
-
-	0.5 mnote 53 80 0.4729 ;F M19
-	0.0 mnote 57 80 0.95
-	0.0 mnote 60 80 0.95
-	0.0 mnote 65 80 0.95
-	0.5 mnote 55 80 0.4729 ;G
-	0.5 mnote 57 80 0.4729 ;A
-	0.0 mnote 60 80 0.4729
-	0.0 mnote 64 80 0.4729
-	0.5 mnote 52 80 0.4729 ;E
-	0.0 mnote 60 80 0.4729
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 67 80 0.4729
-	0.5 mnote 53 80 0.4729 ;F
-	0.0 mnote 60 80 0.95
-	0.0 mnote 62 80 0.95
-	0.0 mnote 69 80 0.95
-	0.5 mnote 50 80 0.4729 ;D
-	0.5 mnote 55 80 0.4729 ;G
-	0.0 mnote 59 80 0.95
-	0.0 mnote 62 80 0.95
-	0.0 mnote 67 80 0.95
-	0.5 mnote 43 80 0.4729 ;G
-
-	0.5 mnote 48 80 0.4729 ;C M20
-	0.0 mnote 60 80 0.95
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-	0.5 mnote 50 80 0.4729 ;D
-	0.5 mnote 52 80 0.4729 ;E
-	0.0 mnote 60 80 0.95
-	0.0 mnote 67 80 0.95
-	0.5 mnote 48 80 0.4729 ;C
-	0.5 mnote 53 80 0.4729 ;F
-	0.0 mnote 60 80 0.95
-	0.0 mnote 65 80 0.95
-	0.0 mnote 69 80 0.95
-	0.5 mnote 55 80 0.4729 ;G
-	0.5 mnote 57 80 0.4729 ;A
-	0.0 mnote 60 80 0.4729
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 69 80 0.4729
-	0.5 mnote 52 80 0.4729 ;E
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 67 80 0.4729
-	0.0 mnote 72 80 0.4729
-
-	0.5 mnote 53 80 0.4729 ;F M21
-	0.0 mnote 62 80 0.95
-	0.0 mnote 69 80 0.95
-	0.0 mnote 72 80 0.95
-	0.5 mnote 50 80 0.4729 ;D
-	0.5 mnote 55 80 0.4729 ;G
-	0.0 mnote 62 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 71 80 0.95
-	0.5 mnote 43 80 0.4729 ;G
-	0.5 mnote 48 80 0.95 ;C
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 72 80 0.95
-
-	2.0 mnote 48 80 0.95 ;C M22
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 72 80 0.95
-	2.0 mnote 45 80 0.95 ;A
-	0.0 mnote 64 80 0.95
-	0.0 mnote 69 80 0.95
-	0.0 mnote 72 80 0.95
-
-	2.0 mnote 45 80 0.95 ;A M23
-	0.0 mnote 64 80 0.95
-	0.0 mnote 72 80 0.95
-	2.0 mnote 57 80 0.4729 ;A 
-	0.0 mnote 64 80 0.95
-	0.0 mnote 72 80 0.95
-	0.5 mnote 45 80 0.4729 ;A
-	0.5 mnote 48 80 0.4729 ;C
-	0.0 mnote 64 80 0.95
-	0.0 mnote 69 80 0.95
-	0.0 mnote 72 80 0.95
-	0.5 mnote 45 80 0.4729 ;A
-
-	0.5 mnote 52 80 1.95 ;E M24
-	0.0 mnote 64 80 0.95
-	0.0 mnote 69 80 0.95
-	0.0 mnote 71 80 0.95
-	1.0 mnote 64 80 0.95 ;E
-	0.0 mnote 67 80 0.95
-	0.0 mnote 71 80 0.95
-	1.0 mnote 59 80 0.4729 ;B
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 67 80 0.4729
-	0.0 mnote 71 80 0.4729
-	0.5 mnote 47 80 0.4729 ;B
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 66 80 0.4729
-	0.0 mnote 71 80 0.4729
-	0.5 mnote 50 80 0.4729 ;D
-	0.0 mnote 59 80 0.95
-	0.0 mnote 66 80 0.95
-	0.0 mnote 71 80 0.95
-	0.5 mnote 47 80 0.4729 ;B
-
-	0.5 mnote 54 80 1.95 ;F# M25
-	0.0 mnote 61 80 0.95
-	0.0 mnote 66 80 0.95
-	0.0 mnote 71 80 0.95
-	1.0 mnote 61 80 0.95 ;C#
-	0.0 mnote 66 80 0.95
-	0.0 mnote 69 80 0.95
-	1.0 mnote 51 80 0.95 ;D#
-	0.0 mnote 59 80 0.95
-	0.0 mnote 66 80 0.95
-	0.0 mnote 69 80 0.95
-	1.0 mnote 52 80 0.95 ;E
-	0.0 mnote 59 80 0.95
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-
-	1.0 mnote 49 80 0.95 ;C# M26
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 69 80 0.95
-	1.0 mnote 51 80 0.95 ;D#
-	0.0 mnote 66 80 0.95
-	0.0 mnote 69 80 0.95
-	0.0 mnote 71 80 0.95
-	1.0 mnote 52 80 0.95 ;E
-	0.0 mnote 66 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 71 80 0.95
-	1.0 mnote 43 80 0.95 ;G
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 71 80 0.95
-
-	1.0 mnote 45 80 0.95 ;A M27
-	0.0 mnote 64 80 0.95
-	0.0 mnote 66 80 0.95
-	0.0 mnote 72 80 0.95
-	1.0 mnote 47 80 0.95 ;B
-	0.0 mnote 63 80 0.95
-	0.0 mnote 66 80 0.95
-	0.0 mnote 71 80 0.95
-	1.0 mnote 52 80 0.95 ;E
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 71 80 0.95
-	1.0 mnote 55 80 0.95 ;G
-	0.0 mnote 64 80 0.95
-	0.0 mnote 71 80 0.95
-
-	1.0 mnote 57 80 0.95 ;A M28
-	0.0 mnote 64 80 0.95
-	0.0 mnote 69 80 0.95
-	0.0 mnote 72 80 0.95
-	1.0 mnote 59 80 0.95 ;B
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 71 80 0.95
-	1.0 mnote 60 80 0.4729 ;C
-	0.0 mnote 60 80 0.4729
-	0.0 mnote 64 80 0.95
-	0.0 mnote 69 80 0.95
-	0.5 mnote 59 80 0.4729 ;B
-	0.5 mnote 57 80 0.4729 ;A
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 69 80 0.4729
-	0.0 mnote 72 80 0.4729
-	0.5 mnote 55 80 0.4729 ;G
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 71 80 0.4729
-	0.0 mnote 76 80 0.4729
-
-	0.5 mnote 57 80 0.4729 ;A M29
-	0.0 mnote 69 80 0.4729
-	0.0 mnote 72 80 0.4729
-	0.0 mnote 76 80 0.4729
-	0.5 mnote 55 80 0.4729 ;G
-	0.0 mnote 71 80 0.4729
-	0.0 mnote 76 80 0.4729
-	0.5 mnote 54 80 0.4729 ;F#
-	0.0 mnote 69 80 0.4729
-	0.0 mnote 76 80 0.4729
-	0.0 mnote 78 80 0.4729
-	0.5 mnote 52 80 0.4729 ;E
-	0.0 mnote 67 80 0.4729
-	0.0 mnote 71 80 0.4729
-	0.0 mnote 79 80 0.4729
-	0.5 mnote 59 80 0.95 ;B
-	0.0 mnote 69 80 0.95
-	0.0 mnote 75 80 0.95
-	0.0 mnote 78 80 0.95
-	1.0 mnote 52 80 0.95 ;E
-	0.0 mnote 67 80 0.95
-	0.0 mnote 71 80 0.95
-	0.0 mnote 76 80 0.95
-
-	1.0 mnote 47 80 1.95 ;B M30
-	0.0 mnote 67 80 0.95
-	0.0 mnote 71 80 0.95
-	0.0 mnote 76 80 0.95
-	1.0 mnote 66 80 0.95 ;F#
-	0.0 mnote 71 80 0.95
-	0.0 mnote 75 80 0.95
-	1.0 mnote 40 80 1.9 ;E
-	0.0 mnote 67 80 1.9
-	0.0 mnote 71 80 1.9
-	0.0 mnote 76 80 1.9
-
-	2.0 mnote 48 80 0.95 ; C M31 
-	0.0 mnote 67 80 0.95 
-	0.0 mnote 72 80 0.95 
-	0.0 mnote 76 80 0.95 
-	1.0 mnote 60 80 1.95 ;C
-	0.0 mnote 69 80 0.95
-	0.0 mnote 72 80 0.95
-	0.0 mnote 76 80 0.95
-	1.0 mnote 69 80 0.95 ;A
-	0.0 mnote 74 80 0.95
-	0.0 mnote 77 80 0.95
-	1.0 mnote 59 80 1.95 ;B
-	0.0 mnote 67 80 0.95
-	0.0 mnote 74 80 0.95
-	0.0 mnote 79 80 0.95
-
-	1.0 mnote 67 80 0.95 ;G M32
-	0.0 mnote 72 80 0.95
-	0.0 mnote 76 80 0.95
-	1.0 mnote 57 80 0.95 ;A
-	0.0 mnote 65 80 0.95
-	0.0 mnote 72 80 0.95
-	0.0 mnote 77 80 0.95
-	1.5 mnote 55 80 0.4729 ;G
-	0.0 mnote 67 80 0.4729
-	0.0 mnote 71 80 0.4729
-	0.0 mnote 76 80 0.4729
-	0.5 mnote 57 80 0.4729 ;A
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 72 80 0.4729
-	0.0 mnote 76 80 0.4729
-	0.5 mnote 52 80 0.4729 ;E
-	0.0 mnote 72 80 0.4729
-	0.0 mnote 76 80 0.4729
-	0.0 mnote 79 80 0.4729
-
-	0.5 mnote 53 80 0.4729 ;F M33
-	0.0 mnote 72 80 0.95
-	0.0 mnote 74 80 0.95
-	0.0 mnote 81 80 0.95
-	0.5 mnote 50 80 0.4729 ;D
-	0.5 mnote 55 80 0.4729 ;G
-	0.0 mnote 71 80 0.95
-	0.0 mnote 74 80 0.95
-	0.0 mnote 79 80 0.95
-	0.5 mnote 43 80 0.4729 ;G
-	0.5 mnote 48 80 0.4729 ;C
-	0.0 mnote 71 80 0.95
-	0.0 mnote 76 80 0.95
-	0.0 mnote 79 80 0.95
-	0.5 mnote 50 80 0.2375 ;D
-	0.25 mnote 52 80 0.2375 ;E
-	0.25 mnote 53 80 1.95 ;F
-	0.0 mnote 69 80 0.95
-	0.0 mnote 77 80 0.95
-
-	1.0 mnote 71 80 0.95 ;B M34
-	0.0 mnote 74 80 0.95
-	0.0 mnote 79 80 0.95
-	1.0 mnote 52 80 0.95 ;E
-	0.0 mnote 72 80 0.95
-	0.0 mnote 79 80 0.95
-	1.0 mnote 50 80 0.4729 ;D
-	0.0 mnote 72 80 0.95
-	0.0 mnote 74 80 0.95
-	0.0 mnote 78 80 0.95
-	0.5 mnote 62 80 0.4729 ;D
-	0.5 mnote 64 80 0.4729 ;E
-	0.0 mnote 71 80 0.4729 
-	0.0 mnote 79 80 0.4729
-	0.5 mnote 59 80 0.4729 ;B
-	0.0 mnote 67 80 0.4729
-	0.0 mnote 74 80 0.4729
-	0.0 mnote 79 80 0.4729
-
-	0.5 mnote 60 80 0.4729 ;C M35
-	0.0 mnote 67 80 0.95
-	0.0 mnote 69 80 0.95
-	0.0 mnote 76 80 0.95
-	0.5 mnote 57 80 0.4729 ;A
-	0.5 mnote 62 80 0.4729 ;D
-	0.0 mnote 66 80 0.95
-	0.0 mnote 69 80 0.95
-	0.0 mnote 74 80 0.95
-	0.5 mnote 50 80 0.4729 ;D
-	0.5 mnote 43 80 1.45 ;G
-	0.0 mnote 67 80 0.95
-	0.0 mnote 71 80 0.95
-	0.0 mnote 74 80 0.95
-	1.0 mnote 67 80 0.95 ;G
-	0.0 mnote 71 80 0.95
-	0.0 mnote 76 80 0.95
-
-	0.5 mnote 55 80 0.4729 ;A M36
-	0.5 mnote 57 80 1.45 ;B
-	0.0 mnote 69 80 0.95
-	0.0 mnote 72 80 0.95
-	0.0 mnote 76 80 0.95
-	1.0 mnote 69 80 0.95 ;A
-	0.0 mnote 72 80 0.95
-	0.0 mnote 77 80 0.95
-	0.5 mnote 57 80 0.4729 ;A
-	0.5 mnote 59 80 1.45 ;B
-	0.0 mnote 71 80 0.95
-	0.0 mnote 74 80 0.95
-	0.0 mnote 77 80 0.95
-	1.0 mnote 71 80 0.95 ;B
-	0.0 mnote 74 80 0.95
-	0.0 mnote 79 80 0.95
-	0.5 mnote 59 80 0.4729 ;B
-
-	0.5 mnote 60 80 0.4729 ;C M37
-	0.0 mnote 72 80 0.95
-	0.0 mnote 76 80 0.95
-	0.0 mnote 79 80 0.95
-	0.5 mnote 55 80 0.4729 ;G
-	0.5 mnote 60 80 1.95 ;C
-	0.0 mnote 72 80 0.95
-	0.0 mnote 76 80 0.95
-	0.0 mnote 81 80 0.95
-	1.0 mnote 74 80 0.95 ;D
-	0.0 mnote 77 80 0.95
-	0.0 mnote 81 80 0.95
-
-	1.0 mnote 59 80 1.95 ;B M38
-	0.0 mnote 71 80 0.95
-	0.0 mnote 74 80 0.95
-	0.0 mnote 79 80 0.95
-	1.0 mnote 72 80 0.95 ;C
-	0.0 mnote 76 80 0.95
-	0.0 mnote 79 80 0.95
-	1.0 mnote 57 80 1.95 ;A
-	0.0 mnote 69 80 0.95
-	0.0 mnote 72 80 0.95
-	0.0 mnote 77 80 0.95
-	1.0 mnote 71 80 0.95 ;B
-	0.0 mnote 74 80 0.95
-	0.0 mnote 77 80 0.95
-	1.0 mnote 55 80 1.95 ;G
-	0.0 mnote 71 80 0.95
-	0.0 mnote 76 80 0.95
-	0.0 mnote 79 80 0.95
-
-	1.0 mnote 72 80 0.95 ;C M39
-	0.0 mnote 76 80 0.95
-	0.0 mnote 81 80 0.95
-	1.0 mnote 53 80 0.95 ;F
-	0.0 mnote 74 80 0.95
-	0.0 mnote 81 80 0.95
-	1.5 mnote 55 80 0.4729 ;G
-	0.0 mnote 71 80 0.4729
-	0.0 mnote 76 80 0.4729
-	0.0 mnote 79 80 0.4729
-	0.5 mnote 57 80 0.4729 ;A
-	0.0 mnote 64 80 0.4729
-	0.0 mnote 72 80 0.4729
-	0.0 mnote 76 80 0.4729
-	0.5 mnote 52 80 0.4729 ;E
-	0.0 mnote 72 80 0.4729
-	0.0 mnote 76 80 0.4729
-	0.0 mnote 79 80 0.4729
-
-	0.5 mnote 53 80 0.4729 ;F M40
-	0.0 mnote 72 80 0.95
-	0.0 mnote 74 80 0.95
-	0.0 mnote 81 80 0.95
-	0.5 mnote 50 80 0.4729 ;D
-	0.5 mnote 55 80 0.4729 ;G
-	0.0 mnote 71 80 0.95
-	0.0 mnote 74 80 0.95
-	0.0 mnote 79 80 0.95
-	0.5 mnote 43 80 0.4729 ;G
-	0.5 mnote 48 80 0.4729 ;C
-	0.0 mnote 71 80 0.95
-	0.0 mnote 76 80 0.95
-	0.0 mnote 79 80 0.95
-	0.5 mnote 50 80 0.2375
-	0.25 mnote 52 80 0.2375
-	0.25 mnote 53 80 0.4729
-	0.0 mnote 69 80 0.95
-	0.0 mnote 76 80 0.95
-	0.0 mnote 77 80 0.95
-	0.5 mnote 41 80 0.4729
-	0.5 mnote 47 80 0.4729
-	0.0 mnote 69 80 0.95
-	0.0 mnote 74 80 0.95
-	0.0 mnote 77 80 0.95
-	0.5 mnote 48 80 0.2375
-	0.25 mnote 50 80 0.2375
-	0.25 mnote 52 80 0.4729
-	0.0 mnote 67 80 0.95
-	0.0 mnote 74 80 0.95
-	0.0 mnote 76 80 0.95
-	0.5 mnote 40 80 0.4729
-	0.5 mnote 45 80 0.4729
-	0.0 mnote 67 80 0.95
-	0.0 mnote 72 80 0.95
-	0.0 mnote 76 80 0.95
-	0.5 mnote 47 80 0.2375
-	0.25 mnote 48 80 0.2375
-	0.25 mnote 50 80 0.4729
-	0.0 mnote 65 80 0.95
-	0.0 mnote 72 80 0.95
-	0.0 mnote 74 80 0.95
-	0.5 mnote 38 80 0.4729
-	0.5 mnote 43 80 0.95
-	0.0 mnote 65 80 0.95
-	0.0 mnote 71 80 0.95
-	0.0 mnote 74 80 0.95
-	2.0 mnote 43 80 29.9
-	0.0 mnote 62 80 28.9
-	0.0 mnote 71 80 28.9
-	0.0 mnote 74 80 28.9
-	45.0 mnote 67 80 0.95 ;G originally delay 29
-	0.0 mnote 71 80 0.95
-	0.0 mnote 74 80 0.95
-
-	1.0 mnote 48 80 3.7979 ;C M50
-	0.0 mnote 64 80 3.7979 
-	0.0 mnote 67 80 3.7979
-	0.0 mnote 72 80 3.7979
-}
-
-NOTE G5 1/2 
+pause 1
+NOTE G5 1/2
 pause 0
-movave 8
+
 NOTE A5 1/2
 NOTE E5 1/2
 NOTE F5 1/2
@@ -795,7 +45,7 @@ NOTE E5 1/4
 NOTE D5 1/4
 NOTE E5 1/4
 NOTE F#5 1/4
-CHORD (0 G5) 1/2
+NOTE G5 1/2
 CHORD (D5 G5) 1/2
 CHORD (E5 G5) 1/2
 CHORD (B4 G5) 1/2
@@ -808,26 +58,19 @@ NOTE D4 1/2
 NOTE G4 1/2
 NOTE A4 1/4
 NOTE B4 1/4
-CHORD (0 C5) 1/2
+NOTE C5 1/2
 CHORD (E4 C5) 1/2
 
 ; ----------- measure 5
 CHORD (F#4 C5) 1/2 measure5
-; ----------- measure 52
-CHORD (G4 B4) 1/2 m2
-; ----------- measure 53
-CHORD (D4 G4 A4) 1/2 m3
-; ----------- measure 54
-CHORD (D4 F#4 A4) 1/2 m4
-; ----------- measure 55
-NOTE G3 1/2 m5
-; ----------- measure 56
-NOTE A4 1/4 m6
+CHORD (G4 B4) 1/2
+CHORD (D4 G4 A4) 1/2
+CHORD (D4 F#4 A4) 1/2
+NOTE G3 1/2
+NOTE A4 1/4
 NOTE B4 1/4 
-; ----------- measure 57
-CHORD (0 C5) 1/2 m7
-; ----------- measure 58
-CHORD (E4 C5) 1/2 m8
+NOTE C5 1/2 
+CHORD (E4 C5) 1/2
 
 ; ----------- measure 6
 CHORD (F4 A4) 1/2 measure6
@@ -835,15 +78,15 @@ CHORD (F4 D5) 1/2
 CHORD (G4 B4) 1/2
 CHORD (G4 E5) 1/2
 CHORD (A4 C5) 1/2
-CHORD (G4 E5) 1/2
+CHORD (A4 F5) 1/2
 CHORD (D4 B4) 1/2
 CHORD (D4 G5) 1/2
 
 
 ; ----------- measure 7
-;CHORD (E4 C5) 1/1 measure7
-NOTE E4 1/2 measure7
-NOTE C5 1/2
+CHORD (E4 C5) 1/1 measure7
+;NOTE E4 1/2 measure7
+;NOTE C5 1/2
 NOTE 0 1/2
 NOTE G4 1/2
 NOTE A4 1/4
@@ -879,9 +122,9 @@ NOTE E4 1/2
 NOTE A4 1/2
 NOTE A3 1/2
 CHORD (B3 D4) 1/2
-NOTE E4 1/4
-NOTE F#4 1/4
-CHORD (0 G4) 1/2
+CHORD (B3 E4) 1/4
+CHORD (B3 F#4) 1/4
+NOTE G4 1/2
 CHORD (B3 G4) 1/2
 
 ; ----------- measure 10
@@ -890,26 +133,19 @@ CHORD (A3 F#4) 1/1
 CHORD (G3 G4) 1/2
 CHORD (G3 A4) 1/4
 CHORD (G3 B4) 1/4
-CHORD (0 C5) 1/2
+NOTE C5 1/2
 CHORD (E4 C5) 1/2
 
 ; ----------- measure 11
-CHORD (F#4 A4) 1/2 measure11
-; ----------- measure 11
-CHORD (F#4 B4) 1/4
-CHORD (F#4 C5) 1/4
-; ----------- measure 11
-CHORD (0 D5) 1/2
-; ----------- measure 11
+CHORD (F4 A4) 1/2 measure11 ; ?#
+CHORD (F4 B4) 1/4
+CHORD (F4 C5) 1/4
+NOTE D5 1/2
 CHORD (F#4 D5) 1/2
-; ----------- measure 11
 CHORD (G4 B4) 1/2
-; ----------- measure 11
 CHORD (G4 C5) 1/4
 CHORD (G4 D5) 1/4
-; ----------- measure 11
-CHORD (0 E5) 1/2
-; ----------- measure 11
+NOTE E5 1/2
 CHORD (G#4 E5) 1/2
 
 ; ----------- measure 12
@@ -976,9 +212,11 @@ NOTE D5 1/2
 NOTE D4 1/2
 
 ; ----------- measure 16
+clear bang
+; movave 1
 NOTE G4 1/2 measure16
 NOTE B4 1/2
-CHORD (0 C5) 1/2
+NOTE C5 1/2
 CHORD (E4 C5) 1/2
 CHORD (F4 C5) 1/2
 CHORD (D4 C5) 1/2
@@ -986,6 +224,7 @@ CHORD (G4 B4) 1/2
 CHORD (G3 B4) 1/2
 
 ; ----------- measure 17
+
 CHORD (C4 E4 B4) 1/1 measure17
 CHORD (C4 A4) 1/1
 CHORD (B3 A4 D5) 1/1
@@ -999,6 +238,7 @@ NOTE 0 1/2
 CHORD (E4 C5) 1/2
 
 ; ----------- measure 19
+
 CHORD (F4 A4) 1/2 measure19
 CHORD (F4 B4) 1/2
 CHORD (E4 C5) 1/1
@@ -1014,7 +254,7 @@ CHORD (F4 B4) 1/2
 CHORD (E4 C5) 1/1
 
 ; ----------- measure 21
-; BPM 100
+
 CHORD (D4 C5) 1/1 measure21
 CHORD (D4 B4) 1/1
 CHORD (C5 E5) 1/4
@@ -1162,7 +402,8 @@ NOTE A4 1/4
 NOTE E5 1/4
 NOTE G4 1/4
 NOTE E5 1/4
-movave 1
+clear bang
+; movave 1
 BPM 70 @modulate
 CHORD (B3 D#4 A4) 1/1
 CHORD (G3 E4) 3/4
@@ -1172,20 +413,38 @@ CHORD (A3 E4) 1/4
 BPM 60 @modulate
 CHORD (B3 E4) 1/1 measure30
 CHORD (B3 D#4) 1/1
-BPM 50 @modulate
-TRILL (G3 E4 B4 E5) 2
-pause 1
+BPM 25 @modulate
+; antescofo-mess-cello score "/Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_2_cello_meas30.txt"
+TRILL (G3 E4 B4 E5) 2 @fermata
+
+
 ; ----------- measure 31
+BPM 95 
 CHORD (C4 E4) 1/2 measure31
-BPM 110
-movave 8
-pause 0
+group midiactions @tight @local {
+	; delay msgrecvr pitch velocity duration
+	0.0 mnote 48 80 0.95 ;C M31 delay was 2.0
+	0.0 mnote 67 80 0.95
+	0.0 mnote 72 80 0.95
+	0.0 mnote 76 80 0.95
+	1.0 mnote 60 80 1.95 ;C delay was 1.0
+	0.0 mnote 69 80 0.95
+	0.0 mnote 72 80 0.95
+	0.0 mnote 76 80 0.95
+	1.0 mnote 69 80 0.95 ;A
+	0.0 mnote 74 80 0.95
+	0.0 mnote 77 80 0.95
+	1.0 mnote 59 80 1.95 ;B
+	0.0 mnote 67 80 0.95
+	0.0 mnote 74 80 0.95
+	0.0 mnote 79 80 0.95
+}
 CHORD (C4 G5) 1/2
-CHORD (0 A5) 1/2
+NOTE A5 1/2
 CHORD (C4 E5) 1/2
 CHORD (D5 F5) 1/2
 CHORD (D5 F5) 1/2
-CHORD (0 G5) 1/2
+NOTE G5 1/2
 CHORD (G4 B4) 1/2
 
 ; ----------- measure 32
@@ -1209,7 +468,7 @@ CHORD (C4 A4) 1/1
 CHORD (B3 G4) 1/2 measure34
 CHORD (B3 A4) 1/4
 CHORD (B3 B4) 1/4
-CHORD (0 C5) 1/2
+NOTE C5 1/2
 CHORD (E4 C5) 1/2
 CHORD (F#4 C5) 1/2
 CHORD (D4 C5) 1/2
@@ -1220,27 +479,27 @@ CHORD (G4 A4) 1/1 measure35
 CHORD (F#4 A4) 1/1
 CHORD (G3 G4) 1/2
 CHORD (G3 B4) 1/2
-CHORD (0 E5) 1/2
+NOTE E5 1/2
 CHORD (B4 E5) 1/2
 
 ; ----------- measure 36
 CHORD (C5 E5) 1/2 measure36
 CHORD (C5 E5) 1/2
-CHORD (0 F5) 1/2
+NOTE F5 1/2
 CHORD (C5 F5) 1/2
 CHORD (D5 F5) 1/2
 CHORD (D5 F5) 1/2
-CHORD (0 G5) 1/2
+NOTE G5 1/2
 CHORD (D5 G5) 1/2
 
 ; ----------- measure 37
 CHORD (E5 G5) 1/2 measure37
 CHORD (E5 G5) 1/2
-CHORD (0 A5) 1/2
+NOTE A5 1/2
 CHORD (C5 A5) 1/2
 CHORD (D5 F5) 1/2
 CHORD (E5 F5) 1/4
-CHORD (F5 F5) 1/4
+NOTE F5 1/4
 NOTE G5 1/2
 CHORD (G4 B4) 1/2
 
@@ -1254,18 +513,19 @@ NOTE C5 1/4
 CHORD (D4 B4) 1/2
 CHORD (D4 C5) 1/4
 CHORD (D4 D5) 1/4
-CHORD (0 E5) 1/2
+NOTE E5 1/2
 CHORD (G4 E5) 1/2
 
 ; ----------- measure 39
+
 CHORD (A4 C5) 1/2 measure39
 CHORD (B4 C5) 1/4
-CHORD (C5 C5) 1/4
+NOTE C5 1/4
 NOTE D5 1/2
 NOTE C5 1/2
 NOTE B4 1/2
 NOTE G4 1/2
-; BPM 80 @modulate
+BPM 80 @modulate
 CHORD (E4 C5) 1/1
 
 ; ----------- measure 40
@@ -1281,8 +541,6 @@ CHORD (A3 G4 C5) 1/1
 CHORD (A3 F4) 1/1
 
 ; ----------- measure 42
-leading 1
-; BPM 60 @modulate
 CHORD (G3 F4 B4) 1/1 measure42
 NOTE E5 1/4
 NOTE G5 1/4
@@ -1355,7 +613,6 @@ NOTE F5 1/4
 
 ; ----------- measure 46
 ; BPM 90
-antescofo-mess-violin pedal 1
 NOTE G3 3/8 m46
 NOTE G3 1/8
 NOTE G3 3/8
