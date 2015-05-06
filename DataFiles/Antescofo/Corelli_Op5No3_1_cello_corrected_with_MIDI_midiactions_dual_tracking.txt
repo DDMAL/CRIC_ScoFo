@@ -9,7 +9,7 @@ antescofo-mess-cello variance 0.2
 antescofo-mess-cello temposmoothness 0.2
 antescofo-mess-cello tune 415
 BPM 35
-
+leading 1
 ; ----------- measure 1 --- 
 NOTE 0 1/2  measure1
 
