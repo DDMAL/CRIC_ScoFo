@@ -3,7 +3,7 @@
 ; Corelli Op.5 No.3, 1st movement, violin part.
 
 
-antescofo-mess-violin 4096 512
+antescofo-mess-violin analysis 4096 512
 antescofo-mess-violin harmlist 1 2 3 4 5
 antescofo-mess-violin variance 0.2
 antescofo-mess-violin temposmoothness 0.25
