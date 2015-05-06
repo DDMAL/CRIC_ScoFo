@@ -6,10 +6,12 @@
 antescofo-mess-violin analysis 4096 256
 antescofo-mess-violin harmlist 1 2 3 4 5
 antescofo-mess-violin variance 0.1
-antescofo-mess-violin temposmoothness 0.25
+antescofo-mess-violin temposmoothness 1.0
 antescofo-mess-violin tune 415
-BPM 33
+clear bang
 leading 1
+BPM 33
+
 
 ; ----------- measure 1
 NOTE C5 7/2 measure1
