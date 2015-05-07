@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 454.0, 45.0, 1437.0, 1012.0 ],
+		"rect" : [ 395.0, 45.0, 1437.0, 1012.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -121,7 +121,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1297.5, 530.0, 50.0, 16.0 ],
-					"text" : "4"
+					"text" : "8"
 				}
 
 			}
@@ -191,7 +191,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1042.5, 565.0, 50.0, 16.0 ],
-					"text" : "8.458779"
+					"text" : "95"
 				}
 
 			}
@@ -232,7 +232,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 18.0, 45.0, 1498.0, 882.0 ],
+						"rect" : [ 185.0, 295.0, 1492.0, 894.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -253,6 +253,35 @@
 						"tags" : "",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-35",
+									"linecount" : 3,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 150.0, 677.0, 566.0, 38.0 ],
+									"text" : ";\rdeck1 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/2nd_rehearsal_hank_office/2nd_mov_violin.wav;\rdeck2 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/2nd_rehearsal_hank_office/2nd_mov_cello.wav"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-36",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 8.0, 687.0, 129.0, 18.0 ],
+									"text" : "2nd rehearsal hank's office"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -330,7 +359,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 199.0, 168.0, 674.0, 38.0 ],
-									"presentation_rect" : [ 201.0, 170.0, 0.0, 0.0 ],
 									"text" : ";\rdeck1 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/1st_rehearsal_mt_conf_room/1st_movement_violin_only_high_level.wav;\rdeck2 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/1st_rehearsal_mt_conf_room/1st_movement_cello_only_high_level.wav"
 								}
 
@@ -345,7 +373,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 145.0, 233.0, 48.0, 18.0 ],
-									"presentation_rect" : [ 145.0, 219.0, 0.0, 0.0 ],
 									"text" : "normal"
 								}
 
@@ -360,7 +387,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 145.0, 178.0, 37.0, 18.0 ],
-									"presentation_rect" : [ 140.0, 180.0, 0.0, 0.0 ],
 									"text" : "hi-lev"
 								}
 
@@ -375,7 +401,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 145.0, 138.0, 48.0, 18.0 ],
-									"presentation_rect" : [ 140.0, 140.0, 0.0, 0.0 ],
 									"text" : "normal"
 								}
 
@@ -390,7 +415,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 8.0, 138.0, 129.0, 18.0 ],
-									"presentation_rect" : [ 8.0, 135.0, 0.0, 0.0 ],
 									"text" : "1st rehearsal mt conf"
 								}
 
@@ -406,7 +430,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 199.0, 128.0, 685.0, 38.0 ],
-									"presentation_rect" : [ 194.0, 129.0, 0.0, 0.0 ],
 									"text" : ";\rdeck1 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/1st_rehearsal_mt_conf_room/1st_movement_violin_only_normal_level.wav;\rdeck2 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/1st_rehearsal_mt_conf_room/1st_movement_cello_only_normal_level.wav"
 								}
 
@@ -421,7 +444,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1026.0, 253.0, 60.0, 16.0 ],
-									"text" : "cello"
+									"text" : "violin"
 								}
 
 							}
@@ -449,7 +472,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1093.0, 253.0, 64.0, 16.0 ],
-									"text" : "10.994932"
+									"text" : "97.784302"
 								}
 
 							}
@@ -508,7 +531,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.222992, 1.0, 0.06109, 1.0 ],
+									"bgcolor" : [ 0.105882, 1.0, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-2",
@@ -669,6 +692,7 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.107347, 1.0, 0.000665, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-27",
@@ -677,8 +701,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 61.0, 703.0, 642.0, 38.0 ],
-									"text" : ";\rsf1 score /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_2_violin_corrected_with_MIDI.txt;\rsf2 score /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_2_cello_meas1.txt"
+									"patching_rect" : [ 61.0, 794.0, 616.0, 38.0 ],
+									"text" : ";\rsf1 score /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_2_violin_corrected_with_MIDI_NAPro.txt;\rsf2 score /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_2_cello_meas1_NAPro.txt"
 								}
 
 							}
@@ -699,28 +723,28 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
+									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"frgb" : 0.0,
 									"id" : "obj-41",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 61.0, 30.0, 419.0, 18.0 ],
+									"patching_rect" : [ 61.0, 30.0, 451.0, 18.0 ],
 									"text" : "Op5 No3 1st movement: slow (first measure track violin, then cello)"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
+									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"frgb" : 0.0,
 									"id" : "obj-127",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 61.0, 543.0, 633.0, 18.0 ],
+									"patching_rect" : [ 61.0, 543.0, 674.0, 18.0 ],
 									"text" : "Op5 No3 2nd movement: fast (score follower: cello measure 1, violin: 2->30, cello 31, violin -> END)"
 								}
 
@@ -879,7 +903,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 601.5, 530.0, 50.0, 16.0 ],
-					"text" : "4"
+					"text" : "8"
 				}
 
 			}
@@ -950,7 +974,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 346.5, 565.0, 50.0, 27.0 ],
-					"text" : "31.154663"
+					"text" : "97.784302"
 				}
 
 			}
@@ -1621,7 +1645,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 401.0, 303.0, 204.0, 18.0 ],
-									"text" : "55. 80. 0.4979"
+									"text" : "79 80 0.95"
 								}
 
 							}
@@ -2296,7 +2320,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 81.0, 419.0, 50.0, 27.0 ],
-					"text" : "30.938593"
+					"text" : "97.784302"
 				}
 
 			}
@@ -2692,13 +2716,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-55",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 589.0, 631.0, 110.0, 27.0 ],
-					"text" : "syncf 167 10.994932 86."
+					"patching_rect" : [ 589.0, 631.0, 110.0, 16.0 ],
+					"text" : "syncf 1 95. 0."
 				}
 
 			}
@@ -2752,7 +2775,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 638.0, 865.0, 70.0, 16.0 ],
-					"text" : "cello"
+					"text" : "violin"
 				}
 
 			}
@@ -2838,13 +2861,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-3",
-									"linecount" : 4,
+									"linecount" : 5,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 319.625, 318.0, 50.0, 49.0 ],
-									"text" : "syncf 167 10.994932 86."
+									"patching_rect" : [ 319.625, 318.0, 34.0, 72.0 ],
+									"text" : "syncf 543 97.784302 225."
 								}
 
 							}
@@ -2993,7 +3016,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 42.75, 160.0, 50.0, 16.0 ],
-									"text" : "2"
+									"text" : "1"
 								}
 
 							}
@@ -3021,7 +3044,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 68.25, 183.0, 136.25, 16.0 ],
-									"text" : "syncf 167 10.994932 86."
+									"text" : "syncf 543 97.784302 225."
 								}
 
 							}
@@ -4175,7 +4198,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -5134,7 +5156,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1015.25, 446.75, 153.572021, 16.0 ],
-					"text" : "syncf 167 10.994932 86."
+					"text" : "syncf 1 95. 0."
 				}
 
 			}
@@ -5232,7 +5254,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 926.25, 384.25, 80.0, 16.0 ],
-					"text" : "measure22"
+					"text" : "measure1"
 				}
 
 			}
@@ -5643,12 +5665,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-17",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 248.75, 444.5, 125.5, 16.0 ],
-					"text" : "syncf 121 30.781553 86."
+					"patching_rect" : [ 248.75, 444.5, 125.5, 27.0 ],
+					"text" : "syncf 543 97.784302 225."
 				}
 
 			}
@@ -5746,7 +5769,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 215.25, 394.5, 80.0, 16.0 ],
-					"text" : "measure22"
+					"text" : "m48b"
 				}
 
 			}
@@ -5950,7 +5973,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 506.0, 456.5, 124.0, 16.0 ],
-					"text" : "startfromlabel measure41"
+					"text" : "startfromlabel measure28"
 				}
 
 			}
@@ -7272,10 +7295,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-37" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-4" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-99" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-7" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-4" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-37" : [ "live.gain~[6]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
