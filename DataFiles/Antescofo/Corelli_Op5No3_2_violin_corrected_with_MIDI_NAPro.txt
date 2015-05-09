@@ -12,12 +12,12 @@ BPM 95
 clear bang
 movave 8
 
-whenever ($PITCH)
-{
-    msg1 $BEAT_POS $RT_TEMPO
-    ;let $BEAT_POS := $BEAT_POS - 0.01
-    ;msg1 $BEAT_POS
-}
+;whenever ($PITCH)
+;{
+;    msg1 $BEAT_POS $RT_TEMPO
+;    ;let $BEAT_POS := $BEAT_POS - 0.01
+;    ;msg1 $BEAT_POS
+;}
 
 
 
@@ -414,17 +414,18 @@ NOTE G4 1/4
 NOTE E5 1/4
 clear bang
 movave 1
-BPM 80 @modulate
-CHORD (B3 D#4 A4) 1/1
-;BPM 60 @modulate
-CHORD (G3 E4) 3/4
 BPM 70 @modulate
+CHORD (B3 D#4 A4) 1/1
+BPM 60 @modulate
+CHORD (G3 E4) 3/4
+BPM 50 @modulate
 CHORD (A3 E4) 1/4
 
 ; ----------- measure 30
 CHORD (B3 E4) 1/1 measure30
-BPM 60 @modulate
+BPM 40 @modulate
 CHORD (B3 D#4) 1/1
+BPM 25 @modulate
 MULTI (G3 E5) 2/1
 ; NOTE E5 1/1 @fermata
 
@@ -439,7 +440,7 @@ CHORD (C4 E4) 1/2 measure31
 pause 0
 clear bang
 movave 8
-BPM 95
+BPM 100
 group midiactions @loose @local {
 	; delay msgrecvr pitch velocity duration
 	0.0 mnote 48 80 0.95 ;C M31 delay was 2.0
@@ -555,17 +556,25 @@ CHORD (C4 E4 B4) 1/1
 CHORD (C4 A4) 1/1
 
 ; ----------- measure 41
+BPM 90 @modulate
 CHORD (B3 A4 D5) 1/1 measure41
+BPM 85 @modulate
 CHORD (B3 G4) 1/1
+BPM 80 @modulate
 CHORD (A3 G4 C5) 1/1
+BPM 70 @modulate
 CHORD (A3 F4) 1/1
 
 ; ----------- measure 42
+BPM 50 @modulate
 CHORD (G3 F4 B4) 1/1 measure42
+; tasto solo, sallynee takes some time
+BPM 80 @modulate
 NOTE E5 1/4
 NOTE G5 1/4
 NOTE E5 1/4
 NOTE G5 1/4
+BPM 95 @modulate
 NOTE E5 1/4
 NOTE F5 1/4
 NOTE E5 1/4
@@ -705,7 +714,7 @@ NOTE G3 1/12
 
 
 
-; ----------- measure 46b
+; ----------- measure 47
 NOTE G3 1/12 o5
 NOTE B4 1/12
 NOTE C5 1/12
@@ -778,7 +787,7 @@ NOTE G3 1/12
 
 
 
-; ----------- measure 47
+; ----------- measure 48
 NOTE G3 1/12 o9
 NOTE G4 1/12
 NOTE A4 1/12
@@ -848,7 +857,7 @@ NOTE G3 1/12
 
 
 
-; ----------- measure 47b
+; ----------- measure 49
 NOTE G3 1/12 o13
 NOTE E4 1/12
 NOTE D5 1/12
@@ -868,17 +877,17 @@ NOTE G3 1/12
 
 NOTE G3 1/12 o14
 NOTE D#4 1/12
-NOTE D5 1/12
+NOTE C5 1/12
 
-NOTE D5 1/12 
+NOTE C5 1/12 
 NOTE D#4 1/12
 NOTE G3 1/12
 
 NOTE G3 1/12 
 NOTE D#4 1/12
-NOTE D5 1/12
+NOTE C5 1/12
 
-NOTE D5 1/12 
+NOTE C5 1/12 
 NOTE D#4 1/12
 NOTE G3 1/12
 
@@ -886,17 +895,17 @@ BPM 30 @modulate
 
 NOTE G3 1/12 o15
 NOTE D4 1/12
-NOTE D5 1/12
+NOTE C5 1/12
 
-NOTE D5 1/12 
+NOTE C5 1/12 
 NOTE D4 1/12
 NOTE G3 1/12
 
 NOTE G3 1/12 
 NOTE D4 1/12
-NOTE D5 1/12
+NOTE C5 1/12
 
-NOTE D5 1/12 
+NOTE C5 1/12 
 NOTE D4 1/12
 NOTE G3 1/12
 

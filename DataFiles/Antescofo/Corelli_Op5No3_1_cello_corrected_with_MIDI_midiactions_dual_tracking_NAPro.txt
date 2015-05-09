@@ -9,7 +9,7 @@ antescofo-mess-cello variance 0.1
 antescofo-mess-cello temposmoothness 1.0
 antescofo-mess-cello tune 415
 clear bang
-movave 4
+movave 3
 BPM 33
 
 ; ----------- measure 1 --- 
