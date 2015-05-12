@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 395.0, 45.0, 1437.0, 1012.0 ],
+		"rect" : [ 0.0, 44.0, 1001.0, 791.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,6 +28,62 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-180",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 239.5, 540.0, 28.0, 18.0 ],
+					"text" : "r p1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-179",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 930.75, 530.0, 28.0, 18.0 ],
+					"text" : "r p2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-80",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 818.0, 119.0, 28.0, 18.0 ],
+					"text" : "r g2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-66",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 77.0, 116.5, 28.0, 18.0 ],
+					"text" : "r g1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -148,7 +204,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1297.5, 530.0, 50.0, 16.0 ],
-					"text" : "3"
+					"text" : "8"
 				}
 
 			}
@@ -255,11 +311,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 46.0, 94.0, 1492.0, 902.0 ],
+						"rect" : [ 0.0, 44.0, 1440.0, 806.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -278,8 +334,36 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-34",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 1072.0, 427.0, 52.0, 18.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-33",
+									"linecount" : 5,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1072.0, 467.0, 61.0, 61.0 ],
+									"text" : ";\rg1 set -14;\rp1 set 0;\rg2 set -14;\rp2 set 127"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -289,7 +373,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 939.0, 567.0, 371.0, 141.0 ],
+									"patching_rect" : [ 939.0, 567.0, 371.0, 128.0 ],
 									"text" : "set NAPro:\nNetwork Panel (250-125)\nMIDI ports\nMIDI channels on each track (check why left hand did not work)\n\nset Max\nNoteOUT to 2x2\n\nset ASC\n"
 								}
 
@@ -304,7 +388,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 150.0, 677.0, 566.0, 38.0 ],
+									"patching_rect" : [ 150.0, 677.0, 566.0, 39.0 ],
 									"text" : ";\rdeck1 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/2nd_rehearsal_hank_office/2nd_mov_violin.wav;\rdeck2 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/2nd_rehearsal_hank_office/2nd_mov_cello.wav"
 								}
 
@@ -400,7 +484,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 199.0, 168.0, 674.0, 38.0 ],
+									"patching_rect" : [ 199.0, 168.0, 674.0, 39.0 ],
 									"text" : ";\rdeck1 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/1st_rehearsal_mt_conf_room/1st_movement_violin_only_high_level.wav;\rdeck2 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/1st_rehearsal_mt_conf_room/1st_movement_cello_only_high_level.wav"
 								}
 
@@ -471,7 +555,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 199.0, 128.0, 685.0, 38.0 ],
+									"patching_rect" : [ 199.0, 128.0, 685.0, 39.0 ],
 									"text" : ";\rdeck1 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/1st_rehearsal_mt_conf_room/1st_movement_violin_only_normal_level.wav;\rdeck2 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/1st_rehearsal_mt_conf_room/1st_movement_cello_only_normal_level.wav"
 								}
 
@@ -514,7 +598,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1093.0, 253.0, 64.0, 16.0 ],
-									"text" : "13.831409"
+									"text" : "0."
 								}
 
 							}
@@ -582,7 +666,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 68.0, 427.0, 736.0, 38.0 ],
+									"patching_rect" : [ 68.0, 427.0, 736.0, 39.0 ],
 									"text" : ";\rsf1 score /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_1_violin_corrected_with_MIDI_midiactions_dual_tracking_NAPro.txt;\rsf2 score /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_1_cello_corrected_with_MIDI_midiactions_dual_tracking_NAPro.txt"
 								}
 
@@ -611,7 +695,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 199.0, 263.0, 620.0, 38.0 ],
+									"patching_rect" : [ 199.0, 263.0, 620.0, 39.0 ],
 									"text" : ";\rdeck1 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/2nd_rehearsal_hank_office/1st_mov_violin_take_2_high.wav;\rdeck2 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/2nd_rehearsal_hank_office/1st_mov_cello_take_2_high.wav"
 								}
 
@@ -640,7 +724,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 199.0, 223.0, 617.0, 38.0 ],
+									"patching_rect" : [ 199.0, 223.0, 617.0, 39.0 ],
 									"text" : ";\rdeck1 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/2nd_rehearsal_hank_office/1st_mov_violin_take_1_low.wav;\rdeck2 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/2nd_rehearsal_hank_office/1st_mov_cello_take_1_low.wav"
 								}
 
@@ -669,7 +753,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 68.0, 373.0, 699.0, 38.0 ],
+									"patching_rect" : [ 68.0, 373.0, 700.0, 39.0 ],
 									"text" : ";\rsf1 score /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_1_violin_corrected_with_MIDI_midiactions_dual_tracking.txt;\rsf2 score /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_1_cello_corrected_with_MIDI_midiactions_dual_tracking.txt"
 								}
 
@@ -698,7 +782,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 199.0, 69.0, 404.0, 38.0 ],
+									"patching_rect" : [ 199.0, 69.0, 404.0, 39.0 ],
 									"text" : ";\rdeck1 open /Users/cric/Documents/5_DATA/1_CRIC/Audio_Files/VION1PIEZO_06.wav;\rdeck2 open /Users/cric/Documents/5_DATA/1_CRIC/Audio_Files/CELLO2DPA_06.wav"
 								}
 
@@ -713,7 +797,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 619.0, 677.0, 38.0 ],
+									"patching_rect" : [ 145.0, 619.0, 677.0, 39.0 ],
 									"text" : ";\rdeck1 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/Recording_Tanna_July_2014/Op5No3_2nd_FAST/VION1PIEZO_05.wav;\rdeck2 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/Recording_Tanna_July_2014/Op5No3_2nd_FAST/CELLO1PIZEO_05.wav"
 								}
 
@@ -743,7 +827,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 61.0, 794.0, 616.0, 38.0 ],
+									"patching_rect" : [ 61.0, 794.0, 616.0, 39.0 ],
 									"text" : ";\rsf1 score /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_2_violin_corrected_with_MIDI_NAPro.txt;\rsf2 score /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_2_cello_meas1_NAPro.txt"
 								}
 
@@ -758,7 +842,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 576.0, 674.0, 38.0 ],
+									"patching_rect" : [ 145.0, 576.0, 674.0, 39.0 ],
 									"text" : ";\rdeck1 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/Recording_Tanna_July_2014/Op5No3_2nd_FAST/VION1PIEZO_04.wav;\rdeck2 open /Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Audio/Recording_Tanna_July_2014/Op5No3_2nd_FAST/CELLO2DPA_04.wav"
 								}
 
@@ -834,6 +918,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-34", 0 ]
 								}
 
 							}
@@ -945,7 +1038,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 601.5, 530.0, 50.0, 16.0 ],
-					"text" : "3"
+					"text" : "8"
 				}
 
 			}
@@ -1320,21 +1413,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-153",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 638.0, 755.0, 59.0, 18.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-					"text" : "thispatcher"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.743742, 0.783271, 0.8, 0.9 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -1378,7 +1456,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1686,7 +1764,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 401.0, 303.0, 204.0, 18.0 ],
-									"text" : "55. 80. 0.4979"
+									"text" : "74 80 0.95"
 								}
 
 							}
@@ -2355,12 +2433,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-140",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 81.0, 419.0, 50.0, 16.0 ],
-					"text" : "33."
+					"patching_rect" : [ 81.0, 419.0, 50.0, 27.0 ],
+					"text" : "104.422211"
 				}
 
 			}
@@ -2719,7 +2798,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 842.75, 747.0, 20.0, 89.0 ],
 					"size" : 3,
-					"value" : 1
+					"value" : 2
 				}
 
 			}
@@ -2761,7 +2840,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 589.0, 631.0, 110.0, 16.0 ],
-					"text" : "syncf 0 33. 0."
+					"text" : "syncf 1 0. 0."
 				}
 
 			}
@@ -2787,7 +2866,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 593.5, 805.0, 20.0, 20.0 ]
+					"patching_rect" : [ 642.5, 404.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -2814,13 +2893,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 638.0, 865.0, 70.0, 16.0 ],
+					"patching_rect" : [ 687.0, 464.0, 70.0, 16.0 ],
 					"text" : "violin"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.025951, 0.0, 1.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-24",
@@ -2833,11 +2913,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 183.0, 313.0, 640.0, 454.0 ],
+						"rect" : [ 955.0, 44.0, 640.0, 454.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -2901,13 +2981,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-3",
-									"linecount" : 5,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 319.625, 318.0, 35.0, 60.0 ],
-									"text" : "syncf 167 13.831409 86."
+									"patching_rect" : [ 306.5, 317.5, 82.75, 27.0 ],
+									"text" : "syncf 133 0. 51."
 								}
 
 							}
@@ -3084,7 +3164,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 68.25, 183.0, 136.25, 16.0 ],
-									"text" : "syncf 167 13.831409 86."
+									"text" : "syncf 133 0. 51."
 								}
 
 							}
@@ -3140,7 +3220,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 460.0, 170.0, 50.0, 16.0 ],
-									"text" : "0"
+									"text" : "1"
 								}
 
 							}
@@ -3154,7 +3234,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 372.75, 120.0, 50.0, 16.0 ],
-									"text" : "0"
+									"text" : "1"
 								}
 
 							}
@@ -3591,7 +3671,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 593.5, 835.0, 121.0, 18.0 ],
+					"patching_rect" : [ 642.5, 434.0, 121.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -3676,7 +3756,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -3946,7 +4026,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -4215,11 +4295,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 94.0, 721.0, 475.0, 378.0 ],
+						"rect" : [ 185.0, 486.0, 475.0, 378.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -4318,7 +4398,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.0, 192.0, 91.0, 33.0 ],
+									"patching_rect" : [ 26.0, 192.0, 91.0, 34.0 ],
 									"text" : "Energy \nCalibration >>>"
 								}
 
@@ -4584,11 +4664,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 8.0, 667.0, 475.0, 378.0 ],
+						"rect" : [ 43.0, 511.0, 475.0, 378.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -4687,7 +4767,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.0, 192.0, 91.0, 33.0 ],
+									"patching_rect" : [ 26.0, 192.0, 91.0, 34.0 ],
 									"text" : "Energy \nCalibration >>>"
 								}
 
@@ -5043,7 +5123,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 851.75, 615.0, 136.0, 48.0 ],
-					"presentation_rect" : [ 866.0, 648.0, 50.0, 34.0 ],
+					"presentation_rect" : [ 866.0, 648.0, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[4]",
@@ -5196,7 +5276,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1015.25, 446.75, 153.572021, 16.0 ],
-					"text" : "syncf 0 33. 0."
+					"text" : "syncf 1 0. 0."
 				}
 
 			}
@@ -5294,7 +5374,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 926.25, 384.25, 80.0, 16.0 ],
-					"text" : "measure22"
+					"text" : "measure1"
 				}
 
 			}
@@ -5640,7 +5720,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 851.75, 152.5, 136.0, 48.0 ],
-					"presentation_rect" : [ 579.0, 193.0, 50.0, 34.0 ],
+					"presentation_rect" : [ 579.0, 193.0, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[6]",
@@ -5710,7 +5790,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 248.75, 444.5, 125.5, 16.0 ],
-					"text" : "syncf 0 33. 0."
+					"text" : "syncf 133 0. 51."
 				}
 
 			}
@@ -5808,7 +5888,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 215.25, 394.5, 80.0, 16.0 ],
-					"text" : "measure22"
+					"text" : "measure13"
 				}
 
 			}
@@ -5826,7 +5906,7 @@
 						"ascograph_height" : 768,
 						"ascograph_width" : 1024,
 						"ascographpanel" : 1,
-						"ascographpos" : [ 101, 76 ]
+						"ascographpos" : [ -6, 44 ]
 					}
 ,
 					"text" : "antescofo~ @outlets beatnum midiout"
@@ -5843,7 +5923,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 126.0, 625.0, 136.0, 48.0 ],
-					"presentation_rect" : [ 141.0, 275.0, 50.0, 34.0 ],
+					"presentation_rect" : [ 141.0, 275.0, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -5871,7 +5951,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 131.75, 145.0, 136.0, 48.0 ],
-					"presentation_rect" : [ 30.0, 30.0, 50.0, 34.0 ],
+					"presentation_rect" : [ 30.0, 30.0, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -6713,6 +6793,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-179", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-180", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -7028,6 +7126,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-66", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -7131,6 +7238,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-80", 0 ]
 				}
 
 			}
@@ -7345,29 +7461,22 @@
 		"parameters" : 		{
 			"obj-37" : [ "live.gain~[6]", "live.gain~", 0 ],
 			"obj-99" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-7" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-4" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-4" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-7" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pan2.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIDItester.maxpat",
 				"bootpath" : "/Applications/Max 6.1/patches/extras",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/patches/extras",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/patches/extras",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "running-average.js",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/CNMAT-Everything-OSX-MachO",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/CNMAT-Everything-OSX-MachO",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
