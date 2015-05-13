@@ -5,7 +5,7 @@
 antescofo-mess-violin analysis 4096 256
 antescofo-mess-violin harmlist 1 2 3 4 5
 antescofo-mess-violin variance 0.1
-antescofo-mess-violin temposmoothness 1.0
+; antescofo-mess-violin temposmoothness 1.0
 antescofo-mess-violin tune 415
 ; antescofo-mess-cello score "/Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_2_cello_meas1.txt"
 BPM 95
@@ -19,6 +19,19 @@ movave 8
 ;    ;msg1 $BEAT_POS
 ;}
 
+@tempovar $special_tempo(95, 1)
+
+
+loop 1 @tight
+{
+  $special_tempo := 1
+  msg1 ($special_tempo.rnow) ($special_tempo.tempo) ($special_tempo.position)
+}
+
+;whenever ($PITCH)
+;{
+;	msg1 $v
+;}
 
 
 ; ----------- measure 1 
