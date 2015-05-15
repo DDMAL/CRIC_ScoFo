@@ -21,7 +21,6 @@ movave 8
 
 @tempovar $special_tempo(95, 1)
 
-
 loop 1 @tight
 {
   $special_tempo := 1
@@ -110,6 +109,8 @@ CHORD (D4 G5) 1/2
 CHORD (E4 C5) 1/1 measure7
 ;NOTE E4 1/2 measure7
 ;NOTE C5 1/2
+movave 1
+clear bang
 NOTE 0 1/2
 NOTE G4 1/2
 NOTE A4 1/4
@@ -140,6 +141,8 @@ NOTE B4 1/4
 NOTE D4 1/4
 
 ; ----------- measure 9
+movave 8 
+clear bang
 NOTE C4 1/2 measure9
 NOTE E4 1/2
 NOTE A4 1/2
@@ -245,7 +248,8 @@ CHORD (G4 B4) 1/2
 CHORD (G3 B4) 1/2
 
 ; ----------- measure 17
-
+movave 1
+clear bang
 CHORD (C4 E4 B4) 1/1 measure17
 CHORD (C4 A4) 1/1
 CHORD (B3 A4 D5) 1/1
@@ -279,6 +283,7 @@ CHORD (E4 C5) 1/1
 CHORD (D4 C5) 1/1 measure21
 CHORD (D4 B4) 1/1
 clear bang
+movave 8
 BPM 95 @modulate
 CHORD (C5 E5) 1/4
 CHORD (D5 F5) 1/4
@@ -429,17 +434,17 @@ clear bang
 movave 1
 BPM 70 @modulate
 CHORD (B3 D#4 A4) 1/1
-BPM 60 @modulate
-CHORD (G3 E4) 3/4
 BPM 50 @modulate
+CHORD (G3 E4) 3/4
+BPM 40 @modulate
 CHORD (A3 E4) 1/4
 
 ; ----------- measure 30
 CHORD (B3 E4) 1/1 measure30
-BPM 40 @modulate
+BPM 30 @modulate
 CHORD (B3 D#4) 1/1
-BPM 25 @modulate
-MULTI (G3 E5) 2/1
+BPM 20 @modulate
+MULTI (G3 E4 B4 E5) 2/1 @fermata
 ; NOTE E5 1/1 @fermata
 
 
@@ -527,6 +532,7 @@ NOTE G5 1/2
 CHORD (D5 G5) 1/2
 
 ; ----------- measure 37
+
 CHORD (E5 G5) 1/2 measure37
 CHORD (E5 G5) 1/2
 NOTE A5 1/2
@@ -538,6 +544,8 @@ NOTE G5 1/2
 CHORD (G4 B4) 1/2
 
 ; ----------- measure 38
+movave 1
+clear bang
 CHORD (E4 C5) 1/2 measure38
 CHORD (E4 D5) 1/4
 CHORD (E4 E5) 1/4
@@ -551,7 +559,8 @@ NOTE E5 1/2
 CHORD (G4 E5) 1/2
 
 ; ----------- measure 39
-
+movave 8
+clear bang
 CHORD (A4 C5) 1/2 measure39
 CHORD (B4 C5) 1/4
 NOTE C5 1/4
@@ -949,7 +958,9 @@ NOTE G3 1/12
 
 
 ; ----------- measure 50
-CHORD (C4 E4 C5 E5) 4 measure50
+NOTE C4 1 measure50
+TRILL (C4 E4 C5 E5) 2 
+NOTE C4 1
 ;group midiactions @loose @local {
 	; delay msgrecvr pitch velocity duration
 ;	0.0 mnote 48 80 0.95 ;C M31 delay was 2.0
