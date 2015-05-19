@@ -4,7 +4,7 @@
 
 antescofo-mess-violin analysis 4096 256
 antescofo-mess-violin harmlist 1 2 3 4 5
-antescofo-mess-violin variance 0.1
+antescofo-mess-violin variance 0.0
 ; antescofo-mess-violin temposmoothness 1.0
 antescofo-mess-violin tune 415
 ; antescofo-mess-cello score "/Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_2_cello_meas1.txt"
@@ -594,6 +594,14 @@ NOTE E5 1/4
 NOTE G5 1/4
 BPM 95 @modulate
 NOTE E5 1/4
+group midiactions @loose @local {
+	 delay msgrecvr pitch velocity duration
+	0.0 mnote 43 80 3.95 ;G M31 delay was 2.0
+	0.0 mnote 62 80 3.95
+	0.0 mnote 71 80 3.95
+	0.0 mnote 74 80 3.95
+}
+
 NOTE F5 1/4
 NOTE E5 1/4
 NOTE F5 1/4
@@ -954,13 +962,13 @@ NOTE G3 1/12
 
 
 ; ----------- measure 50
-NOTE C4 1 measure50
-TRILL (C4 E4 C5 E5) 2 
-NOTE C4 1
-;group midiactions @loose @local {
-	; delay msgrecvr pitch velocity duration
-;	0.0 mnote 48 80 0.95 ;C M31 delay was 2.0
-;	0.0 mnote 64 80 0.95
-;	0.0 mnote 67 80 0.95
-;	0.0 mnote 72 0.95
-;}
+NOTE C3 1/2 measure50
+TRILL (C4 E4 C5 E5) 3/2
+group midiactions @loose @local {
+	 delay msgrecvr pitch velocity duration
+	0.0 mnote 48 80 0.95 ;C M31 delay was 2.0
+	0.0 mnote 64 80 0.95
+	0.0 mnote 67 80 0.95
+	0.0 mnote 72 80 0.95
+}
+NOTE C4 2
