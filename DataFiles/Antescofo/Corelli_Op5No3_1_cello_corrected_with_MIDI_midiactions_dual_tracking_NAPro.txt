@@ -88,8 +88,8 @@ NOTE E3 1/2
 NOTE A2 1/2
 
 ; ----------- measure 8
-NOTE D3 1/2 measure8
-NOTE D4 1/4
+NOTE D3 3/4 measure8
+; NOTE D4 1/4
 NOTE C4 1/4
 NOTE B3 1/2
 NOTE G3 1/2
@@ -109,8 +109,8 @@ NOTE D3 1/2
 NOTE D2 1/2
 
 ; ----------- measure 10
-NOTE G2 1/2 measure10
-NOTE G3 1/4
+NOTE G2 3/4 measure10
+; NOTE G3 1/4
 NOTE F3 1/4
 NOTE E3 1/2
 NOTE C3 1/2
@@ -118,8 +118,8 @@ NOTE F3 1/1
 NOTE E3 1/1
 
 ; ----------- measure 11
-NOTE D3 1/2 measure11
-NOTE D4 1/4
+NOTE D3 3/4 measure11
+; NOTE D4 1/4
 NOTE C4 1/4
 NOTE B3 1/2
 NOTE G3 1/2
@@ -135,15 +135,18 @@ NOTE B3 1/4
 NOTE A3 1/4
 NOTE G#3 1/2
 NOTE E3 1/2
+BPM 28 @modulate
 NOTE A3 1/2
 NOTE D3 1/2
-BPM 20 @modulate
+BPM 25 @modulate
 NOTE E3 1/2
 NOTE E2 1/2
-
+BPM 20 @modulate
 ; ----------- measure 13
-NOTE A2 1 @fermata measure13
-BPM 30 @modulate
+clear bang
+movave 1
+NOTE A2 1 measure13
+BPM 33
 NOTE 0 1/2
 NOTE E3 1/2
 NOTE F3 1/2
@@ -152,6 +155,7 @@ NOTE 0 1/2
 NOTE F#3 1/2
 
 ; ----------- measure 14
+movave 3
 NOTE G3 1/2 measure14
 NOTE G2 1/2
 NOTE 0 1/2
@@ -189,8 +193,8 @@ NOTE F3 1/2 measure17
 NOTE E3 1/2
 NOTE D3 1/2
 NOTE C3 1/2
-NOTE G2 1/2
-NOTE G3 1/4
+NOTE G2 3/4
+; NOTE G3 1/4
 NOTE F3 1/4
 NOTE E3 1/2
 NOTE C3 1/2
@@ -212,7 +216,8 @@ NOTE C3 1/2
 NOTE G3 1/2
 NOTE G2 1/2
 NOTE C3 1/2
-BPM 30 @modulate
+clear bang
+movave 1
 NOTE C4 1/2
 NOTE B3 1/2
 NOTE B2 1/2
@@ -226,7 +231,6 @@ NOTE F2 1/2
 NOTE F3 1/2
 NOTE E3 1/2
 NOTE F3 1/2
-
 ; ----------- measure 21
 NOTE G3 1/2 measure21
 NOTE C3 1/2
@@ -235,16 +239,18 @@ NOTE G2 1/2
 NOTE C3 1/2
 NOTE D3 1/4
 NOTE E3 1/4
-BPM 20 @modulate
+BPM 30 @modulate
 NOTE F3 3/2 @fermata
 
 ; ----------- measure 22
 ; NOTE F3 1/2 measure22 ;was tied to previous measure before
-BPM 15 @modulate
+BPM 29 
 NOTE E3 1/4 measure22 
-BPM 10 @modulate
+BPM 28 
 NOTE F3 1/4
+BPM 20 @modulate
 NOTE G3 1/2
-BPM 5 @modulate
+BPM 15 @modulate
 NOTE G2 1/2
+BPM 10 @modulate
 NOTE C3 2

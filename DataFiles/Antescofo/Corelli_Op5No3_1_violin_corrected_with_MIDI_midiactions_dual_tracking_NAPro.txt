@@ -55,7 +55,7 @@ BPM 33
 NOTE G5 7/2 measure5
 group midiactions @loose @local {
 	; delay msgrecvr pitch velocity duration
-	0.375 mnote 55.0 80.0 0.2479 ; 0.5 is actual value for delay
+	0.250 mnote 55.0 80.0 0.2479 ; 0.5 is actual value for delay
 	0.25 mnote 57.0 80.0 0.2479
 	0.25 mnote 67.0 80.0 0.9979
 	0.0 mnote 74.0 80.0 0.9979
