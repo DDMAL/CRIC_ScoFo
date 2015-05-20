@@ -7,7 +7,7 @@ antescofo-mess-violin harmlist 1 2 3 4 5
 antescofo-mess-violin variance 0.0
 ; antescofo-mess-violin temposmoothness 1.0
 antescofo-mess-violin tune 415
-; antescofo-mess-cello score "/Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/Corelli_Op5No3_2_cello_meas1.txt"
+
 BPM 95
 clear bang
 movave 8
@@ -234,6 +234,8 @@ NOTE D5 1/2
 NOTE D4 1/2
 
 ; ----------- measure 16
+movave 8
+clear bang
 NOTE G4 1/2 measure16
 NOTE B4 1/2
 NOTE C5 1/2
@@ -259,7 +261,9 @@ NOTE 0 1/2
 CHORD (E4 C5) 1/2
 
 ; ----------- measure 19
-
+BPM 100
+movave 8
+clear bang
 CHORD (F4 A4) 1/2 measure19
 CHORD (F4 B4) 1/2
 CHORD (E4 C5) 1/1
@@ -430,7 +434,7 @@ clear bang
 movave 1
 BPM 70 @modulate
 CHORD (B3 D#4 A4) 1/1
-BPM 50 @modulate
+BPM 40 @modulate
 CHORD (G3 E4) 3/4
 BPM 40 @modulate
 CHORD (A3 E4) 1/4
@@ -510,6 +514,8 @@ CHORD (D4 C5) 1/2
 CHORD (G4 B4) 1/1
 
 ; ----------- measure 35
+movave 1
+clear bang
 CHORD (G4 A4) 1/1 measure35
 CHORD (F#4 A4) 1/1
 CHORD (G3 G4) 1/2
@@ -540,8 +546,7 @@ NOTE G5 1/2
 CHORD (G4 B4) 1/2
 
 ; ----------- measure 38
-movave 1
-clear bang
+
 CHORD (E4 C5) 1/2 measure38
 CHORD (E4 D5) 1/4
 CHORD (E4 E5) 1/4
@@ -583,8 +588,14 @@ CHORD (A3 G4 C5) 1/1
 BPM 70 @modulate
 CHORD (A3 F4) 1/1
 
+
+
+
+; antescofo-mess-cello score "/Users/cric/Documents/2_CODE/CRIC_ScoFo/DataFiles/Antescofo/empty.txt"
+;antescofo-mess-violin start
+
 ; ----------- measure 42
-BPM 50 @modulate
+BPM 40 @modulate
 CHORD (G3 F4 B4) 1/1 measure42
 ; tasto solo, sallynee takes some time
 BPM 80 @modulate
@@ -592,14 +603,14 @@ NOTE E5 1/4
 NOTE G5 1/4
 NOTE E5 1/4
 NOTE G5 1/4
-BPM 95 @modulate
+BPM 105 @modulate
 NOTE E5 1/4
 group midiactions @loose @local {
-	 delay msgrecvr pitch velocity duration
-	0.0 mnote 43 80 3.95 ;G M31 delay was 2.0
-	0.0 mnote 62 80 3.95
-	0.0 mnote 71 80 3.95
-	0.0 mnote 74 80 3.95
+	 ;delay msgrecvr pitch velocity duration
+	0.0 mnote 43 80 7.95 ;G M31 delay was 2.0
+	0.0 mnote 62 80 7.95
+	0.0 mnote 71 80 7.95
+	0.0 mnote 74 80 7.95
 }
 
 NOTE F5 1/4
@@ -668,275 +679,278 @@ NOTE A4 1/4
 NOTE F5 1/4
 
 ; ----------- measure 46
-BPM 40 @modulate
-NOTE G3 1/12 o1
-NOTE B4 1/12 
-NOTE F5 1/12
+BPM 80 
+;leading 2
+NOTE G3 1/24 o1
+NOTE B4 1/6 
+NOTE F5 1/6
 
-NOTE F5 1/12 
-NOTE B4 1/12
-NOTE G3 1/12
+NOTE F5 1/6 
+NOTE B4 1/6
+NOTE G3 1/6
 
-NOTE G3 1/12 
-NOTE B4 1/12
-NOTE F5 1/12
+NOTE G3 1/6 
+NOTE B4 1/6
+NOTE F5 1/6
 
-NOTE F5 1/12 
-NOTE B4 1/12
-NOTE G3 1/12
-
-
-
-NOTE G3 1/12 o2
-NOTE C5 1/12
-NOTE E5 1/12
-
-NOTE E5 1/12 
-NOTE C5 1/12
-NOTE G3 1/12
-
-NOTE G3 1/12 
-NOTE C5 1/12
-NOTE E5 1/12
-
-NOTE E5 1/12
-NOTE C5 1/12
-NOTE G3 1/12
-
-
-NOTE G3 1/12 o3
-NOTE C5 1/12
-NOTE D5 1/12
-
-NOTE D5 1/12 
-NOTE C5 1/12
-NOTE G3 1/12
-
-NOTE G3 1/12 
-NOTE C5 1/12
-NOTE D5 1/12
-
-NOTE D5 1/12 
-NOTE C5 1/12
-NOTE G3 1/12
+NOTE F5 1/6 
+NOTE B4 1/6
+NOTE G3 1/6
 
 
 
-NOTE G3 1/12 o4
-NOTE B4 1/12
-NOTE D5 1/12
+NOTE G3 1/6 o2
+NOTE C5 1/6
+NOTE E5 1/6
 
-NOTE D5 1/12 
-NOTE B4 1/12
-NOTE G3 1/12
+NOTE E5 1/6 
+NOTE C5 1/6
+NOTE G3 1/6
 
-NOTE G3 1/12 
-NOTE B4 1/12
-NOTE D5 1/12
+NOTE G3 1/6 
+NOTE C5 1/6
+NOTE E5 1/6
 
-NOTE D5 1/12 
-NOTE B4 1/12
-NOTE G3 1/12
+NOTE E5 1/6
+NOTE C5 1/6
+NOTE G3 1/6
+
+
+NOTE G3 1/6 o3
+NOTE C5 1/6
+NOTE D5 1/6
+
+NOTE D5 1/6 
+NOTE C5 1/6
+NOTE G3 1/6
+
+NOTE G3 1/6 
+NOTE C5 1/6
+NOTE D5 1/6
+
+NOTE D5 1/6 
+NOTE C5 1/6
+NOTE G3 1/6
+
+
+
+NOTE G3 1/6 o4
+NOTE B4 1/6
+NOTE D5 1/6
+
+NOTE D5 1/6 
+NOTE B4 1/6
+NOTE G3 1/6
+
+NOTE G3 1/6 
+NOTE B4 1/6
+NOTE D5 1/6
+
+NOTE D5 1/6 
+NOTE B4 1/6
+NOTE G3 1/6
 
 
 
 ; ----------- measure 47
-NOTE G3 1/12 o5
-NOTE B4 1/12
-NOTE C5 1/12
+NOTE G3 1/6 o5
+NOTE B4 1/6
+NOTE C5 1/6
 
-NOTE C5 1/12 
-NOTE B4 1/12
-NOTE G3 1/12
+NOTE C5 1/6 
+NOTE B4 1/6
+NOTE G3 1/6
 
-NOTE G3 1/12 
-NOTE B4 1/12
-NOTE C5 1/12
+NOTE G3 1/6 
+NOTE B4 1/6
+NOTE C5 1/6
 
-NOTE C5 1/12 
-NOTE B4 1/12
-NOTE G3 1/12
-
-
-
-NOTE G3 1/12 o6
-NOTE A4 1/12
-NOTE C5 1/12
-
-NOTE C5 1/12 
-NOTE A4 1/12
-NOTE G3 1/12
-
-NOTE G3 1/12 
-NOTE A4 1/12
-NOTE C5 1/12
-
-NOTE C5 1/12 
-NOTE A4 1/12
-NOTE G3 1/12
+NOTE C5 1/6 
+NOTE B4 1/6
+NOTE G3 1/6
 
 
 
-NOTE G3 1/12 o7
-NOTE A4 1/12
-NOTE B4 1/12
+NOTE G3 1/6 o6
+NOTE A4 1/6
+NOTE C5 1/6
 
-NOTE B4 1/12 
-NOTE A4 1/12
-NOTE G3 1/12
+NOTE C5 1/6 
+NOTE A4 1/6
+NOTE G3 1/6
 
-NOTE G3 1/12 
-NOTE A4 1/12
-NOTE B4 1/12
+NOTE G3 1/6 
+NOTE A4 1/6
+NOTE C5 1/6
 
-NOTE B4 1/12 
-NOTE A4 1/12
-NOTE G3 1/12
+NOTE C5 1/6 
+NOTE A4 1/6
+NOTE G3 1/6
 
 
-NOTE G3 1/12 o8
-NOTE G4 1/12
-NOTE B4 1/12
 
-NOTE B4 1/12 
-NOTE G4 1/12
-NOTE G3 1/12
+NOTE G3 1/6 o7
+NOTE A4 1/6
+NOTE B4 1/6
 
-NOTE G3 1/12 
-NOTE G4 1/12
-NOTE B4 1/12
+NOTE B4 1/6 
+NOTE A4 1/6
+NOTE G3 1/6
 
-NOTE B4 1/12 
-NOTE G4 1/12
-NOTE G3 1/12
+NOTE G3 1/6 
+NOTE A4 1/6
+NOTE B4 1/6
+
+NOTE B4 1/6 
+NOTE A4 1/6
+NOTE G3 1/6
+
+
+NOTE G3 1/6 o8
+NOTE G4 1/6
+NOTE B4 1/6
+
+NOTE B4 1/6 
+NOTE G4 1/6
+NOTE G3 1/6
+
+NOTE G3 1/6 
+NOTE G4 1/6
+NOTE B4 1/6
+
+NOTE B4 1/6 
+NOTE G4 1/6
+NOTE G3 1/6
 
 
 
 
 ; ----------- measure 48
-NOTE G3 1/12 o9
-NOTE G4 1/12
-NOTE A4 1/12
+NOTE G3 1/6 o9
+NOTE G4 1/6
+NOTE A4 1/6
 
-NOTE A4 1/12 
-NOTE G4 1/12
-NOTE G3 1/12
+NOTE A4 1/6 
+NOTE G4 1/6
+NOTE G3 1/6
 
-NOTE G3 1/12 
-NOTE G4 1/12
-NOTE A4 1/12
+NOTE G3 1/6 
+NOTE G4 1/6
+NOTE A4 1/6
 
-NOTE A4 1/12 
-NOTE G4 1/12
-NOTE G3 1/12
-
-
-NOTE G3 1/12 o10
-NOTE F4 1/12
-NOTE A4 1/12
-
-NOTE A4 1/12 
-NOTE F4 1/12
-NOTE G3 1/12
-
-NOTE G3 1/12 
-NOTE F4 1/12
-NOTE A4 1/12
-
-NOTE A4 1/12 
-NOTE F4 1/12
-NOTE G3 1/12
+NOTE A4 1/6 
+NOTE G4 1/6
+NOTE G3 1/6
 
 
-NOTE G3 1/12 o11
-NOTE F4 1/12
-NOTE B4 1/12
+NOTE G3 1/6 o10
+NOTE F4 1/6
+NOTE A4 1/6
 
-NOTE B4 1/12 
-NOTE F4 1/12
-NOTE G3 1/12
+NOTE A4 1/6 
+NOTE F4 1/6
+NOTE G3 1/6
 
-NOTE G3 1/12 
-NOTE F4 1/12
-NOTE B4 1/12
+NOTE G3 1/6 
+NOTE F4 1/6
+NOTE A4 1/6
 
-NOTE B4 1/12 
-NOTE F4 1/12
-NOTE G3 1/12
+NOTE A4 1/6 
+NOTE F4 1/6
+NOTE G3 1/6
 
 
-NOTE G3 1/12 o12
-NOTE F4 1/12
-NOTE D5 1/12
+NOTE G3 1/6 o11
+NOTE F4 1/6
+NOTE B4 1/6
 
-NOTE D5 1/12 
-NOTE F4 1/12
-NOTE G3 1/12
+NOTE B4 1/6 
+NOTE F4 1/6
+NOTE G3 1/6
 
-NOTE G3 1/12 
-NOTE F4 1/12
-NOTE D5 1/12
+NOTE G3 1/6 
+NOTE F4 1/6
+NOTE B4 1/6
 
-NOTE D5 1/12 
-NOTE F4 1/12
-NOTE G3 1/12
+NOTE B4 1/6 
+NOTE F4 1/6
+NOTE G3 1/6
+
+
+NOTE G3 1/6 o6
+NOTE F4 1/6
+NOTE D5 1/6
+
+NOTE D5 1/6 
+NOTE F4 1/6
+NOTE G3 1/6
+
+NOTE G3 1/6 
+NOTE F4 1/6
+NOTE D5 1/6
+
+NOTE D5 1/6 
+NOTE F4 1/6
+NOTE G3 1/6
 
 
 
 ; ----------- measure 49
-NOTE G3 1/12 o13
-NOTE E4 1/12
-NOTE D5 1/12
+NOTE G3 1/6 o13
+NOTE E4 1/6
+NOTE D5 1/6
 
-NOTE D5 1/12 
-NOTE E4 1/12
-NOTE G3 1/12
+NOTE D5 1/6 
+NOTE E4 1/6
+NOTE G3 1/6
 
-NOTE G3 1/12 
-NOTE E4 1/12
-NOTE D5 1/12
+NOTE G3 1/6 
+NOTE E4 1/6
+NOTE D5 1/6
 
-NOTE D5 1/12 
-NOTE E4 1/12
-NOTE G3 1/12
+NOTE D5 1/6 
+NOTE E4 1/6
+NOTE G3 1/6
+
+BPM 75 @modulate
+
+NOTE G3 1/6 o14
+NOTE D#4 1/6
+NOTE C5 1/6
+
+NOTE C5 1/6 
+NOTE D#4 1/6
+NOTE G3 1/6
+
+NOTE G3 1/6 
+NOTE D#4 1/6
+NOTE C5 1/6
+
+NOTE C5 1/6 
+NOTE D#4 1/6
+NOTE G3 1/6
+
+BPM 70 @modulate
+
+NOTE G3 1/6 o15
+NOTE D4 1/6
+NOTE C5 1/6
+
+NOTE C5 1/6 
+NOTE D4 1/6
+NOTE G3 1/6
+
+NOTE G3 1/6 
+NOTE D4 1/6
+NOTE C5 1/6
+
+NOTE C5 1/6 
+NOTE D4 1/6
+NOTE G3 1/6
 
 
-NOTE G3 1/12 o14
-NOTE D#4 1/12
-NOTE C5 1/12
-
-NOTE C5 1/12 
-NOTE D#4 1/12
-NOTE G3 1/12
-
-NOTE G3 1/12 
-NOTE D#4 1/12
-NOTE C5 1/12
-
-NOTE C5 1/12 
-NOTE D#4 1/12
-NOTE G3 1/12
-
-BPM 30 @modulate
-
-NOTE G3 1/12 o15
-NOTE D4 1/12
-NOTE C5 1/12
-
-NOTE C5 1/12 
-NOTE D4 1/12
-NOTE G3 1/12
-
-NOTE G3 1/12 
-NOTE D4 1/12
-NOTE C5 1/12
-
-NOTE C5 1/12 
-NOTE D4 1/12
-NOTE G3 1/12
-
-
-NOTE G3 1/12 o16
+BPM 65 @modulate
+NOTE G3 1/6 o16
 ;group midiactions @loose @local {
 	; delay msgrecvr pitch velocity duration
 ;	0.0 mnote 43 80 0.95 ;C M31 delay was 2.0
@@ -944,31 +958,33 @@ NOTE G3 1/12 o16
 ;	0.0 mnote 71 80 0.95
 ;	0.0 mnote 74 80 0.95
 ;}
-NOTE F4 1/12
-NOTE B4 1/12
+NOTE F4 1/6
+NOTE B4 1/6
 
-NOTE B4 1/12 
-NOTE F4 1/12
-NOTE G3 1/12
+NOTE B4 1/6 
+NOTE F4 1/6
+NOTE G3 1/6
 
-NOTE G3 1/12 
-NOTE F4 1/12
-NOTE B4 1/12
+BPM 60 @modulate
+NOTE G3 1/6 
+NOTE F4 1/6
+NOTE B4 1/6
 
-NOTE B4 1/12 
-NOTE F4 1/12
-NOTE G3 1/12
+NOTE B4 1/6 
+NOTE F4 1/3
+;NOTE G3 1/6
 
 
 
 ; ----------- measure 50
-NOTE C3 1/2 measure50
-TRILL (C4 E4 C5 E5) 3/2
+NOTE C4 1/2 measure50
 group midiactions @loose @local {
-	 delay msgrecvr pitch velocity duration
-	0.0 mnote 48 80 0.95 ;C M31 delay was 2.0
-	0.0 mnote 64 80 0.95
-	0.0 mnote 67 80 0.95
-	0.0 mnote 72 80 0.95
+	; delay msgrecvr pitch velocity duration
+	0.0 mnote 48 80 7.95 ;C M31 delay was 2.0
+	0.0 mnote 64 80 7.95
+	0.0 mnote 67 80 7.95
+	0.0 mnote 72 80 7.95
 }
-NOTE C4 2
+MULTI (C4 E4 C5 E5) 3/2
+NOTE C5 2
+
