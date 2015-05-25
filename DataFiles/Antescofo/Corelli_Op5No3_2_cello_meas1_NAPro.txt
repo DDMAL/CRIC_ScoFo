@@ -35,3 +35,5 @@ group midiactions @loose @local {
 }
 ; NOTE C4 2
 ; NOTE B3 2 ; tied to next one
+
+TEMPO OFF
