@@ -1,0 +1,65 @@
+; Antescofo score manually transcribed by Gabriel Vigliensoni
+; Copyright (c) Thomas Coffy - IRCAM 2013
+; Corelli Op.5 No.3, 1st movement, violin part.
+
+
+antescofo-mess-violin analysis 4096 256
+antescofo-mess-violin harmlist 1 2 3 4 5
+antescofo-mess-violin variance 0.1
+antescofo-mess-violin temposmoothness 1.0
+antescofo-mess-violin tune 415
+clear bang
+leading 1
+
+BPM 70
+; ----------- measure 1
+NOTE C5 14/2 measure1
+pause 0
+leading 2
+group midiactions @tight @local {
+	; delay msgrecvr pitch velocity duration
+	0.850 mnote 60.0 80.0 0.4979 ; the actual score has a delay of 1.0
+	0.5 mnote 62.0 80.0 0.4979
+	0.5 mnote 64.0 80.0 0.9979
+	0.0 mnote 67.0 80.0 1.9979
+	0.0 mnote 72.0 80.0 1.9979
+	0.0 mnote 64.0 80.0 0.9979
+	1.0 mnote 60.0 80.0 0.9979
+}
+
+NOTE C5 2/2
+
+; ----------- measure 2
+NOTE D5 6/2 measure2
+NOTE D5 2/2
+NOTE E5 2/1
+NOTE 0 2/2
+NOTE G5 2/2
+
+; ----------- measure 3
+NOTE E5 2/2 measure3
+NOTE C5 2/2
+NOTE 0 2/2
+NOTE G5 2/2
+NOTE E5 2/2
+NOTE D5 2/2
+NOTE C5 2/1
+
+; ----------- measure 4
+NOTE B4 4/2 @fermata measure4
+NOTE 0 4/2 @fermata
+
+; ----------- measure 5
+clear bang
+BPM 70 @modulate
+NOTE G5 14/2 measure5
+group midiactions @tight @local {
+	; delay msgrecvr pitch velocity duration
+	0.850 mnote 55.0 80.0 0.4979 ; 1.0 is actual value for delay
+	0.5 mnote 57.0 80.0 0.4979
+	0.5 mnote 67.0 80.0 1.9979
+	0.0 mnote 74.0 80.0 1.9979
+	0.0 mnote 59.0 80.0 1.4979
+	1 mnote 55.0 80.0 0.9979
+}
+leading 2
